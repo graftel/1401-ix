@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DisplayDecimals.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayDecimals.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DisplayDecimals" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DisplayDecimals.Button2" Source="128126112_Normal.bmp" />
+        <Item Target="DisplayDecimals.Button2" Source="128126112_Pressed.bmp" />
+        <Item Target="DisplayDecimals.Button2" Source="128126112_Disabled.bmp" />
+        <Item Target="DisplayDecimals.Button5" Source="128126112_Normal.bmp" />
+        <Item Target="DisplayDecimals.Button5" Source="128126112_Pressed.bmp" />
+        <Item Target="DisplayDecimals.Button5" Source="128126112_Disabled.bmp" />
+        <Item Target="DisplayDecimals.Button3" Source="-356692703_Normal.bmp" />
+        <Item Target="DisplayDecimals.Button3" Source="-356692703_Pressed.bmp" />
+        <Item Target="DisplayDecimals.Button3" Source="-356692703_Disabled.bmp" />
+        <Item Target="DisplayDecimals.Button4" Source="-679689972_Normal.bmp" />
+        <Item Target="DisplayDecimals.Button4" Source="-679689972_Pressed.bmp" />
+        <Item Target="DisplayDecimals.Button4" Source="-679689972_Disabled.bmp" />
+        <Item Target="DisplayDecimals.Button8" Source="1383350128_Normal.bmp" />
+        <Item Target="DisplayDecimals.Button8" Source="1383350128_Pressed.bmp" />
+        <Item Target="DisplayDecimals.Button8" Source="1383350128_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DisplayDecimals</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>22</ObjectsCount>
+          <ScreenName>DisplayDecimals</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.LowsccmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.LowslpmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.LowscfmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.LowscfhDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MidsccmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MidslpmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MidscfmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MidscfhDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.HighsccmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.HighslpmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.HighscfmDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.HighscfhDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.psigDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.ksiDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.barDecimal" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_LOW_SCCM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_LOW_SLPM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_LOW_SCFM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_LOW_SCFH_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_MID_SCCM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_MID_SLPM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_MID_SCFM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_MID_SCFH_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_HI_SCCM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_HI_SLPM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_HI_SCFM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_HI_SCFH_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_PSIG_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_KSI_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MIN_BAR_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_LOW_SCCM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_LOW_SLPM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_LOW_SCFM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_LOW_SCFH_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_MID_SCCM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_MID_SLPM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_MID_SCFM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_MID_SCFH_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_HI_SCCM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_HI_SLPM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_HI_SCFM_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_HI_SCFH_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_PSIG_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_KSI_DECIMAL" />
+        <Item Target="DisplayDecimals.Script.cs" Source="Tags.MAX_BAR_DECIMAL" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DisplayDecimals" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DisplayDecimals.Button3" Source="path2985" Width="70" Height="81" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplayDecimals.Button4" Source="path29851" Width="70" Height="81" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

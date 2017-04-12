@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="QuickFillScreen1.lblTitle" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen1.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen1.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen1.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen1.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="QuickFillScreen1.AnalogNumeric" TargetProperty="Value" Source="Tags.PressReadingFull" />
+        <Item xsi:type="ActionItem" Target="QuickFillScreen1" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="QuickFillScreen1.Button" Source="239695221_Normal.bmp" />
+        <Item Target="QuickFillScreen1.Button" Source="239695221_Pressed.bmp" />
+        <Item Target="QuickFillScreen1.Button" Source="239695221_Disabled.bmp" />
+        <Item Target="QuickFillScreen1.Button1" Source="239695221_Normal.bmp" />
+        <Item Target="QuickFillScreen1.Button1" Source="239695221_Pressed.bmp" />
+        <Item Target="QuickFillScreen1.Button1" Source="239695221_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillScreen1.Button" TargetProperty="Actions" Source="QuickFillScreen2" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>QuickFillScreen1</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>5</ObjectsCount>
+          <ScreenName>QuickFillScreen1</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="QuickFillScreen1.Script.cs" Source="Tags.quickFillTargetPress" />
+        <Item Target="QuickFillScreen1.Script.cs" Source="Tags.RawTestPressure" />
+        <Item Target="QuickFillScreen1.Script.cs" Source="Tags.GeneralConfirmMsg" />
+        <Item Target="QuickFillScreen1.Script.cs" Source="Tags.ConfirmAction" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillScreen1" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

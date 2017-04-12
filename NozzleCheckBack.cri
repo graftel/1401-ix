@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="NozzleCheckBack.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="NozzleCheckBack.Group.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckBack.Group1.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckBack.Group2.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckBack.Group3.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckBack.Button21" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="NozzleCheckBack.Group.Rectangle2" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group1" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="NozzleCheckBack.Group1.Rectangle3" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group2" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="NozzleCheckBack.Group2.Rectangle1" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item Target="NozzleCheckBack.Group3.Rectangle4" TargetProperty="Fill" Source="Tags.SettingSel" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="NozzleCheckBack.Group.Button" Source="895275902_Normal.bmp" />
+        <Item Target="NozzleCheckBack.Group.Button" Source="895275902_Pressed.bmp" />
+        <Item Target="NozzleCheckBack.Group.Button" Source="895275902_Disabled.bmp" />
+        <Item Target="NozzleCheckBack.Group1.Button1" Source="-1471028862_Normal.bmp" />
+        <Item Target="NozzleCheckBack.Group1.Button1" Source="-1471028862_Pressed.bmp" />
+        <Item Target="NozzleCheckBack.Group1.Button1" Source="-1471028862_Disabled.bmp" />
+        <Item Target="NozzleCheckBack.Group2.Button2" Source="-1471028862_Normal.bmp" />
+        <Item Target="NozzleCheckBack.Group2.Button2" Source="-1471028862_Pressed.bmp" />
+        <Item Target="NozzleCheckBack.Group2.Button2" Source="-1471028862_Disabled.bmp" />
+        <Item Target="NozzleCheckBack.Group3.Button4" Source="-1471028862_Normal.bmp" />
+        <Item Target="NozzleCheckBack.Group3.Button4" Source="-1471028862_Pressed.bmp" />
+        <Item Target="NozzleCheckBack.Group3.Button4" Source="-1471028862_Disabled.bmp" />
+        <Item Target="NozzleCheckBack.Button21" Source="-1613828464_Normal.bmp" />
+        <Item Target="NozzleCheckBack.Button21" Source="-1613828464_Pressed.bmp" />
+        <Item Target="NozzleCheckBack.Button21" Source="-1613828464_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group" TargetProperty="Actions" Source="NozzleCheckValue" Event="PreviewMouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group1" TargetProperty="Actions" Source="NozzleCheckValue" Event="PreviewMouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group2" TargetProperty="Actions" Source="NozzleCheckValue" Event="PreviewMouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Button21" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>NozzleCheckBack</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>11</ObjectsCount>
+          <ScreenName>NozzleCheckBack</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="NozzleCheckBack.Script.cs" Source="Tags.CurrentScreen" />
+        <Item Target="NozzleCheckBack.Script.cs" Source="Tags.CalculatorTargetScr" />
+        <Item Target="NozzleCheckBack.Script.cs" Source="Tags.Enter_Value" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group1" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckBack.Group2" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

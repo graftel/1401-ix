@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DrawScreen.Script.cs" Source="Tags.meter_unit_low" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.meter_unit_mid" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.meter_unit_high" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.LowRangeMin" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MidRangeMin" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.HighRangeMin" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.LowRangeMax" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MidRangeMax" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.HighRangeMax" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.flow_unit_low" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.Main_Screen_Title" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainDisplayScale1" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainDisplayScale2" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainDisplayScale3" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.flow_unit_mid" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.flow_unit_high" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainScaleLongSize" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainFlowRateDecimal" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainFlowUnitBtn" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainRangeMinDisplay" />
+        <Item Target="DrawScreen.Script.cs" Source="Tags.MainRangeMaxDisplay" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

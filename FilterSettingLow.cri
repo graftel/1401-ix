@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="FilterSettingLow.Filter_Low_UpperLimit" TargetProperty="Value" Source="Tags.FilterUpperLimitLow" />
+        <Item Target="FilterSettingLow.Filter_Low_Response" TargetProperty="Value" Source="Tags.FilterResponseLow" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

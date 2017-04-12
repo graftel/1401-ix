@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols>
+  <Symbol FileName="callaway energy center - color.bmp" Transparent="false" Width="720" Height="195" />
+  <Symbol FileName="graftel-logo.bmp" Transparent="false" Width="130" Height="128" />
+  <Symbol FileName="remote_desktop_connection_icon.bmp" Transparent="true" Width="44" Height="44" />
+  <Symbol FileName="rect4172-7-2-0-6-9-4-9.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="rect4172-7-2-0-6-9-4.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="rect4172-7-2-0-6-9.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="rect4172-7-2-0-6.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="rect4172-7-2-0.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="rect4172-7-2.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="g4227.bmp" Transparent="true" Width="51" Height="26" />
+  <Symbol FileName="settings_work_tool_256.bmp" Transparent="true" Width="82" Height="82" />
+  <Symbol FileName="settings_work_tool_256 (1).bmp" Transparent="true" Width="82" Height="82" />
+  <Symbol FileName="home_button_256.bmp" Transparent="true" Width="82" Height="82" />
+  <Symbol FileName="home_button_256 (1).bmp" Transparent="true" Width="82" Height="82" />
+  <Symbol FileName="path29851.bmp" Transparent="true" Width="69" Height="81" />
+  <Symbol FileName="path2985.bmp" Transparent="true" Width="69" Height="81" />
+  <Symbol FileName="br_cancel9.bmp" Transparent="true" Width="63" Height="63" />
+  <Symbol FileName="br_ok9.bmp" Transparent="true" Width="63" Height="63" />
+  <Symbol FileName="warning.bmp" Transparent="true" Width="62" Height="58" />
+  <Symbol FileName="ajax-loader (1).abmp" Transparent="false" Width="60" Height="63">
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+    <Frame Delay="00:00:00.1000000" />
+  </Symbol>
+  <Symbol FileName="path2924.bmp" Transparent="true" Width="97" Height="83" />
+  <Symbol FileName="path2923.bmp" Transparent="true" Width="95" Height="81" />
+  <Symbol FileName="path5894.bmp" Transparent="true" Width="108" Height="64" />
+  <Symbol FileName="image2993.bmp" Transparent="true" Width="45" Height="40" />
+  <Symbol FileName="path3833.bmp" Transparent="true" Width="40" Height="45" />
+  <Symbol FileName="g4182.bmp" Transparent="true" Width="41" Height="37" />
+  <Symbol FileName="image2993 (2).bmp" Transparent="true" Width="52" Height="58" />
+  <Symbol FileName="tank medium 1.bmp" Transparent="true" Width="129" Height="261" />
+  <Symbol FileName="pipe bend 4.bmp" Transparent="true" Width="33" Height="33" />
+  <Symbol FileName="pipe 1.bmp" Transparent="true" Width="126" Height="8" />
+  <Symbol FileName="valve 5 on.bmp" Transparent="true" Width="90" Height="58" />
+  <Symbol FileName="calculator.bmp" Transparent="true" Width="71" Height="78" />
+  <Symbol FileName="panup.bmp" Transparent="true" Width="76" Height="76" />
+  <Symbol FileName="wifisignalno (2).bmp" Transparent="false" Width="58" Height="47" />
+  <Symbol FileName="wifisignallow.bmp" Transparent="false" Width="55" Height="47" />
+  <Symbol FileName="wifisignalmedium.bmp" Transparent="false" Width="56" Height="46" />
+  <Symbol FileName="wifisignalstrong.bmp" Transparent="false" Width="57" Height="47" />
+  <Symbol FileName="pandown.bmp" Transparent="true" Width="74" Height="74" />
+  <Symbol FileName="zoom in.bmp" Transparent="true" Width="33" Height="33" />
+  <Symbol FileName="zoom out.bmp" Transparent="true" Width="33" Height="33" />
+  <Symbol FileName="close (1).bmp" Transparent="true" Width="33" Height="33" />
+  <Symbol FileName="trend.bmp" Transparent="true" Width="33" Height="33" />
+  <Symbol FileName="last.bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="next (1).bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="play.bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="pause.bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="previous (1).bmp" Transparent="true" Width="38" Height="38" />
+  <Symbol FileName="arkansas nuclear one, u 1.bmp" Transparent="false" Width="805" Height="599" />
+  <Symbol FileName="exelon_corp_logo.bmp" Transparent="true" Width="642" Height="161" />
+  <Symbol FileName="duke.bmp" Transparent="false" Width="549" Height="318" />
+  <Symbol FileName="exelon_logo_detail.bmp" Transparent="false" Width="515" Height="128" />
+  <Symbol FileName="padlock open.bmp" Transparent="true" Width="44" Height="61" />
+</Symbols>

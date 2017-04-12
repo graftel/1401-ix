@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.21.28.0'?>
+<nacs:ScreenWindow Top="60" Left="170" Topmost="False" Title="popWrongPasscode" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="Manual" WindowState="Normal" BorderStyle="SingleBorder" ScreenSize="475, 250" ScreenPosition="170, 60" PopupScreen="True" StyleName="Default" IsCacheable="True" Width="475" Height="250" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" x:Class="Neo.ApplicationFramework.Generated.popWrongPasscode">
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Closed" MethodName="popWrongPasscode_Closed" />
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="popWrongPasscode_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="475" Height="250" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType">
+    <nac:Label AutoSize="False" MultiLine="True" WordWrap="True" AutoStretchFont="False" Text="Incorrect Passcode, please try again!" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="33" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="8.25,0,8.25,1" Name="m_Text" Width="441" Height="130" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="18" Canvas.Top="14">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Button Text="OK" RequiresTransparency="True" SymbolTransparent="False" FontSize="33" Name="m_Button" Width="170" Height="84" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="2" Canvas.Left="145" Canvas.Top="135" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Execute Script">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Close Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Close" ObjectName="" EventName="Click" ReferenceType="This" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="True" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

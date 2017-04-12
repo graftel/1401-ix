@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform>x86</Platform>
+    <!--<MSBuildBinPathCF Condition=" '$(MSBuildBinPathCF)' == '' ">$(windir)\Microsoft.NET\Framework\v3.5</MSBuildBinPathCF>-->
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DD591805-67CA-499A-808F-567848F29C66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neo.ApplicationFramework.Generated</RootNamespace>
+    <AssemblyName>Project1401_Mobloc</AssemblyName>
+    <TargetFrameworkVersion Condition="'$(MSBuildToolsVersion)' == '3.5'">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(MSBuildToolsVersion)' &gt; '3.5'">v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <WarningLevel>4</WarningLevel>
+    <OutputPath>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output</OutputPath>
+    <InstallPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin</InstallPath>
+    <CompactFrameworkPath>C:\Program Files (x86)\Microsoft.NET\SDK\CompactFramework\v3.5\WindowsCE</CompactFrameworkPath>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>False</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE;CE;TRANSITIONAL</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineConstants>TRACE;CE;TRANSITIONAL</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib">
+      <!--<HintPath>$(CompactFrameworkPath)\mscorlib.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms">
+      <!--<HintPath>$(CompactFrameworkPath)\Microsoft.WindowsCE.Forms.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <!--<HintPath>$(CompactFrameworkPath)\System.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <!--<HintPath>$(CompactFrameworkPath)\System.Core.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <!--<HintPath>$(CompactFrameworkPath)\System.Data.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <!--<HintPath>$(CompactFrameworkPath)\System.Drawing.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <!--<HintPath>$(CompactFrameworkPath)\System.Windows.Forms.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <!--<HintPath>$(CompactFrameworkPath)\System.Xml.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <!--<HintPath>$(CompactFrameworkPath)\System.Xml.dll</HintPath>-->
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>$(InstallPath)\CF\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms">
+      <HintPath>$(InstallPath)\Microsoft.WindowsCE.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Windows.Forms">
+      <HintPath>$(InstallPath)\OpenNETCF.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Drawing">
+      <HintPath>$(InstallPath)\OpenNETCF.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF.Configuration">
+      <HintPath>$(InstallPath)\OpenNETCF.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenNETCF">
+      <HintPath>$(InstallPath)\OpenNETCF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureMail">
+      <HintPath>$(InstallPath)\SecureMail.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureMailCF">
+      <HintPath>$(InstallPath)\SecureMailCF.dll</HintPath>
+    </Reference>
+    <Reference Include="SecureMail.Core">
+      <HintPath>$(InstallPath)\SecureMail.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Component.Api.dll">
+      <HintPath>$(InstallPath)\CoreCF.Component.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Api.dll">
+      <HintPath>$(InstallPath)\CoreCF.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Engine.dll">
+      <HintPath>$(InstallPath)\CoreCF.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreCF.Controls.Api.dll">
+      <HintPath>$(InstallPath)\CoreCF.Controls.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="ApplicationFrameworkCF.dll">
+      <HintPath>$(InstallPath)\ApplicationFrameworkCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtensionsCF">
+      <HintPath>$(InstallPath)\ExtensionsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Extensions">
+      <HintPath>$(InstallPath)\Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonDatabaseCF">
+      <HintPath>$(InstallPath)\CommonDatabaseCF.dll</HintPath>
+    </Reference>
+    <Reference Include="StorageCF">
+      <HintPath>$(InstallPath)\StorageCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ToolsCF">
+      <HintPath>$(InstallPath)\ToolsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Tools">
+      <HintPath>$(InstallPath)\Tools.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ControlsCF">
+      <HintPath>$(InstallPath)\ControlsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Controls">
+      <HintPath>$(InstallPath)\Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonCF">
+      <HintPath>$(InstallPath)\CommonCF.dll</HintPath>
+    </Reference>
+    <Reference Include="Common">
+      <HintPath>$(InstallPath)\Common.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="InterfacesCF">
+      <HintPath>$(InstallPath)\InterfacesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="SignatureInterfacesCF">
+      <HintPath>$(InstallPath)\SignatureInterfacesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributesCF">
+      <HintPath>$(InstallPath)\AttributesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="ResourcesCF">
+      <HintPath>$(InstallPath)\ResourcesCF.dll</HintPath>
+    </Reference>
+    <Reference Include="DataSourceInterop">
+      <HintPath>$(InstallPath)\DataSourceInterop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="$(InstallPath)\Configurations\log4net.config">
+      <Link>log4net.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="$(InstallPath)\Configurations\hourglass.bmp">
+      <Link>hourglass.bmp</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MacroExtensionsCF">
+      <HintPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Extensions\MacroExtensionsCF.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\AutoCal.Script.cs">
+      <Link>AutoCal.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\AutoCal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BackRcrd.Script.cs">
+      <Link>BackRcrd.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\BackRcrd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\AlarmServer.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\AutoCal.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\BackRcrd.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Buzzer.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\BuzzerConfig.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalAdjust.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalAndUpdate.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalBack.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalDueDateSetting.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalInstruction.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\calNotApplicable.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalSelectMeter.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalSetCalDate.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\calTempPress.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Comm.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DecimalSettings.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DefaultSettings.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Definition.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DEMO.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagPreCheck.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagReportFlow.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagReportPress.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagReportSolenoid.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagScreen1.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayBack.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayBacklight.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayDecimals.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplaySystemDate.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplaySystemTime.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DrawScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Expressions.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterBack.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterHigh.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterLow.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterMid.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterSettingHigh.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterSettingLow.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterSettingMid.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FlowRateDisplay.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\GeneralMsgBox.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\GraphRealTime.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\ImportData.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\InternalSettings.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\KeyBoardScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\LicenseRootComponent.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\MainScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\MainTimer.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\MultipleLanguages.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\NozzleCheckBack.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\NozzleCheckConfig.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\NozzleCheckValue.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\PersistentVariables.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popCalculator.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popCalSelect.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popCalValueAdjust.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popConfirm.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popPasscode.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popRecordOptions.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popUnitSelect.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popWrongPasscode.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\PressDecayScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Project1401_Mobloc.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\ProjectConfiguration.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\ProjectImages.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QucikFillScreen0.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillScreen1.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillScreen2.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillScreen3.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillSetting.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdCfgScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdDate.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdFileName.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdInterval.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdTime.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Recording.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RecordingSetting.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Reports.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Scheduler.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Security.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SelectData.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SelectFileName.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SettingScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SettingScreenMore.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\ShowFile.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SntpClientRootComponent.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SolenoidValveControl.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabBack.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabHigh.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabilityScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabLow.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabMid.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabSettingHigh.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabSettingLow.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabSettingMid.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StartScreen.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Tags.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\TextLibrary.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\TrendAdvanced_T7A.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\UltraDim.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\UnitsAndConversion.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiAdvanceSetup.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiConnectToAP.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiEnterPassword.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiManualSetup.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiQuickSetup.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\wifiSearchSSID.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiSetting.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\wifiSetupManual.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiSetupSoftAP.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiSoftAPSetup.cs" />
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Buzzer.Script.cs">
+      <Link>Buzzer.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Buzzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuzzerConfig.Script.cs">
+      <Link>BuzzerConfig.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\BuzzerConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalAdjust.Script.cs">
+      <Link>CalAdjust.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalAdjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalAndUpdate.Script.cs">
+      <Link>CalAndUpdate.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalAndUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalBack.Script.cs">
+      <Link>CalBack.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalDueDateSetting.Script.cs">
+      <Link>CalDueDateSetting.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalDueDateSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalInstruction.Script.cs">
+      <Link>CalInstruction.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalInstruction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalSelectMeter.Script.cs">
+      <Link>CalSelectMeter.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalSelectMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\CalSetCalDate.Script.cs">
+      <Link>CalSetCalDate.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\CalSetCalDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\calTempPress.Script.cs">
+      <Link>calTempPress.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\calTempPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Comm.Script.cs">
+      <Link>Comm.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Comm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DefaultSettings.Script.cs">
+      <Link>DefaultSettings.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DefaultSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Definition.Script.cs">
+      <Link>Definition.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Definition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DiagPreCheck.Script.cs">
+      <Link>DiagPreCheck.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagPreCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DiagReportFlow.Script.cs">
+      <Link>DiagReportFlow.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagReportFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DiagReportPress.Script.cs">
+      <Link>DiagReportPress.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagReportPress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DiagReportSolenoid.Script.cs">
+      <Link>DiagReportSolenoid.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagReportSolenoid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DiagScreen.Script.cs">
+      <Link>DiagScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DiagScreen1.Script.cs">
+      <Link>DiagScreen1.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DiagScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DisplayBack.Script.cs">
+      <Link>DisplayBack.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DisplayBacklight.Script.cs">
+      <Link>DisplayBacklight.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayBacklight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DisplayDecimals.Script.cs">
+      <Link>DisplayDecimals.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplayDecimals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DisplaySystemDate.Script.cs">
+      <Link>DisplaySystemDate.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplaySystemDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DisplaySystemTime.Script.cs">
+      <Link>DisplaySystemTime.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DisplaySystemTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DrawScreen.Script.cs">
+      <Link>DrawScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\DrawScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterHigh.Script.cs">
+      <Link>FilterHigh.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterHigh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterLow.Script.cs">
+      <Link>FilterLow.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterLow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterMid.Script.cs">
+      <Link>FilterMid.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterMid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterScreen.Script.cs">
+      <Link>FilterScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterSettingMid.Script.cs">
+      <Link>FilterSettingMid.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FilterSettingMid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FlowRateDisplay.Script.cs">
+      <Link>FlowRateDisplay.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\FlowRateDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\GeneralMsgBox.Script.cs">
+      <Link>GeneralMsgBox.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\GeneralMsgBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\GraphRealTime.Script.cs">
+      <Link>GraphRealTime.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\GraphRealTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\ImportData.Script.cs">
+      <Link>ImportData.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\ImportData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\InternalSettings.Script.cs">
+      <Link>InternalSettings.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\InternalSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\KeyBoardScreen.Script.cs">
+      <Link>KeyBoardScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\KeyBoardScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\MainScreen.Script.cs">
+      <Link>MainScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\MainTimer.Script.cs">
+      <Link>MainTimer.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\MainTimer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\NozzleCheckBack.Script.cs">
+      <Link>NozzleCheckBack.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\NozzleCheckBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\NozzleCheckConfig.Script.cs">
+      <Link>NozzleCheckConfig.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\NozzleCheckConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\NozzleCheckValue.Script.cs">
+      <Link>NozzleCheckValue.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\NozzleCheckValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popCalculator.Script.cs">
+      <Link>popCalculator.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popCalSelect.Script.cs">
+      <Link>popCalSelect.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popCalSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popCalValueAdjust.Script.cs">
+      <Link>popCalValueAdjust.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popCalValueAdjust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popConfirm.Script.cs">
+      <Link>popConfirm.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popPasscode.Script.cs">
+      <Link>popPasscode.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popPasscode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popRecordOptions.Script.cs">
+      <Link>popRecordOptions.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popRecordOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popUnitSelect.Script.cs">
+      <Link>popUnitSelect.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popUnitSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\popWrongPasscode.Script.cs">
+      <Link>popWrongPasscode.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\popWrongPasscode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\PressDecayScreen.Script.cs">
+      <Link>PressDecayScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\PressDecayScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\QucikFillScreen0.Script.cs">
+      <Link>QucikFillScreen0.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QucikFillScreen0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\QuickFillScreen1.Script.cs">
+      <Link>QuickFillScreen1.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillScreen1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\QuickFillScreen2.Script.cs">
+      <Link>QuickFillScreen2.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillScreen2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\QuickFillScreen3.Script.cs">
+      <Link>QuickFillScreen3.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillScreen3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\QuickFillSetting.Script.cs">
+      <Link>QuickFillSetting.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\QuickFillSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\RcrdDate.Script.cs">
+      <Link>RcrdDate.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\RcrdFileName.Script.cs">
+      <Link>RcrdFileName.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\RcrdInterval.Script.cs">
+      <Link>RcrdInterval.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdInterval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\RcrdTime.Script.cs">
+      <Link>RcrdTime.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RcrdTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Recording.Script.cs">
+      <Link>Recording.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Recording.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\SelectData.Script.cs">
+      <Link>SelectData.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SelectData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\SelectFileName.Script.cs">
+      <Link>SelectFileName.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SelectFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\SettingScreen.Script.cs">
+      <Link>SettingScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SettingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\SettingScreenMore.Script.cs">
+      <Link>SettingScreenMore.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SettingScreenMore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\ShowFile.Script.cs">
+      <Link>ShowFile.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\ShowFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\SolenoidValveControl.Script.cs">
+      <Link>SolenoidValveControl.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\SolenoidValveControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabBack.Script.cs">
+      <Link>StabBack.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabHigh.Script.cs">
+      <Link>StabHigh.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabHigh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabilityScreen.Script.cs">
+      <Link>StabilityScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabilityScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabLow.Script.cs">
+      <Link>StabLow.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabLow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabMid.Script.cs">
+      <Link>StabMid.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StabMid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StartScreen.Script.cs">
+      <Link>StartScreen.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\StartScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Tags.Script.cs">
+      <Link>Tags.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Tags.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\TrendAdvanced_T7A.Script.cs">
+      <Link>TrendAdvanced_T7A.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\TrendAdvanced_T7A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\UnitsAndConversion.Script.cs">
+      <Link>UnitsAndConversion.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\UnitsAndConversion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiAdvanceSetup.Script.cs">
+      <Link>WifiAdvanceSetup.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiAdvanceSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiConnectToAP.Script.cs">
+      <Link>WifiConnectToAP.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiConnectToAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiEnterPassword.Script.cs">
+      <Link>WifiEnterPassword.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiEnterPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiManualSetup.Script.cs">
+      <Link>WifiManualSetup.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiManualSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiQuickSetup.Script.cs">
+      <Link>WifiQuickSetup.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiQuickSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\wifiSearchSSID.Script.cs">
+      <Link>wifiSearchSSID.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\wifiSearchSSID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiSetting.Script.cs">
+      <Link>WifiSetting.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\wifiSetupManual.Script.cs">
+      <Link>wifiSetupManual.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\wifiSetupManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiSetupSoftAP.Script.cs">
+      <Link>WifiSetupSoftAP.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiSetupSoftAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\WifiSoftAPSetup.Script.cs">
+      <Link>WifiSoftAPSetup.Script.cs</Link>
+      <DependentUpon>D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\WifiSoftAPSetup.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Common.DLL">
+      <Link>Common.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\CommonCF.DLL">
+      <Link>CommonCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\CommonIde.DLL">
+      <Link>CommonIde.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Controls.DLL">
+      <Link>Controls.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\ControlsCF.DLL">
+      <Link>ControlsCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Core.Utilities.dll">
+      <Link>Core.Utilities.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\CoreCF.Utilities.dll">
+      <Link>CoreCF.Utilities.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Extensions\IntegratorSwapActiveProject.DLL">
+      <Link>IntegratorSwapActiveProject.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Extensions\IntegratorSwapActiveProjectCF.DLL">
+      <Link>IntegratorSwapActiveProjectCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\FlexCelCF.dll">
+      <Link>FlexCelCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\graphicspc.dll">
+      <Link>graphicspc.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Ionic.Zip.CF.dll">
+      <Link>Ionic.Zip.CF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Ionic.Zip.dll">
+      <Link>Ionic.Zip.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\KeyboardLayouts\Numeric.kbl">
+      <Link>Numeric.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\KeyboardLayouts\NumericHex.kbl">
+      <Link>NumericHex.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\KeyboardLayouts\NumericIP.kbl">
+      <Link>NumericIP.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\KeyboardLayouts\System Default.kbl">
+      <Link>System Default.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\KeyboardLayouts\US.kbl">
+      <Link>US.kbl</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\OnScreenKeyboardPC.exe">
+      <Link>OnScreenKeyboardPC.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\SqlCeDatabaseCF.DLL">
+      <Link>SqlCeDatabaseCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\SQLite.Interop.dll">
+      <Link>SQLite.Interop.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\SQLiteDatabase.DLL">
+      <Link>SQLiteDatabase.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\SQLiteDatabaseCF.dll">
+      <Link>SQLiteDatabaseCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\SQLiteDatabaseCommonCF.dll">
+      <Link>SQLiteDatabaseCommonCF.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Tools.DLL">
+      <Link>Tools.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\ToolsCF.DLL">
+      <Link>ToolsCF.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\ToolsIde.DLL">
+      <Link>ToolsIde.DLL</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\graphicsce.dll">
+      <Link>graphicsce.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\InProcessCE.dll">
+      <Link>InProcessCE.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\OnScreenKeyboardCE.exe">
+      <Link>OnScreenKeyboardCE.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\OPCDAWrapperCe.dll">
+      <Link>OPCDAWrapperCe.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\PdfWrapperCE.dll">
+      <Link>PdfWrapperCE.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\PropertyBagCE.dll">
+      <Link>PropertyBagCE.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\SQLite.Interop.099.dll">
+      <Link>SQLite.Interop.099.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\System.Data.SQLite.dll">
+      <Link>System.Data.SQLite.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Beijer Electronics AB\iX Developer 2\Bin\Windows CE6\ArmV4I\VSC.exe">
+      <Link>VSC.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Program Files (x86)\Common Files\Beijers Shared\OPC Drivers\SAIA_S-BUS_Serial_Ethernet_Pre2ce6.dll.ce6">
+      <Link>SAIA_S-BUS_Serial_Ethernet_Pre2ce6.dll.ce6</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\Users\kangm\AppData\Local\Temp\Modules.cfgtool">
+      <Link>Modules.cfgtool</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\WINDOWS\Fonts\ARIAL.TTF">
+      <Link>ARIAL.TTF</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\WINDOWS\FONTS\ARIAL.TTF">
+      <Link>ARIAL.TTF</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="C:\WINDOWS\Fonts\PASSWORD.TTF">
+      <Link>PASSWORD.TTF</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\AlarmSettings.xml">
+      <Link>AlarmSettings.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\network.bin">
+      <Link>network.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\RenderableControls.zip">
+      <Link>RenderableControls.zip</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\BuildFiles\Symbols.zip">
+      <Link>Symbols.zip</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\ComRegistration.config">
+      <Link>ComRegistration.config</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\ControllerRunTimeSettings.xml">
+      <Link>ControllerRunTimeSettings.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DecimalSettings.bin">
+      <Link>DecimalSettings.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DefaultSettings.bin">
+      <Link>DefaultSettings.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\DEMO.cfg">
+      <Link>DEMO.cfg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Features.xml">
+      <Link>Features.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterSettingHigh.bin">
+      <Link>FilterSettingHigh.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterSettingLow.bin">
+      <Link>FilterSettingLow.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\FilterSettingMid.bin">
+      <Link>FilterSettingMid.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\InternalSettings.bin">
+      <Link>InternalSettings.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\PersistentVariables.bin">
+      <Link>PersistentVariables.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Printer1.xml">
+      <Link>Printer1.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Project Files\Original.reg">
+      <Link>Project Files\Original.reg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Project Files\RegEditCE.exe">
+      <Link>Project Files\RegEditCE.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Project Files\SaveReg.exe">
+      <Link>Project Files\SaveReg.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Project Files\UltraDim.reg">
+      <Link>Project Files\UltraDim.reg</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Project.xml">
+      <Link>Project.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\RecordingSetting.bin">
+      <Link>RecordingSetting.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\ScreenIDs.xml">
+      <Link>ScreenIDs.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Security.xml">
+      <Link>Security.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabSettingHigh.bin">
+      <Link>StabSettingHigh.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabSettingLow.bin">
+      <Link>StabSettingLow.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\StabSettingMid.bin">
+      <Link>StabSettingMid.bin</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\PlatformFactory.xml">
+      <Link>PlatformFactory.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="D:\dev\LRM IX\1401 Related\Project1401_Mobloc\TrendDataConfig.xml">
+      <Link>TrendDataConfig.xml</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <!--<Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPathCF)\Microsoft.CompactFramework.CSharp.targets" />-->
+  <Import Project="$(InstallPath)\Design\Microsoft.CompactFramework.CSharp.targets" Condition="'$(MSBuildToolsVersion)' == '3.5'" />
+  <Import Condition="'$(MSBuildToolsVersion)' &gt; '3.5'" Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent></PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0114;0108</NoWarn>
+  </PropertyGroup>
+  <Target Name="BeforeBuild">
+    <!--Copy original App.Config file, since it is modified when project is converted to 2010.-->
+    <Copy SourceFiles="$(InstallPath)\Configurations\AppCF.Config" DestinationFiles="$(ProjectDir)\App.Config" />
+  </Target>
+</Project>

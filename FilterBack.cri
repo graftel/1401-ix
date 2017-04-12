@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="FilterBack.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterBack.Button21" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterBack.Group.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterBack.Group1.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterBack.Group2.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FilterBack.Group" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="FilterBack.Group.Rectangle2" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group1" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="FilterBack.Group1.Rectangle3" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group2" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="FilterBack.Group2.Rectangle1" TargetProperty="Fill" Source="Tags.SettingSel" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="FilterBack.Button21" Source="-1613828464_Normal.bmp" />
+        <Item Target="FilterBack.Button21" Source="-1613828464_Pressed.bmp" />
+        <Item Target="FilterBack.Button21" Source="-1613828464_Disabled.bmp" />
+        <Item Target="FilterBack.Group.Button" Source="-1392838779_Normal.bmp" />
+        <Item Target="FilterBack.Group.Button" Source="-1392838779_Pressed.bmp" />
+        <Item Target="FilterBack.Group.Button" Source="-1392838779_Disabled.bmp" />
+        <Item Target="FilterBack.Group1.Button1" Source="-1812279755_Normal.bmp" />
+        <Item Target="FilterBack.Group1.Button1" Source="-1812279755_Pressed.bmp" />
+        <Item Target="FilterBack.Group1.Button1" Source="-1812279755_Disabled.bmp" />
+        <Item Target="FilterBack.Group2.Button2" Source="-1812279755_Normal.bmp" />
+        <Item Target="FilterBack.Group2.Button2" Source="-1812279755_Pressed.bmp" />
+        <Item Target="FilterBack.Group2.Button2" Source="-1812279755_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FilterBack.Button21" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group" TargetProperty="Actions" Source="FilterLow" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group1" TargetProperty="Actions" Source="FilterHigh" Event="PreviewMouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group2" TargetProperty="Actions" Source="FilterMid" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>FilterBack</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>9</ObjectsCount>
+          <ScreenName>FilterBack</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FilterBack.Group" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group1" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="FilterBack.Group2" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

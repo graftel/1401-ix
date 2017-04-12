@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="QuickFillSetting.Text1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="QuickFillSetting.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Button21" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="QuickFillSetting.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillSetting.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="QuickFillSetting.AnalogNumeric1" TargetProperty="Value" Source="Tags.TargetPressTolerance" />
+        <Item Target="QuickFillSetting.AnalogNumeric" TargetProperty="Value" Source="Tags.TargetPressHoldTime" />
+        <Item Target="QuickFillSetting.AnalogNumeric2" TargetProperty="Value" Source="Tags.STDTolerence" />
+        <Item xsi:type="ActionItem" Target="QuickFillSetting" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="QuickFillSetting.Button21" Source="-1613828464_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button21" Source="-1613828464_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button21" Source="-1613828464_Disabled.bmp" />
+        <Item Target="QuickFillSetting.Button" Source="-1175487075_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button" Source="-1175487075_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button" Source="-1175487075_Disabled.bmp" />
+        <Item Target="QuickFillSetting.Button1" Source="-614343679_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button1" Source="-614343679_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button1" Source="-614343679_Disabled.bmp" />
+        <Item Target="QuickFillSetting.Button2" Source="1763700614_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button2" Source="1763700614_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button2" Source="1763700614_Disabled.bmp" />
+        <Item Target="QuickFillSetting.Button3" Source="-614343679_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button3" Source="-614343679_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button3" Source="-614343679_Disabled.bmp" />
+        <Item Target="QuickFillSetting.Button4" Source="-1175487075_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button4" Source="-1175487075_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button4" Source="-1175487075_Disabled.bmp" />
+        <Item Target="QuickFillSetting.Button5" Source="-614343679_Normal.bmp" />
+        <Item Target="QuickFillSetting.Button5" Source="-614343679_Pressed.bmp" />
+        <Item Target="QuickFillSetting.Button5" Source="-614343679_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillSetting.Button21" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>QuickFillSetting</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>14</ObjectsCount>
+          <ScreenName>QuickFillSetting</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="QuickFillSetting.Script.cs" Source="Tags.TargetPressTolerance" />
+        <Item Target="QuickFillSetting.Script.cs" Source="Tags.TargetPressHoldTime" />
+        <Item Target="QuickFillSetting.Script.cs" Source="Tags.STDTolerence" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillSetting" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="QuickFillSetting.Button" Source="path2985" Width="70" Height="81" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillSetting.Button1" Source="path29851" Width="70" Height="81" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillSetting.Button2" Source="path2985" Width="68" Height="79" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillSetting.Button3" Source="path29851" Width="70" Height="81" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillSetting.Button4" Source="path2985" Width="70" Height="81" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillSetting.Button5" Source="path29851" Width="70" Height="81" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

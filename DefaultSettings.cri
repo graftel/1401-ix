@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DefaultSettings.Default_Display_Unit_Low" TargetProperty="Value" Source="Tags.flow_unit_low" />
+        <Item Target="DefaultSettings.Default_Display_Unit_Mid" TargetProperty="Value" Source="Tags.flow_unit_mid" />
+        <Item Target="DefaultSettings.Default_Meter_Low" TargetProperty="Value" Source="Tags.meter_unit_low" />
+        <Item Target="DefaultSettings.Default_Meter_Mid" TargetProperty="Value" Source="Tags.meter_unit_mid" />
+        <Item Target="DefaultSettings.Firmware_number" TargetProperty="Value" Source="Tags.firmware" />
+        <Item Target="DefaultSettings.Serial_number" TargetProperty="Value" Source="Tags.serial" />
+        <Item Target="DefaultSettings.Display_Press_Unit" TargetProperty="Value" Source="Tags.PressUnit" />
+        <Item Target="DefaultSettings.Low_Min_FlowRate" TargetProperty="Value" Source="Tags.LowRangeMin" />
+        <Item Target="DefaultSettings.Low_Max_FlowRate" TargetProperty="Value" Source="Tags.LowRangeMax" />
+        <Item Target="DefaultSettings.Mid_Min_FlowRate" TargetProperty="Value" Source="Tags.MidRangeMin" />
+        <Item Target="DefaultSettings.Mid_Max_FlowRate" TargetProperty="Value" Source="Tags.MidRangeMax" />
+        <Item Target="DefaultSettings.Inlet_Press_Max" TargetProperty="Value" Source="Tags.Inlet_Press_Max" />
+        <Item Target="DefaultSettings.Test_Press_Max" TargetProperty="Value" Source="Tags.Test_Press_Max" />
+        <Item Target="DefaultSettings.Default_Display_Unit_High" TargetProperty="Value" Source="Tags.flow_unit_high" />
+        <Item Target="DefaultSettings.Default_Meter_High" TargetProperty="Value" Source="Tags.meter_unit_high" />
+        <Item Target="DefaultSettings.High_Max_FlowRate" TargetProperty="Value" Source="Tags.HighRangeMax" />
+        <Item Target="DefaultSettings.High_Min_FlowRate" TargetProperty="Value" Source="Tags.HighRangeMin" />
+        <Item Target="DefaultSettings.Default_Press_Meter_Unit_Inlet" TargetProperty="Value" Source="Tags.PressUnitInlet" />
+        <Item Target="DefaultSettings.Default_Press_Meter_Unit_Test" TargetProperty="Value" Source="Tags.PressUnitTest" />
+        <Item Target="DefaultSettings.Remote_Calibration" TargetProperty="Value" Source="Tags.RemoteCalibration" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

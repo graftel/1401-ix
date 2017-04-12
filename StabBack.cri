@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="StabBack.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabBack.Group.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabBack.Group1.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabBack.btnON" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabBack.Group2.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabBack.Button21" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StabBack.Group" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="StabBack.Group.Rectangle2" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item xsi:type="ActionItem" Target="StabBack.Group1" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="StabBack.Group1.Rectangle3" TargetProperty="Fill" Source="Tags.SettingSel" />
+        <Item Target="StabBack.btnON" TargetProperty="TextValue" Source="Tags.StabONOFF" />
+        <Item Target="StabBack.btnON" TargetProperty="Background" Source="Tags.StabONOFF" />
+        <Item xsi:type="ActionItem" Target="StabBack.Group2" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item Target="StabBack.Group2.Rectangle1" TargetProperty="Fill" Source="Tags.SettingSel" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="StabBack.Group.Button" Source="2079027184_Normal.bmp" />
+        <Item Target="StabBack.Group.Button" Source="2079027184_Pressed.bmp" />
+        <Item Target="StabBack.Group.Button" Source="2079027184_Disabled.bmp" />
+        <Item Target="StabBack.Group1.Button1" Source="-572616573_Normal.bmp" />
+        <Item Target="StabBack.Group1.Button1" Source="-572616573_Pressed.bmp" />
+        <Item Target="StabBack.Group1.Button1" Source="-572616573_Disabled.bmp" />
+        <Item Target="StabBack.Group2.Button2" Source="-572616573_Normal.bmp" />
+        <Item Target="StabBack.Group2.Button2" Source="-572616573_Pressed.bmp" />
+        <Item Target="StabBack.Group2.Button2" Source="-572616573_Disabled.bmp" />
+        <Item Target="StabBack.Button21" Source="-1613828464_Normal.bmp" />
+        <Item Target="StabBack.Button21" Source="-1613828464_Pressed.bmp" />
+        <Item Target="StabBack.Button21" Source="-1613828464_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StabBack.Group" TargetProperty="Actions" Source="StabLow" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="StabBack.Group1" TargetProperty="Actions" Source="StabHigh" Event="PreviewMouseDown" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="StabBack.Group2" TargetProperty="Actions" Source="StabMid" Event="PreviewMouseDown" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="StabBack.Button21" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>StabBack</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>10</ObjectsCount>
+          <ScreenName>StabBack</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="StabBack.Script.cs" Source="Tags.bStabEnable" />
+        <Item Target="StabBack.Script.cs" Source="Tags.StabONOFF" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StabBack.Group" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="StabBack.Group1" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="StabBack.Group2" TargetProperty="Actions" Source="Tags.SettingSel" Event="PreviewMouseDown" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

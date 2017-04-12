@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DecimalSettings.Low_sccm_decimal" TargetProperty="Value" Source="Tags.LowsccmDecimal" />
+        <Item Target="DecimalSettings.Low_slpm_decimal" TargetProperty="Value" Source="Tags.LowslpmDecimal" />
+        <Item Target="DecimalSettings.Low_scfm_decimal" TargetProperty="Value" Source="Tags.LowscfmDecimal" />
+        <Item Target="DecimalSettings.Low_scfh_decimal" TargetProperty="Value" Source="Tags.LowscfhDecimal" />
+        <Item Target="DecimalSettings.Mid_sccm_decimal" TargetProperty="Value" Source="Tags.MidsccmDecimal" />
+        <Item Target="DecimalSettings.Mid_slpm_decimal" TargetProperty="Value" Source="Tags.MidslpmDecimal" />
+        <Item Target="DecimalSettings.Mid_scfm_decimal" TargetProperty="Value" Source="Tags.MidscfmDecimal" />
+        <Item Target="DecimalSettings.Mid_scfh_decimal" TargetProperty="Value" Source="Tags.MidscfhDecimal" />
+        <Item Target="DecimalSettings.psig_decimal" TargetProperty="Value" Source="Tags.psigDecimal" />
+        <Item Target="DecimalSettings.ksi_decimal" TargetProperty="Value" Source="Tags.ksiDecimal" />
+        <Item Target="DecimalSettings.bar_decimal" TargetProperty="Value" Source="Tags.barDecimal" />
+        <Item Target="DecimalSettings.High_sccm_decimal" TargetProperty="Value" Source="Tags.HighsccmDecimal" />
+        <Item Target="DecimalSettings.High_slpm_decimal" TargetProperty="Value" Source="Tags.HighslpmDecimal" />
+        <Item Target="DecimalSettings.High_scfm_decimal" TargetProperty="Value" Source="Tags.HighscfmDecimal" />
+        <Item Target="DecimalSettings.High_scfh_decimal" TargetProperty="Value" Source="Tags.HighscfhDecimal" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

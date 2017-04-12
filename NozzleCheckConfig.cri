@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="NozzleCheckConfig.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnRefMidInc" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnRefMidDec" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnErrorInc" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnErrorDec" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnRefLowDec" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnRefLowInc" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnRefHighInc" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnRefHighDec" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnErrorTypeNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckConfig.btnErrorTypePrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="NozzleCheckConfig.AnalogNumeric3" TargetProperty="Value" Source="Tags.nozzleReferenceFlowHighDisplay" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric" TargetProperty="Value" Source="Tags.nozzleReferenceFlowMidDisplay" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric1" TargetProperty="Value" Source="Tags.nozzleReferenceFlowLowDisplay" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric2" TargetProperty="Value" Source="Tags.nozzleErrorLimitDisplay" />
+        <Item Target="NozzleCheckConfig.AnalogNumeric4" TargetProperty="Value" Source="Tags.nozzleErrorType" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckConfig" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="NozzleCheckConfig.btnRefMidInc" Source="1747495279_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefMidInc" Source="1747495279_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefMidInc" Source="1747495279_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefMidDec" Source="404757214_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefMidDec" Source="404757214_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefMidDec" Source="404757214_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorInc" Source="1747495279_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorInc" Source="1747495279_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorInc" Source="1747495279_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorDec" Source="404757214_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorDec" Source="404757214_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorDec" Source="404757214_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefLowDec" Source="404757214_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefLowDec" Source="404757214_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefLowDec" Source="404757214_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefLowInc" Source="1747495279_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefLowInc" Source="1747495279_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefLowInc" Source="1747495279_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefHighInc" Source="1747495279_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefHighInc" Source="1747495279_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefHighInc" Source="1747495279_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefHighDec" Source="404757214_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefHighDec" Source="404757214_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnRefHighDec" Source="404757214_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorTypeNext" Source="1747495279_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorTypeNext" Source="1747495279_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorTypeNext" Source="1747495279_Disabled.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorTypePrev" Source="404757214_Normal.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorTypePrev" Source="404757214_Pressed.bmp" />
+        <Item Target="NozzleCheckConfig.btnErrorTypePrev" Source="404757214_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>NozzleCheckConfig</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>34</ObjectsCount>
+          <ScreenName>NozzleCheckConfig</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.Status_CalculatorScr" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.Enter_Value" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleReferenceFlowLow" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleFlowUnit" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleReferenceFlowMid" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleReferenceFlowHigh" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleErrorLimit" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.LowRangeMax" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.MidRangeMin" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.MidRangeMax" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.HighRangeMin" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.HighRangeMax" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleErrorLimitDisplay" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleReferenceFlowLowDisplay" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleReferenceFlowMidDisplay" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleReferenceFlowHighDisplay" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.nozzleErrorType" />
+        <Item Target="NozzleCheckConfig.Script.cs" Source="Tags.CalculatorTargetScr" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="NozzleCheckConfig" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.Picture" Source="calculator" Width="50" Height="56" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.Picture1" Source="calculator" Width="50" Height="56" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.Picture2" Source="calculator" Width="50" Height="56" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnRefMidInc" Source="path2985" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnRefMidDec" Source="path29851" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnErrorInc" Source="path2985" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnErrorDec" Source="path29851" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnRefLowDec" Source="path29851" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnRefLowInc" Source="path2985" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnRefHighInc" Source="path2985" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnRefHighDec" Source="path29851" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnErrorTypeNext" Source="path2985" Width="44" Height="51" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="NozzleCheckConfig.btnErrorTypePrev" Source="path29851" Width="44" Height="51" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

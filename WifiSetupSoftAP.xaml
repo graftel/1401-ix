@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.21.28.0'?>
+<nacs:ScreenWindow Topmost="False" Title="WifiSetupSoftAP" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="SingleBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Foreground="#FF000000" FontSize="12" FontStyle="Normal" FontWeight="Normal" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Controls.Blink;assembly=Controls" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacc1="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" x:Class="Neo.ApplicationFramework.Generated.WifiSetupSoftAP">
+  <nacs:ScreenWindow.Background>
+    <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+      <LinearGradientBrush.GradientStops>
+        <GradientStopCollection>
+          <GradientStop Color="#FFE3E3E3" Offset="0" />
+          <GradientStop Color="#FFE3E3E3" Offset="1" />
+          <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+        </GradientStopCollection>
+      </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+  </nacs:ScreenWindow.Background>
+  <nai:ActionProperties.Actions>
+    <nai:ActionList>
+      <nata:Action Name="Set Analog">
+        <nata:Action.ActionMethodInfo>
+          <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.CurrentScreen" EventName="Opened" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+            <nata:ActionMethodInfo.ActionParameterInfo>
+              <nai:ActionParameterInfoList>
+                <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                  <nata:ActionParameterInfo.Value>
+                    <s:Int16>49</s:Int16>
+                  </nata:ActionParameterInfo.Value>
+                </nata:ActionParameterInfo>
+              </nai:ActionParameterInfoList>
+            </nata:ActionMethodInfo.ActionParameterInfo>
+          </nata:ActionMethodInfo>
+        </nata:Action.ActionMethodInfo>
+      </nata:Action>
+    </nai:ActionList>
+  </nai:ActionProperties.Actions>
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Closed" MethodName="WifiSetupSoftAP_Closed" />
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="WifiSetupSoftAP_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nac:Label AutoSize="False" MultiLine="False" WordWrap="False" AutoStretchFont="False" Text="Connecting to Access Point, please wait..." Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="23" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.75,0,5.75,1" Name="m_Text" Width="591" Height="40" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="170" Canvas.Top="178">
+      <nac:Label.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nac:Label.Resources>
+      <nac:Label.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.wifiConnectionStatus].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True" />
+      </nac:Label.Value>
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Button ButtonAppearance="Default" Text="OK" MultiLine="False" WordWrap="False" RequiresTransparency="True" SymbolTransparent="False" MultiPicture="False" Background="#FF98BBE5" Foreground="#FF000000" FontSize="30" Name="m_btnOK" Width="228" Height="93" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="2" nacb:BlinkProperties.VisibleDynamicsValue="True" Canvas.Left="258" Canvas.Top="280" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Execute Script">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="WifiSetting" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.16.154.0, Culture=neutral, PublicKeyToken=null" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+    </nac:Button>
+    <nacc1:LinearMeter MinorTickCount="1" FontSize="20" Width="791" Height="160" ScaleVisible="Hidden" Transparent="Hidden" IndicatorMargin="71.745,53.14,71.745,17" RequiresTransparency="True" ForceTransparency="False" FontFamily="Tahoma" Name="m_LinearMeter" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="6" Canvas.Top="194" Style="{nac1:StyleMarkupExtension Chrome}">
+      <nacc1:LinearMeter.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="ValueConverter" />
+        </ResourceDictionary>
+      </nacc1:LinearMeter.Resources>
+      <nacc1:LinearMeter.Value>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.wifiConnectAPProgress].Value" Converter="{StaticResource ValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Double>0</s:Double>
+          </Binding.FallbackValue>
+        </Binding>
+      </nacc1:LinearMeter.Value>
+      <nacc1:LinearMeter.IndicatorColor>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FF008000" Offset="0.5" />
+              <GradientStop Color="#FF1AFF1A" Offset="0" />
+              <GradientStop Color="#FF1AFF1A" Offset="1" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nacc1:LinearMeter.IndicatorColor>
+    </nacc1:LinearMeter>
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="Setting up soft AP" Background="#FFFFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="33" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="8.25,0,8.25,1" Name="m_Text1" Width="801" Height="74" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="4" Canvas.Left="-2" Canvas.Top="-4" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="False">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Setting up soft AP, please wait..." Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="30" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="7.5,0,7.5,1" Name="m_Text2" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="90" Canvas.Top="109">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Status:" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="23" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.75,0,5.75,1" Name="m_Text3" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" Canvas.Left="91" Canvas.Top="178">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

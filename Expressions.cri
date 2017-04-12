@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Expression.cs" Source="Tags.serial" />
+        <Item Target="Expression.cs" Source="Tags.firmware" />
+        <Item Target="Expression.cs" Source="Tags.serial" />
+        <Item Target="Expression.cs" Source="Tags.InletPressIndicator" />
+        <Item Target="Expression.cs" Source="Tags.Stab_low_green" />
+        <Item Target="Expression.cs" Source="Tags.DiagProgress" />
+        <Item Target="Expression.cs" Source="Tags.DiagProgress" />
+        <Item Target="Expression.cs" Source="Tags.DiagProgress" />
+        <Item Target="Expression.cs" Source="Tags.DiagProgress" />
+        <Item Target="Expression.cs" Source="Tags.DiagProgress" />
+        <Item Target="Expression.cs" Source="Tags.DiagProgress" />
+        <Item Target="Expression.cs" Source="Tags.DiagStage" />
+        <Item Target="Expression.cs" Source="Tags.DiagStage" />
+        <Item Target="Expression.cs" Source="Tags.DiagStage" />
+        <Item Target="Expression.cs" Source="Tags.USBStatus" />
+        <Item Target="Expression.cs" Source="Tags.BackFlowIndicator" />
+        <Item Target="Expression.cs" Source="Tags.MainUnderRangeEnable" />
+        <Item Target="Expression.cs" Source="Tags.selMode" />
+        <Item Target="Expression.cs" Source="Tags.MidRangeMax" />
+        <Item Target="Expression.cs" Source="Tags.meter_unit_mid" />
+        <Item Target="Expression.cs" Source="Tags.HighRangeMax" />
+        <Item Target="Expression.cs" Source="Tags.meter_unit_high" />
+        <Item Target="Expression.cs" Source="Tags.LowRangeMax" />
+        <Item Target="Expression.cs" Source="Tags.meter_unit_low" />
+        <Item Target="Expression.cs" Source="Tags.MainPressDecimal" />
+        <Item Target="Expression.cs" Source="Tags.calSelMeter" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

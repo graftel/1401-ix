@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="CalDueDateSetting.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button21" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="CalDueDateSetting.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalDueDateSetting.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="CalDueDateSetting.AnalogNumeric" TargetProperty="Value" Source="Tags.DisplayMonth" />
+        <Item Target="CalDueDateSetting.AnalogNumeric1" TargetProperty="Value" Source="Tags.DisplayDay" />
+        <Item Target="CalDueDateSetting.AnalogNumeric2" TargetProperty="Value" Source="Tags.DisplayYear" />
+        <Item Target="CalDueDateSetting.Button5" TargetProperty="TextValue" Source="Tags.calDueDateShow" />
+        <Item Target="CalDueDateSetting.Button5" TargetProperty="Background" Source="Tags.calDueDateShow" />
+        <Item xsi:type="ActionItem" Target="CalDueDateSetting" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="CalDueDateSetting.Button7" Source="187714286_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button7" Source="187714286_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button7" Source="187714286_Disabled.bmp" />
+        <Item Target="CalDueDateSetting.Button" Source="486534797_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button" Source="486534797_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button" Source="486534797_Disabled.bmp" />
+        <Item Target="CalDueDateSetting.Button1" Source="187714286_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button1" Source="187714286_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button1" Source="187714286_Disabled.bmp" />
+        <Item Target="CalDueDateSetting.Button2" Source="486534797_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button2" Source="486534797_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button2" Source="486534797_Disabled.bmp" />
+        <Item Target="CalDueDateSetting.Button3" Source="359052342_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button3" Source="359052342_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button3" Source="359052342_Disabled.bmp" />
+        <Item Target="CalDueDateSetting.Button4" Source="-1207961242_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button4" Source="-1207961242_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button4" Source="-1207961242_Disabled.bmp" />
+        <Item Target="CalDueDateSetting.Button21" Source="-1126420165_Normal.bmp" />
+        <Item Target="CalDueDateSetting.Button21" Source="-1126420165_Pressed.bmp" />
+        <Item Target="CalDueDateSetting.Button21" Source="-1126420165_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalDueDateSetting.Button21" TargetProperty="Actions" Source="StartScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>CalDueDateSetting</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>16</ObjectsCount>
+          <ScreenName>CalDueDateSetting</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.calDueDatePers" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.DisplayDay" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.DisplayMonth" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.DisplayYear" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.CurrentDayInMonth" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.calDueDate" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.SystemTagDateTime" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.calDueDateIndi" />
+        <Item Target="CalDueDateSetting.Script.cs" Source="Tags.calDueDateShow" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalDueDateSetting" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="CalDueDateSetting.Button7" Source="path2924" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalDueDateSetting.Button" Source="path2923" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalDueDateSetting.Button1" Source="path2924" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalDueDateSetting.Button2" Source="path2923" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalDueDateSetting.Button3" Source="path2924" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalDueDateSetting.Button4" Source="path2923" Width="68" Height="59" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

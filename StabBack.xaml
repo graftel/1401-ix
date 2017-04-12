@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.21.28.0'?>
+<nacs:ScreenWindow Topmost="False" Title="StabBack" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="SingleBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Controls.Controls;assembly=Controls" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=Common" xmlns:nacd2="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nacgl="clr-namespace:Neo.ApplicationFramework.Common.Graphics.Logic;assembly=CommonCF" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" xmlns:nacc1="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" x:Class="Neo.ApplicationFramework.Generated.StabBack">
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="StabBack_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nacc:Rectangle Stroke="#FF000000" Name="m_Rectangle" Width="588" Height="398" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="1" Canvas.Left="205" Canvas.Top="68">
+      <nacc:Rectangle.Fill>
+        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nacc:Rectangle.Fill>
+    </nacc:Rectangle>
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="STABILITY SETTINGS" TextDecorations="{x:Null}" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Arial" FontSize="33" FontStyle="Normal" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="8.25,0,8.25,1" Name="m_Text" Width="593" Height="52" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="200" Canvas.Top="1" />
+    <nac:Group Name="m_Group" Width="178" Height="85" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="13" Canvas.Left="13" Canvas.Top="104">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Execute Script">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="StabLow" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.16.154.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.SettingSel" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int32>1</s:Int32>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nacc:Rectangle Stroke="{x:Null}" StrokeThickness="1" Name="m_Rectangle2" Width="116" Height="7" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="7" Canvas.Left="33" Canvas.Top="52">
+        <nacc:Rectangle.Resources>
+          <ResourceDictionary>
+            <nacd1:BrushDynamicsConverter x:Key="FillConverter">
+              <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+                <nacd2:BrushCFIntervalMapper>
+                  <nacd2:BrushCFIntervalMapper.Intervals>
+                    <nacd2:BrushCFIntervalList>
+                      <nacd2:BrushCFInterval Start="1" End="1">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="Orange" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval>
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="23, 54, 93" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval Start="2" End="4">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="23, 54, 93" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                    </nacd2:BrushCFIntervalList>
+                  </nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalMapper.DefaultValue>
+                    <nacgl:BrushCF StartColor="Orange" EndColor="" FillDirection="None" />
+                  </nacd2:BrushCFIntervalMapper.DefaultValue>
+                </nacd2:BrushCFIntervalMapper>
+              </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+            </nacd1:BrushDynamicsConverter>
+          </ResourceDictionary>
+        </nacc:Rectangle.Resources>
+        <nacc:Rectangle.Fill>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SettingSel].Value" Converter="{StaticResource FillConverter}" ValidatesOnExceptions="True">
+            <Binding.FallbackValue>
+              <SolidColorBrush>#FFFFA500</SolidColorBrush>
+            </Binding.FallbackValue>
+          </Binding>
+        </nacc:Rectangle.Fill>
+        <nacc:Rectangle.BevelEffectInfo>
+          <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+        </nacc:Rectangle.BevelEffectInfo>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList />
+        </nai:ActionProperties.Actions>
+      </nacc:Rectangle>
+      <nac:Button ButtonAppearance="Default" ImageVerticalAlignment="Bottom" ImageMargin="4,4,4,3" Text="LOW" TextDecorations="{x:Null}" TextVerticalAlignment="Top" TextMargin="0,10,0,0" RequiresTransparency="True" SymbolName="" SymbolTransparent="False" MultiPicture="False" Background="#FF98BBE5" Foreground="#FF000000" FontFamily="Tahoma" FontSize="26" FontStyle="Normal" FontWeight="Bold" Name="m_Button" Width="178" Height="85" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="4" Canvas.Left="0" Canvas.Top="0" Style="{nac1:StyleMarkupExtension Glossy}">
+        <nai:ActionProperties.Actions>
+          <nai:ActionList />
+        </nai:ActionProperties.Actions>
+      </nac:Button>
+    </nac:Group>
+    <nac:Group Name="m_Group1" Width="178" Height="85" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="14" Canvas.Left="13" Canvas.Top="293">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Execute Script">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="StabHigh" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.16.154.0, Culture=neutral, PublicKeyToken=null" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.SettingSel" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int16>3</s:Int16>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nacc:Rectangle Stroke="{x:Null}" Name="m_Rectangle3" Width="116" Height="7" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="29" Canvas.Top="49">
+        <nacc:Rectangle.Resources>
+          <ResourceDictionary>
+            <nacd1:BrushDynamicsConverter x:Key="FillConverter">
+              <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+                <nacd2:BrushCFIntervalMapper>
+                  <nacd2:BrushCFIntervalMapper.Intervals>
+                    <nacd2:BrushCFIntervalList>
+                      <nacd2:BrushCFInterval Start="3" End="3">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="Orange" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval End="2">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="23, 54, 93" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                    </nacd2:BrushCFIntervalList>
+                  </nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalMapper.DefaultValue>
+                    <nacgl:BrushCF StartColor="Orange" EndColor="" FillDirection="None" />
+                  </nacd2:BrushCFIntervalMapper.DefaultValue>
+                </nacd2:BrushCFIntervalMapper>
+              </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+            </nacd1:BrushDynamicsConverter>
+          </ResourceDictionary>
+        </nacc:Rectangle.Resources>
+        <nacc:Rectangle.Fill>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SettingSel].Value" Converter="{StaticResource FillConverter}" ValidatesOnExceptions="True">
+            <Binding.FallbackValue>
+              <SolidColorBrush>#FFFFA500</SolidColorBrush>
+            </Binding.FallbackValue>
+          </Binding>
+        </nacc:Rectangle.Fill>
+        <nacc:Rectangle.BevelEffectInfo>
+          <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+        </nacc:Rectangle.BevelEffectInfo>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList />
+        </nai:ActionProperties.Actions>
+      </nacc:Rectangle>
+      <nac:Button ButtonAppearance="Default" Text="HIGH" TextVerticalAlignment="Top" TextMargin="0,10,0,0" RequiresTransparency="True" SymbolTransparent="False" Background="#FF98BBE5" Foreground="#FF000000" FontSize="26" FontWeight="Bold" Name="m_Button1" Width="178" Height="85" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="5" Canvas.Left="0" Canvas.Top="0" Style="{nac1:StyleMarkupExtension Glossy}">
+        <nac:Button.TextDecorations>
+          <TextDecorationCollection />
+        </nac:Button.TextDecorations>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList />
+        </nai:ActionProperties.Actions>
+      </nac:Button>
+    </nac:Group>
+    <nac:Button ButtonAppearance="Default" Text="ON" RequiresTransparency="True" SymbolName="" SymbolTransparent="False" BorderBrush="#FF000000" Foreground="#FFFFFFFF" FontSize="36" FontWeight="Bold" Name="m_btnON" Width="178" Height="81" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="12" Canvas.Left="13" Canvas.Top="12" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="34, 177, 76" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="186, 20, 25" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="Green" EndColor="" FillDirection="None" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+          <nacc1:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.StabONOFF].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.StabONOFF].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <SolidColorBrush>#FF008000</SolidColorBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd1:StringIntervalMapper DefaultValue="ON">
+          <nacd1:StringIntervalMapper.Intervals>
+            <nacd1:StringIntervalList>
+              <nacd1:StringInterval Value="ON" />
+              <nacd1:StringInterval Start="1" End="1" Value="OFF" />
+            </nacd1:StringIntervalList>
+          </nacd1:StringIntervalMapper.Intervals>
+        </nacd1:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnON_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Group Name="m_Group2" Width="178" Height="85" RenderTransformOrigin="0.5,0.5" Panel.ZIndex="15" Canvas.Left="13" Canvas.Top="197">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Execute Script">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="StabMid" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.16.154.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Set Analog">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.SettingSel" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                            <nata:ActionParameterInfo.Value>
+                              <s:Int16>2</s:Int16>
+                            </nata:ActionParameterInfo.Value>
+                          </nata:ActionParameterInfo>
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="PreviewMouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nacc:Rectangle Stroke="{x:Null}" Name="m_Rectangle1" Width="116" Height="7" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="8" Canvas.Left="29" Canvas.Top="48">
+        <nacc:Rectangle.Resources>
+          <ResourceDictionary>
+            <nacd1:BrushDynamicsConverter x:Key="FillConverter">
+              <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+                <nacd2:BrushCFIntervalMapper>
+                  <nacd2:BrushCFIntervalMapper.Intervals>
+                    <nacd2:BrushCFIntervalList>
+                      <nacd2:BrushCFInterval Start="2" End="2">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="Orange" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval End="1">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="23, 54, 93" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval Start="3" End="4">
+                        <nacd2:BrushCFInterval.Value>
+                          <nacgl:BrushCF StartColor="23, 54, 93" EndColor="" FillDirection="None" />
+                        </nacd2:BrushCFInterval.Value>
+                      </nacd2:BrushCFInterval>
+                    </nacd2:BrushCFIntervalList>
+                  </nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalMapper.DefaultValue>
+                    <nacgl:BrushCF StartColor="Orange" EndColor="" FillDirection="None" />
+                  </nacd2:BrushCFIntervalMapper.DefaultValue>
+                </nacd2:BrushCFIntervalMapper>
+              </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+            </nacd1:BrushDynamicsConverter>
+          </ResourceDictionary>
+        </nacc:Rectangle.Resources>
+        <nacc:Rectangle.Fill>
+          <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.SettingSel].Value" Converter="{StaticResource FillConverter}" ValidatesOnExceptions="True">
+            <Binding.FallbackValue>
+              <SolidColorBrush>#FFFFA500</SolidColorBrush>
+            </Binding.FallbackValue>
+          </Binding>
+        </nacc:Rectangle.Fill>
+        <nacc:Rectangle.BevelEffectInfo>
+          <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+        </nacc:Rectangle.BevelEffectInfo>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList />
+        </nai:ActionProperties.Actions>
+      </nacc:Rectangle>
+      <nac:Button ButtonAppearance="Default" Text="MID" TextVerticalAlignment="Top" TextMargin="0,10,0,0" RequiresTransparency="True" SymbolTransparent="False" Background="#FF98BBE5" Foreground="#FF000000" FontSize="26" FontWeight="Bold" Name="m_Button2" Width="178" Height="85" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="5" Canvas.Left="0" Canvas.Top="0" Style="{nac1:StyleMarkupExtension Glossy}">
+        <nac:Button.TextDecorations>
+          <TextDecorationCollection />
+        </nac:Button.TextDecorations>
+        <nai:ActionProperties.Actions>
+          <nai:ActionList />
+        </nai:ActionProperties.Actions>
+      </nac:Button>
+    </nac:Group>
+    <nac:Button ButtonAppearance="RoundedBottomLeft" Text="OK" TextDecorations="{x:Null}" RequiresTransparency="True" SymbolName="" SymbolTransparent="False" Background="#FFE3E3E3" FontFamily="Arial" FontSize="26" FontStyle="Normal" FontWeight="Bold" Name="m_Button21" Width="178" Height="82" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="2" Canvas.Left="13" Canvas.Top="386" Style="{nac1:StyleMarkupExtension Chrome}">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:MultiAction Name="Multi Action">
+            <nata:MultiAction.Actions>
+              <nai:ActionList>
+                <nata:Action Name="Show Screen">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Show" ObjectName="SettingScreen" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="Neo.ApplicationFramework.Tools.Action.ScreenInstanceObjectPathProvider, ToolsIde, Version=2.16.154.0, Culture=neutral, PublicKeyToken=null" ObjectPath="Default" ExplicitAuditTrail="False">
+                      <nata:ActionMethodInfo.ActionParameterInfo>
+                        <nai:ActionParameterInfoList>
+                          <nata:ActionParameterInfo Position="0" Value="{x:Null}" ParameterName="position" ParameterTypeString="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" TagName="" />
+                        </nai:ActionParameterInfoList>
+                      </nata:ActionMethodInfo.ActionParameterInfo>
+                    </nata:ActionMethodInfo>
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+                <nata:Action Name="Execute Script">
+                  <nata:Action.ActionMethodInfo>
+                    <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+                  </nata:Action.ActionMethodInfo>
+                </nata:Action>
+              </nai:ActionList>
+            </nata:MultiAction.Actions>
+            <nata:MultiAction.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="" ObjectName="" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:MultiAction.ActionMethodInfo>
+          </nata:MultiAction>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="Button21_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

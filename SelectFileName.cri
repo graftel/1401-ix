@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SelectFileName.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.lblPage" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.tbName1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.btnImport" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.btnDel" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.btnSel" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.btnAdd" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectFileName.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="SelectFileName.Text" TargetProperty="Value" Source="Tags.SelectType" />
+        <Item Target="SelectFileName.tbName2" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName2" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName3" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName3" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName4" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName4" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName5" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName5" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName6" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName6" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName7" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName7" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName1" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.tbName1" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item xsi:type="ActionItem" Target="SelectFileName" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SelectFileName.btnImport" Source="532730406_Normal.bmp" />
+        <Item Target="SelectFileName.btnImport" Source="532730406_Pressed.bmp" />
+        <Item Target="SelectFileName.btnImport" Source="532730406_Disabled.bmp" />
+        <Item Target="SelectFileName.btnDel" Source="532730406_Normal.bmp" />
+        <Item Target="SelectFileName.btnDel" Source="532730406_Pressed.bmp" />
+        <Item Target="SelectFileName.btnDel" Source="532730406_Disabled.bmp" />
+        <Item Target="SelectFileName.btnSel" Source="532730406_Normal.bmp" />
+        <Item Target="SelectFileName.btnSel" Source="532730406_Pressed.bmp" />
+        <Item Target="SelectFileName.btnSel" Source="532730406_Disabled.bmp" />
+        <Item Target="SelectFileName.Button3" Source="532730406_Normal.bmp" />
+        <Item Target="SelectFileName.Button3" Source="532730406_Pressed.bmp" />
+        <Item Target="SelectFileName.Button3" Source="532730406_Disabled.bmp" />
+        <Item Target="SelectFileName.btnAdd" Source="532730406_Normal.bmp" />
+        <Item Target="SelectFileName.btnAdd" Source="532730406_Pressed.bmp" />
+        <Item Target="SelectFileName.btnAdd" Source="532730406_Disabled.bmp" />
+        <Item Target="SelectFileName.btnPrev" Source="-1422308553_Normal.bmp" />
+        <Item Target="SelectFileName.btnPrev" Source="-1422308553_Pressed.bmp" />
+        <Item Target="SelectFileName.btnPrev" Source="-1422308553_Disabled.bmp" />
+        <Item Target="SelectFileName.btnNext" Source="-1422308553_Normal.bmp" />
+        <Item Target="SelectFileName.btnNext" Source="-1422308553_Pressed.bmp" />
+        <Item Target="SelectFileName.btnNext" Source="-1422308553_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SelectFileName.Button3" TargetProperty="Actions" Source="RcrdFileName" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SelectFileName</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>17</ObjectsCount>
+          <ScreenName>SelectFileName</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="SelectFileName.Script.cs" Source="Tags.listSelected" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.SelectType" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.strFileNameList" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.strTesterInitialList" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.valueChanged" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.listSelectedText" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.Selected_FileName" />
+        <Item Target="SelectFileName.Script.cs" Source="Tags.Selected_TesterInitial" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SelectFileName" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

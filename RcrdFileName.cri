@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RcrdFileName.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdFileName.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdFileName.Text18" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdFileName.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdFileName.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdFileName.Button14" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdFileName.Button16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdFileName.Button17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdFileName.Button15" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="RcrdFileName.Text12" TargetProperty="Value" Source="Tags.Selected_FileName" />
+        <Item Target="RcrdFileName.Text13" TargetProperty="Value" Source="Tags.Selected_TesterInitial" />
+        <Item xsi:type="ActionItem" Target="RcrdFileName" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RcrdFileName.Button14" Source="-1271751849_Normal.bmp" />
+        <Item Target="RcrdFileName.Button14" Source="-1271751849_Pressed.bmp" />
+        <Item Target="RcrdFileName.Button14" Source="-1271751849_Disabled.bmp" />
+        <Item Target="RcrdFileName.Button16" Source="-1139217449_Normal.bmp" />
+        <Item Target="RcrdFileName.Button16" Source="-1139217449_Pressed.bmp" />
+        <Item Target="RcrdFileName.Button16" Source="-1139217449_Disabled.bmp" />
+        <Item Target="RcrdFileName.Button17" Source="-748615786_Normal.bmp" />
+        <Item Target="RcrdFileName.Button17" Source="-748615786_Pressed.bmp" />
+        <Item Target="RcrdFileName.Button17" Source="-748615786_Disabled.bmp" />
+        <Item Target="RcrdFileName.Button15" Source="-1271751849_Normal.bmp" />
+        <Item Target="RcrdFileName.Button15" Source="-1271751849_Pressed.bmp" />
+        <Item Target="RcrdFileName.Button15" Source="-1271751849_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RcrdFileName.Button16" TargetProperty="Actions" Source="SelectData" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RcrdFileName</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>21</ObjectsCount>
+          <ScreenName>RcrdFileName</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="RcrdFileName.Script.cs" Source="Tags.SelectType" />
+        <Item Target="RcrdFileName.Script.cs" Source="Tags.GeneralMessage" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RcrdFileName" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

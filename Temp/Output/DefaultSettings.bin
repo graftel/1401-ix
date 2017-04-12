@@ -1,0 +1,81 @@
+
+F
+*
+Notes(0=sccm, 1=slpm, 2=scfm,3=scfh)Default_Display_Unit_Low
+^
+*
+Notes(0=sccm, 1=slpm, 2=scfm,3=scfh)
+
+Default_Setting1Default_Display_Unit_Mid
+0
+
+Notes(0=sccm, 1=slpm)Default_Meter_Low
+H
+
+Default_Setting1
+
+Notes(0=sccm, 1=slpm)Default_Meter_Mid
+,
+
+Default_Setting1503Firmware_number
+G
+
+Default_Setting
+CA 1401-04
+
+Notes
+CA 1401-04Serial_number
+Display_Press_Unit
+Low_Min_FlowRate
+<
+
+Default_Setting100
+
+Notes500Low_Max_FlowRate
+<
+
+Default_Setting0.1
+
+Notes0.5Mid_Min_FlowRate
+8
+
+Default_Setting1
+
+Notes5Mid_Max_FlowRate
+;
+
+Default_Setting200
+
+Notes200Inlet_Press_Max
+8
+
+Default_Setting80
+
+Notes80Test_Press_Max
+f
+1
+Notes&(0=sccm, 1=slpm, 2=scfm,3=scfh,4=slph)
+
+Default_Setting1Default_Display_Unit_High
+_
+1
+Notes&(0=sccm, 1=slpm, 2=scfm,3=scfh,4=slph)
+
+Default_Setting4Default_Meter_High
+-
+
+Default_Setting600High_Max_FlowRate
+,
+
+Default_Setting60High_Min_FlowRate
+<
+
+Notes(0=psig, 2=bar)Default_Press_Meter_Unit_Inlet
+;
+
+Notes(0=psig, 2=bar)Default_Press_Meter_Unit_Test
+F
+
+Notes(1=ON, 0=OFF)
+
+Default_Setting1Remote_Calibration

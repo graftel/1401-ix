@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.22.184.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.Recipe, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" SchemaVersion="614" DataVersion="71" Guid="6a08bffd-f668-4e5a-a9e8-583880274270" TableName="DefaultSettings" d1p1:Site.Name="DefaultSettings" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+    <RecipeItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Display_Unit_Low" DataConnection="Tags.flow_unit_low" ColumnName="Default_Display_Unit_Low" VisualSortOrder="99" d1p1:Site.Name="Default_Display_Unit_Low" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=sccm, 1=slpm, 2=scfm,3=scfh)" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Display_Unit_Mid" DataConnection="Tags.flow_unit_mid" ColumnName="Default_Display_Unit_Mid" VisualSortOrder="100" d1p1:Site.Name="Default_Display_Unit_Mid" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=sccm, 1=slpm, 2=scfm,3=scfh)" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Meter_Low" DataConnection="Tags.meter_unit_low" ColumnName="Default_Meter_Low" VisualSortOrder="101" d1p1:Site.Name="Default_Meter_Low" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=sccm, 1=slpm)" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Meter_Mid" DataConnection="Tags.meter_unit_mid" ColumnName="Default_Meter_Mid" VisualSortOrder="102" d1p1:Site.Name="Default_Meter_Mid" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=sccm, 1=slpm)" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Firmware_number" DataConnection="Tags.firmware" ColumnName="Firmware_number" VisualSortOrder="103" d1p1:Site.Name="Firmware_number" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1504" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Serial_number" DataConnection="Tags.serial" ColumnName="Serial_number" VisualSortOrder="104" d1p1:Site.Name="Serial_number" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="CA 1401-04" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="CA 1401-04" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Display_Press_Unit" DataConnection="Tags.PressUnit" ColumnName="Display_Press_Unit" VisualSortOrder="105" d1p1:Site.Name="Display_Press_Unit" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Low_Min_FlowRate" DataConnection="Tags.LowRangeMin" ColumnName="Low_Min_FlowRate" VisualSortOrder="107" d1p1:Site.Name="Low_Min_FlowRate" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793" />
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Low_Max_FlowRate" DataConnection="Tags.LowRangeMax" ColumnName="Low_Max_FlowRate" VisualSortOrder="108" d1p1:Site.Name="Low_Max_FlowRate" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="100" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="500" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Mid_Min_FlowRate" DataConnection="Tags.MidRangeMin" ColumnName="Mid_Min_FlowRate" VisualSortOrder="109" d1p1:Site.Name="Mid_Min_FlowRate" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0.1" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="0.5" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Mid_Max_FlowRate" DataConnection="Tags.MidRangeMax" ColumnName="Mid_Max_FlowRate" VisualSortOrder="110" d1p1:Site.Name="Mid_Max_FlowRate" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="5" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Inlet_Press_Max" DataConnection="Tags.Inlet_Press_Max" ColumnName="Inlet_Press_Max" VisualSortOrder="111" d1p1:Site.Name="Inlet_Press_Max" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="200" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="200" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Test_Press_Max" DataConnection="Tags.Test_Press_Max" ColumnName="Test_Press_Max" VisualSortOrder="112" d1p1:Site.Name="Test_Press_Max" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="80" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="80" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Display_Unit_High" DataConnection="Tags.flow_unit_high" ColumnName="Default_Display_Unit_High" VisualSortOrder="113" d1p1:Site.Name="Default_Display_Unit_High" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=sccm, 1=slpm, 2=scfm,3=scfh,4=slph)" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Meter_High" DataConnection="Tags.meter_unit_high" ColumnName="Default_Meter_High" VisualSortOrder="114" d1p1:Site.Name="Default_Meter_High" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=sccm, 1=slpm, 2=scfm,3=scfh,4=slph)" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="4" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="High_Max_FlowRate" DataConnection="Tags.HighRangeMax" ColumnName="High_Max_FlowRate" VisualSortOrder="115" d1p1:Site.Name="High_Max_FlowRate" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="600" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="High_Min_FlowRate" DataConnection="Tags.HighRangeMin" ColumnName="High_Min_FlowRate" VisualSortOrder="116" d1p1:Site.Name="High_Min_FlowRate" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="60" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Press_Meter_Unit_Inlet" DataConnection="Tags.PressUnitInlet" ColumnName="Default_Press_Meter_Unit_Inlet" VisualSortOrder="117" d1p1:Site.Name="Default_Press_Meter_Unit_Inlet" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=psig, 2=bar)" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Default_Press_Meter_Unit_Test" DataConnection="Tags.PressUnitTest" ColumnName="Default_Press_Meter_Unit_Test" VisualSortOrder="118" d1p1:Site.Name="Default_Press_Meter_Unit_Test" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(0=psig, 2=bar)" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Remote_Calibration" DataConnection="Tags.RemoteCalibration" ColumnName="Remote_Calibration" VisualSortOrder="119" d1p1:Site.Name="Remote_Calibration" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Notes">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="(1=ON, 0=OFF)" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default_Setting">
+            <RuntimeData>
+              <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+    </RecipeItems>
+    <FieldNames>
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Default_Setting" />
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Notes" />
+    </FieldNames>
+  </Object>
+</NeoItem>

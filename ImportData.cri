@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ImportData.lblPage" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.tbName7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.btnUp" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.btnCancel" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.btnOK" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ImportData.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ImportData.tbName1" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName1" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName2" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName2" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName3" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName3" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName4" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName4" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName5" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName5" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName6" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName6" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName7" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ImportData.tbName7" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item xsi:type="ActionItem" Target="ImportData" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="ImportData.btnUp" Source="654449863_Normal.bmp" />
+        <Item Target="ImportData.btnUp" Source="654449863_Pressed.bmp" />
+        <Item Target="ImportData.btnUp" Source="654449863_Disabled.bmp" />
+        <Item Target="ImportData.btnCancel" Source="532730406_Normal.bmp" />
+        <Item Target="ImportData.btnCancel" Source="532730406_Pressed.bmp" />
+        <Item Target="ImportData.btnCancel" Source="532730406_Disabled.bmp" />
+        <Item Target="ImportData.btnOK" Source="532730406_Normal.bmp" />
+        <Item Target="ImportData.btnOK" Source="532730406_Pressed.bmp" />
+        <Item Target="ImportData.btnOK" Source="532730406_Disabled.bmp" />
+        <Item Target="ImportData.btnPrev" Source="-1422308553_Normal.bmp" />
+        <Item Target="ImportData.btnPrev" Source="-1422308553_Pressed.bmp" />
+        <Item Target="ImportData.btnPrev" Source="-1422308553_Disabled.bmp" />
+        <Item Target="ImportData.btnNext" Source="-1422308553_Normal.bmp" />
+        <Item Target="ImportData.btnNext" Source="-1422308553_Pressed.bmp" />
+        <Item Target="ImportData.btnNext" Source="-1422308553_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>ImportData</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>14</ObjectsCount>
+          <ScreenName>ImportData</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="ImportData.Script.cs" Source="Tags.listSelected" />
+        <Item Target="ImportData.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="ImportData.Script.cs" Source="Tags.SelectType" />
+        <Item Target="ImportData.Script.cs" Source="Tags.strFileNameList" />
+        <Item Target="ImportData.Script.cs" Source="Tags.strTesterInitialList" />
+        <Item Target="ImportData.Script.cs" Source="Tags.listSelectedText" />
+        <Item Target="ImportData.Script.cs" Source="Tags.valueChanged" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ImportData" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="ImportData.btnUp" Source="panup" Width="76" Height="76" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

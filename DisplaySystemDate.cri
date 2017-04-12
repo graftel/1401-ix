@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DisplaySystemDate.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemDate.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DisplaySystemDate.AnalogNumeric" TargetProperty="Value" Source="Tags.DisplayMonth" />
+        <Item Target="DisplaySystemDate.AnalogNumeric1" TargetProperty="Value" Source="Tags.DisplayDay" />
+        <Item Target="DisplaySystemDate.AnalogNumeric1" TargetProperty="MaxValue" Source="Tags.CurrentDayInMonth" />
+        <Item Target="DisplaySystemDate.AnalogNumeric2" TargetProperty="Value" Source="Tags.DisplayYear" />
+        <Item xsi:type="ActionItem" Target="DisplaySystemDate" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DisplaySystemDate.Button7" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemDate.Button7" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemDate.Button7" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemDate.Button" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemDate.Button" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemDate.Button" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemDate.Button1" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemDate.Button1" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemDate.Button1" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemDate.Button2" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemDate.Button2" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemDate.Button2" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemDate.Button3" Source="-311428635_Normal.bmp" />
+        <Item Target="DisplaySystemDate.Button3" Source="-311428635_Pressed.bmp" />
+        <Item Target="DisplaySystemDate.Button3" Source="-311428635_Disabled.bmp" />
+        <Item Target="DisplaySystemDate.Button4" Source="-540451176_Normal.bmp" />
+        <Item Target="DisplaySystemDate.Button4" Source="-540451176_Pressed.bmp" />
+        <Item Target="DisplaySystemDate.Button4" Source="-540451176_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DisplaySystemDate</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>25</ObjectsCount>
+          <ScreenName>DisplaySystemDate</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DisplaySystemDate.Script.cs" Source="Tags.IsTouchScreen" />
+        <Item Target="DisplaySystemDate.Script.cs" Source="Tags.DisplayDay" />
+        <Item Target="DisplaySystemDate.Script.cs" Source="Tags.DisplayMonth" />
+        <Item Target="DisplaySystemDate.Script.cs" Source="Tags.DisplayYear" />
+        <Item Target="DisplaySystemDate.Script.cs" Source="Tags.CurrentDayInMonth" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DisplaySystemDate" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DisplaySystemDate.Button7" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemDate.Button" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemDate.Button1" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemDate.Button2" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemDate.Button3" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemDate.Button4" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

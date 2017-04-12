@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="MainTimer.Script.cs" Source="Tags.MainPressDecimal" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.MainFlowRateDecimal" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.USBStatus" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.RcrdStatus" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.MainDisplayMessage" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.RcrdInterval" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.MainRecordMessage" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.currentDataSetStr" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.currentDataSet" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.RcrdTotalTimes" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.RcrdStartTime" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.RcrdTotalSeconds" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.popRcrdShow" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.popRcrdMode" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.CurrentScreen" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.CalDueDateVisible" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.calDueDateShow" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.calDueDate" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.calDueDatePers" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.SystemTagDateTime" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.calDueDateIndi" />
+        <Item Target="MainTimer.Script.cs" Source="Tags.CalDueDateCheck" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

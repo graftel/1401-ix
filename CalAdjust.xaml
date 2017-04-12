@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.22.184.0'?>
+<nacs:ScreenWindow Topmost="False" Title="CalAdjust" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="800, 480" StyleName="Default" IsCacheable="True" Background="{x:Null}" Width="800" Height="480" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nacs1="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=ControlsCF" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nata="clr-namespace:Neo.ApplicationFramework.Tools.Action;assembly=Tools" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Bevel;assembly=Common" xmlns:nacs2="clr-namespace:Neo.ApplicationFramework.Controls.Symbol;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=Common" xmlns:nacd2="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nacgl="clr-namespace:Neo.ApplicationFramework.Common.Graphics.Logic;assembly=CommonCF" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacb1="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" x:Class="Neo.ApplicationFramework.Generated.CalAdjust">
+  <nacs:ScreenWindow.TemplateScreen>
+    <nacs1:TemplateScreen Name="CalBack" RenderMode="Background" />
+  </nacs:ScreenWindow.TemplateScreen>
+  <nai:ActionProperties.Actions>
+    <nai:ActionList>
+      <nata:Action Name="Set Analog">
+        <nata:Action.ActionMethodInfo>
+          <nata:ActionMethodInfo Name="SetAnalog" ObjectName="Tags.CurrentScreen" EventName="Opened" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False">
+            <nata:ActionMethodInfo.ActionParameterInfo>
+              <nai:ActionParameterInfoList>
+                <nata:ActionParameterInfo Position="0" ParameterName="newValue" ParameterTypeString="Neo.ApplicationFramework.Interfaces.VariantValue, InterfacesCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" TagName="">
+                  <nata:ActionParameterInfo.Value>
+                    <s:Int16>2</s:Int16>
+                  </nata:ActionParameterInfo.Value>
+                </nata:ActionParameterInfo>
+              </nai:ActionParameterInfoList>
+            </nata:ActionMethodInfo.ActionParameterInfo>
+          </nata:ActionMethodInfo>
+        </nata:Action.ActionMethodInfo>
+      </nata:Action>
+    </nai:ActionList>
+  </nai:ActionProperties.Actions>
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Closed" MethodName="CalAdjust_Closed" />
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="CalAdjust_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="800" Height="480" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType" Panel.ZIndex="104">
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="" TextDecorations="{x:Null}" BorderBrush="#FF000000" BorderThickness="2,2,2,2" Background="#FFFFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="40" FontStyle="Normal" FontWeight="Normal" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Padding="10,0,10,1" Name="m_lblReading" Width="243" Height="88" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="360" Canvas.Top="365">
+      <nac:Label.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="None" Width="5" />
+      </nac:Label.BevelEffectInfo>
+    </nac:Label>
+    <nac:Label AutoSize="True" WordWrap="False" AutoStretchFont="False" Text="Adjust Meter" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="23" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" Padding="5.75,0,5.75,1" Name="m_lblTitle" Width="Auto" Height="Auto" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="5" Canvas.Left="223" Canvas.Top="72">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <Line X1="226.666666666667" Y1="119.117647058824" X2="776.683333333333" Y2="119.117647058824" Stroke="#FF000000" Name="m_Line" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="6" />
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="Meter Reading" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="23" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="5.75,0,5.75,1" Name="m_Text" Width="243" Height="42" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="10" Canvas.Left="360" Canvas.Top="363">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+    </nac:Label>
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="SPAN" Background="#00FFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="26" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="6.5,0,6.5,1" Name="m_lblPara" Width="413" Height="42" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="12" Canvas.Left="358" Canvas.Top="261">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList />
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="MouseDown" MethodName="lblPara_MouseDown" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Label>
+    <nacs2:Picture SymbolName="calculator" Stretch="True" FontSize="11" Name="m_Picture" Width="71" Height="79" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="676" Canvas.Top="266">
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="MouseDown" MethodName="Picture_MouseDown" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nacs2:Picture>
+    <nac:Label AutoSize="False" WordWrap="False" AutoStretchFont="False" Text="10232" BorderBrush="#FF000000" BorderThickness="1,1,1,1" Background="#FFFFA500" FontFamily="Tahoma" FontSize="33" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Padding="8.25,0,8.25,1" Name="m_lblValue" Width="413" Height="88" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="11" Canvas.Left="358" Canvas.Top="262">
+      <nac:Label.Resources>
+        <ResourceDictionary>
+          <nacd1:BrushDynamicsConverter x:Key="ForegroundConverter">
+            <nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="Black" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="34, 177, 76" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="Black" EndColor="" FillDirection="None" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd1:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd1:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Label.Resources>
+      <nac:Label.Foreground>
+        <Binding Source="{x:Static nacd:DataItemProxyFactory.Instance}" Path="[Tags.calCalValueColor].Value" Converter="{StaticResource ForegroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <SolidColorBrush>#FF000000</SolidColorBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Label.Foreground>
+      <nac:Label.BevelEffectInfo>
+        <nacb:BevelEffectInfo Style="Sunken" Width="2" />
+      </nac:Label.BevelEffectInfo>
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="MouseDown" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="MouseDown" MethodName="lblValue_MouseDown" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Label>
+    <nac:Button ButtonAppearance="Rounded" Text="ZERO" RequiresTransparency="True" SymbolTransparent="False" Background="#FF98BBE5" Foreground="#FF000000" FontSize="26" FontWeight="Bold" Name="m_btnZero" Width="118" Height="118" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="1" Canvas.Left="241" Canvas.Top="128" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnZero_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ButtonAppearance="Default" Text="TOGGLE&#xD;&#xA;SPAN/OFFSET" MultiLine="True" WordWrap="True" RequiresTransparency="True" SymbolTransparent="False" MultiPicture="False" Background="#FFFFA500" Foreground="#FF000000" FontSize="23" FontWeight="Bold" Name="m_btnToggle" Width="190" Height="118" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="2" Canvas.Left="390" Canvas.Top="128" nacb1:IntervalMapperBindingsBehavior.RebindInRuntime="False" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnToggle_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ButtonAppearance="Default" Text="sccm" MultiLine="True" RequiresTransparency="True" SymbolTransparent="False" Background="#FF98BBE5" Foreground="#FF000000" FontSize="33" Name="m_btnUnit" Width="156" Height="88" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="4" Canvas.Left="615" Canvas.Top="365" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnUnit_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ButtonAppearance="Default" Text="" RequiresTransparency="True" SymbolName="path2924" SymbolTransparent="False" Background="#FF98BBE5" FontSize="15" Name="m_btnUp" Width="106" Height="90" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="7" Canvas.Left="238" Canvas.Top="262" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="MouseDown" MethodName="btnUp_MouseDown" />
+          <nacxs:EventHandlerInfo EventName="MouseUp" MethodName="btnUp_MouseUp" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ButtonAppearance="Default" Text="" RequiresTransparency="True" SymbolName="path2923" SymbolTransparent="False" Background="#FF98BBE5" FontSize="15" Name="m_btnDown" Width="106" Height="88" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="8" Canvas.Left="238" Canvas.Top="365" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="MouseDown" MethodName="btnDown_MouseDown" />
+          <nacxs:EventHandlerInfo EventName="MouseUp" MethodName="btnDown_MouseUp" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ButtonAppearance="Default" Text="NITROGEN" MultiLine="True" RequiresTransparency="True" SymbolTransparent="False" MultiPicture="False" Background="#FF98BBE5" Foreground="#FF000000" FontSize="26" FontWeight="Bold" Name="m_btnGasType" Width="166" Height="118" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransform="Identity" RenderTransformOrigin="0.5,0.5" Visibility="Visible" IsEnabled="True" Panel.ZIndex="9" Canvas.Left="605" Canvas.Top="128" Style="{nac1:StyleMarkupExtension Glossy}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nai:ActionProperties.Actions>
+        <nai:ActionList>
+          <nata:Action Name="Execute Script">
+            <nata:Action.ActionMethodInfo>
+              <nata:ActionMethodInfo Name="Buzz" ObjectName="Buzzer" EventName="Click" ReferenceType="Global" ObjectParentName="" ObjectPathProvider="" ObjectPath="" ExplicitAuditTrail="False" />
+            </nata:Action.ActionMethodInfo>
+          </nata:Action>
+        </nai:ActionList>
+      </nai:ActionProperties.Actions>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnGasType_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

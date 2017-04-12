@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="StabilityScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.Text8" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.Text9" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.AnalogNumeric9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button18" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button20" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabilityScreen.Button7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabilityScreen.Button8" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="StabilityScreen.AnalogNumeric" TargetProperty="Value" Source="Tags.Stab_low_red" />
+        <Item Target="StabilityScreen.AnalogNumeric1" TargetProperty="Value" Source="Tags.Stab_low_orange" />
+        <Item Target="StabilityScreen.AnalogNumeric2" TargetProperty="Value" Source="Tags.Stab_low_green" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StabilityScreen.Button7" TargetProperty="Actions" Source="DefaultSettings" Event="Click" Action="Load Recipe" Param="" />
+        <Item xsi:type="ActionItem" Target="StabilityScreen.Button8" TargetProperty="Actions" Source="DefaultSettings" Event="Click" Action="Save Recipe" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="StabilityScreen.Button" Source="1737792869_Normal.bmp" />
+        <Item Target="StabilityScreen.Button" Source="1737792869_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button" Source="1737792869_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button3" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button3" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button3" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button4" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button4" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button4" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button11" Source="-1613828464_Normal.bmp" />
+        <Item Target="StabilityScreen.Button11" Source="-1613828464_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button11" Source="-1613828464_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button1" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button1" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button1" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button2" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button2" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button2" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button5" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button5" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button5" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button6" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button6" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button6" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button9" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button9" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button9" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button10" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button10" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button10" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button12" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button12" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button12" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button13" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button13" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button13" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button14" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button14" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button14" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button15" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button15" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button15" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button16" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button16" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button16" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button17" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button17" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button17" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button18" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button18" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button18" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button19" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button19" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button19" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button20" Source="1844734905_Normal.bmp" />
+        <Item Target="StabilityScreen.Button20" Source="1844734905_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button20" Source="1844734905_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button21" Source="-315369337_Normal.bmp" />
+        <Item Target="StabilityScreen.Button21" Source="-315369337_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button21" Source="-315369337_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button7" Source="-588438588_Normal.bmp" />
+        <Item Target="StabilityScreen.Button7" Source="-588438588_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button7" Source="-588438588_Disabled.bmp" />
+        <Item Target="StabilityScreen.Button8" Source="-588438588_Normal.bmp" />
+        <Item Target="StabilityScreen.Button8" Source="-588438588_Pressed.bmp" />
+        <Item Target="StabilityScreen.Button8" Source="-588438588_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StabilityScreen.Button11" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>StabilityScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>48</ObjectsCount>
+          <ScreenName>StabilityScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button3" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button4" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button1" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button2" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button5" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button6" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button9" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button10" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button12" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button13" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button14" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button15" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button16" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button17" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button18" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button19" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button20" Source="path2985" Width="38" Height="44" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabilityScreen.Button21" Source="path29851" Width="38" Height="44" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

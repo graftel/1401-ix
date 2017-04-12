@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DiagPreCheck.lblMsg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DiagPreCheck.btnContinue" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DiagPreCheck.btnBack" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DiagPreCheck.prgGroup.lblPrg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DiagPreCheck.prgGroup.prgDiag" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DiagPreCheck.prgGroup.prgDiag" TargetProperty="Value" Source="Tags.DiagProgress" />
+        <Item xsi:type="ActionItem" Target="DiagPreCheck" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DiagPreCheck.prgGroup.prgDiag" Source="DiagPreCheck.m_prgDiag.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DiagPreCheck</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>6</ObjectsCount>
+          <ScreenName>DiagPreCheck</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.SolenoidValveStatusLow" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.SolenoidValveStatusMid" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.SolenoidValveStatusQuick" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.DiagProgress" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.DiagMsg1" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.DiagMsg2" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.DiagMsg3" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.NoFlowConditionLow" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.NoFlowConditionMid" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.NoFlowConditionHigh" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.NoTestPressCondition" />
+        <Item Target="DiagPreCheck.Script.cs" Source="Tags.GetDiagResult" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DiagPreCheck" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

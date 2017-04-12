@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="FilterScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Text1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Text3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Text4" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Text6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Text7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterScreen.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterScreen.Button11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="FilterScreen.Button3" Source="1486469242_Normal.bmp" />
+        <Item Target="FilterScreen.Button3" Source="1486469242_Pressed.bmp" />
+        <Item Target="FilterScreen.Button3" Source="1486469242_Disabled.bmp" />
+        <Item Target="FilterScreen.Button4" Source="-592204060_Normal.bmp" />
+        <Item Target="FilterScreen.Button4" Source="-592204060_Pressed.bmp" />
+        <Item Target="FilterScreen.Button4" Source="-592204060_Disabled.bmp" />
+        <Item Target="FilterScreen.Button" Source="1486469242_Normal.bmp" />
+        <Item Target="FilterScreen.Button" Source="1486469242_Pressed.bmp" />
+        <Item Target="FilterScreen.Button" Source="1486469242_Disabled.bmp" />
+        <Item Target="FilterScreen.Button1" Source="-592204060_Normal.bmp" />
+        <Item Target="FilterScreen.Button1" Source="-592204060_Pressed.bmp" />
+        <Item Target="FilterScreen.Button1" Source="-592204060_Disabled.bmp" />
+        <Item Target="FilterScreen.Button2" Source="1486469242_Normal.bmp" />
+        <Item Target="FilterScreen.Button2" Source="1486469242_Pressed.bmp" />
+        <Item Target="FilterScreen.Button2" Source="1486469242_Disabled.bmp" />
+        <Item Target="FilterScreen.Button5" Source="-592204060_Normal.bmp" />
+        <Item Target="FilterScreen.Button5" Source="-592204060_Pressed.bmp" />
+        <Item Target="FilterScreen.Button5" Source="-592204060_Disabled.bmp" />
+        <Item Target="FilterScreen.Button6" Source="1486469242_Normal.bmp" />
+        <Item Target="FilterScreen.Button6" Source="1486469242_Pressed.bmp" />
+        <Item Target="FilterScreen.Button6" Source="1486469242_Disabled.bmp" />
+        <Item Target="FilterScreen.Button7" Source="-592204060_Normal.bmp" />
+        <Item Target="FilterScreen.Button7" Source="-592204060_Pressed.bmp" />
+        <Item Target="FilterScreen.Button7" Source="-592204060_Disabled.bmp" />
+        <Item Target="FilterScreen.Button8" Source="-262599159_Normal.bmp" />
+        <Item Target="FilterScreen.Button8" Source="-262599159_Pressed.bmp" />
+        <Item Target="FilterScreen.Button8" Source="-262599159_Disabled.bmp" />
+        <Item Target="FilterScreen.Button11" Source="-1613828464_Normal.bmp" />
+        <Item Target="FilterScreen.Button11" Source="-1613828464_Pressed.bmp" />
+        <Item Target="FilterScreen.Button11" Source="-1613828464_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FilterScreen.Button11" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>FilterScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>23</ObjectsCount>
+          <ScreenName>FilterScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button3" Source="path2985" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button4" Source="path29851" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button" Source="path2985" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button1" Source="path29851" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button2" Source="path2985" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button5" Source="path29851" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button6" Source="path2985" Width="42" Height="48" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterScreen.Button7" Source="path29851" Width="42" Height="48" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

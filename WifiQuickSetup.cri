@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WifiQuickSetup.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.ID1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.SC1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.ID2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.SC2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.ID3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.SC3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.ID4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.SC4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.SC5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.ID5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.btnPrevPg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.btnNextPg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.CH1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.CH2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.CH3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.CH4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiQuickSetup.CH5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="WifiQuickSetup.RecBG1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.listSelected" />
+        <Item Target="WifiQuickSetup.MP1" TargetProperty="Value" Source="Tags.wifiQuality1" />
+        <Item Target="WifiQuickSetup.MP2" TargetProperty="Value" Source="Tags.wifiQuality2" />
+        <Item Target="WifiQuickSetup.RecBG2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.listSelected" />
+        <Item Target="WifiQuickSetup.RecBG3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.listSelected" />
+        <Item Target="WifiQuickSetup.RecBG4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.listSelected" />
+        <Item Target="WifiQuickSetup.RecBG5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.listSelected" />
+        <Item Target="WifiQuickSetup.MP3" TargetProperty="Value" Source="Tags.wifiQuality3" />
+        <Item Target="WifiQuickSetup.MP4" TargetProperty="Value" Source="Tags.wifiQuality4" />
+        <Item Target="WifiQuickSetup.MP5" TargetProperty="Value" Source="Tags.wifiQuality5" />
+        <Item xsi:type="ActionItem" Target="WifiQuickSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="WifiQuickSetup.btnPrevPg" Source="2018511487_Normal.bmp" />
+        <Item Target="WifiQuickSetup.btnPrevPg" Source="2018511487_Pressed.bmp" />
+        <Item Target="WifiQuickSetup.btnPrevPg" Source="2018511487_Disabled.bmp" />
+        <Item Target="WifiQuickSetup.btnNextPg" Source="459368936_Normal.bmp" />
+        <Item Target="WifiQuickSetup.btnNextPg" Source="459368936_Pressed.bmp" />
+        <Item Target="WifiQuickSetup.btnNextPg" Source="459368936_Disabled.bmp" />
+        <Item Target="WifiQuickSetup.btnPrev" Source="38304744_Normal.bmp" />
+        <Item Target="WifiQuickSetup.btnPrev" Source="38304744_Pressed.bmp" />
+        <Item Target="WifiQuickSetup.btnPrev" Source="38304744_Disabled.bmp" />
+        <Item Target="WifiQuickSetup.btnNext" Source="-1560276245_Normal.bmp" />
+        <Item Target="WifiQuickSetup.btnNext" Source="-1560276245_Pressed.bmp" />
+        <Item Target="WifiQuickSetup.btnNext" Source="-1560276245_Disabled.bmp" />
+        <Item Target="WifiQuickSetup.Button" Source="38304744_Normal.bmp" />
+        <Item Target="WifiQuickSetup.Button" Source="38304744_Pressed.bmp" />
+        <Item Target="WifiQuickSetup.Button" Source="38304744_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiQuickSetup.btnPrev" TargetProperty="Actions" Source="WifiSetting" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="WifiQuickSetup.Button" TargetProperty="Actions" Source="wifiSearchSSID" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WifiQuickSetup</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>42</ObjectsCount>
+          <ScreenName>WifiQuickSetup</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.listSelected" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiQuality1" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiQuality2" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiQuality3" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiQuality4" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiQuality5" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiSecurity" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiSSID" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiTempSignalStrength" />
+        <Item Target="WifiQuickSetup.Script.cs" Source="Tags.wifiReset" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiQuickSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP1" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP1" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP1" Source="wifisignallow" Width="55" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP1" Source="wifisignalmedium" Width="56" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP1" Source="wifisignalstrong" Width="57" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP2" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP2" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP2" Source="wifisignallow" Width="55" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP2" Source="wifisignalmedium" Width="56" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP2" Source="wifisignalstrong" Width="57" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP3" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP3" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP3" Source="wifisignallow" Width="55" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP3" Source="wifisignalmedium" Width="56" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP3" Source="wifisignalstrong" Width="57" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP4" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP4" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP4" Source="wifisignallow" Width="55" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP4" Source="wifisignalmedium" Width="56" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP4" Source="wifisignalstrong" Width="57" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP5" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP5" Source="wifisignalno (2)" Width="58" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP5" Source="wifisignallow" Width="55" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP5" Source="wifisignalmedium" Width="56" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.MP5" Source="wifisignalstrong" Width="57" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.btnPrevPg" Source="panup" Width="75" Height="75" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiQuickSetup.btnNextPg" Source="pandown" Width="74" Height="74" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

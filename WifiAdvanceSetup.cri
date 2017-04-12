@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WifiAdvanceSetup.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiAdvanceSetup.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiAdvanceSetup.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiAdvanceSetup.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiAdvanceSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="WifiAdvanceSetup.btnPrev" Source="38304744_Normal.bmp" />
+        <Item Target="WifiAdvanceSetup.btnPrev" Source="38304744_Pressed.bmp" />
+        <Item Target="WifiAdvanceSetup.btnPrev" Source="38304744_Disabled.bmp" />
+        <Item Target="WifiAdvanceSetup.Button1" Source="1271911020_Normal.bmp" />
+        <Item Target="WifiAdvanceSetup.Button1" Source="1271911020_Pressed.bmp" />
+        <Item Target="WifiAdvanceSetup.Button1" Source="1271911020_Disabled.bmp" />
+        <Item Target="WifiAdvanceSetup.Button2" Source="1271911020_Normal.bmp" />
+        <Item Target="WifiAdvanceSetup.Button2" Source="1271911020_Pressed.bmp" />
+        <Item Target="WifiAdvanceSetup.Button2" Source="1271911020_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiAdvanceSetup.btnPrev" TargetProperty="Actions" Source="WifiSetting" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="WifiAdvanceSetup.Button1" TargetProperty="Actions" Source="WifiManualSetup" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="WifiAdvanceSetup.Button2" TargetProperty="Actions" Source="WifiSoftAPSetup" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WifiAdvanceSetup</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>4</ObjectsCount>
+          <ScreenName>WifiAdvanceSetup</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiAdvanceSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

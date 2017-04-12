@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="wifiSetupManual.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="wifiSetupManual.btnOK" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="wifiSetupManual.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="wifiSetupManual.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="wifiSetupManual.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="wifiSetupManual.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="wifiSetupManual.Text" TargetProperty="Value" Source="Tags.wifiConnectionStatus" />
+        <Item Target="wifiSetupManual.LinearMeter" TargetProperty="Value" Source="Tags.wifiConnectAPProgress" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="wifiSetupManual.LinearMeter" Source="wifiSetupManual.m_LinearMeter.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="wifiSetupManual.btnOK" TargetProperty="Actions" Source="WifiSetting" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>wifiSetupManual</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>6</ObjectsCount>
+          <ScreenName>wifiSetupManual</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiConnectAPProgress" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiNetworkType" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiConnectionStatus" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiInMode" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiSSID" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiIPAddrMode" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiEnType" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiPassword" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiDP" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiSP" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiDLIP" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiIPAddrMark" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiIPGateway" />
+        <Item Target="wifiSetupManual.Script.cs" Source="Tags.wifiIPAddr" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="CalSetCalDate.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSetCalDate.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="CalSetCalDate.AnalogNumeric" TargetProperty="Value" Source="Tags.DisplayMonth" />
+        <Item Target="CalSetCalDate.AnalogNumeric1" TargetProperty="Value" Source="Tags.DisplayDay" />
+        <Item Target="CalSetCalDate.AnalogNumeric2" TargetProperty="Value" Source="Tags.DisplayYear" />
+        <Item Target="CalSetCalDate.Button5" TargetProperty="TextValue" Source="Tags.calDueDateShow" />
+        <Item Target="CalSetCalDate.Button5" TargetProperty="Background" Source="Tags.calDueDateShow" />
+        <Item xsi:type="ActionItem" Target="CalSetCalDate" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="CalSetCalDate.Button7" Source="187714286_Normal.bmp" />
+        <Item Target="CalSetCalDate.Button7" Source="187714286_Pressed.bmp" />
+        <Item Target="CalSetCalDate.Button7" Source="187714286_Disabled.bmp" />
+        <Item Target="CalSetCalDate.Button" Source="486534797_Normal.bmp" />
+        <Item Target="CalSetCalDate.Button" Source="486534797_Pressed.bmp" />
+        <Item Target="CalSetCalDate.Button" Source="486534797_Disabled.bmp" />
+        <Item Target="CalSetCalDate.Button1" Source="187714286_Normal.bmp" />
+        <Item Target="CalSetCalDate.Button1" Source="187714286_Pressed.bmp" />
+        <Item Target="CalSetCalDate.Button1" Source="187714286_Disabled.bmp" />
+        <Item Target="CalSetCalDate.Button2" Source="486534797_Normal.bmp" />
+        <Item Target="CalSetCalDate.Button2" Source="486534797_Pressed.bmp" />
+        <Item Target="CalSetCalDate.Button2" Source="486534797_Disabled.bmp" />
+        <Item Target="CalSetCalDate.Button3" Source="359052342_Normal.bmp" />
+        <Item Target="CalSetCalDate.Button3" Source="359052342_Pressed.bmp" />
+        <Item Target="CalSetCalDate.Button3" Source="359052342_Disabled.bmp" />
+        <Item Target="CalSetCalDate.Button4" Source="-1207961242_Normal.bmp" />
+        <Item Target="CalSetCalDate.Button4" Source="-1207961242_Pressed.bmp" />
+        <Item Target="CalSetCalDate.Button4" Source="-1207961242_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>CalSetCalDate</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>30</ObjectsCount>
+          <ScreenName>CalSetCalDate</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.calDueDatePers" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.DisplayDay" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.DisplayMonth" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.DisplayYear" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.CurrentDayInMonth" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.calDueDate" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.SystemTagDateTime" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.calDueDateIndi" />
+        <Item Target="CalSetCalDate.Script.cs" Source="Tags.calDueDateShow" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalSetCalDate" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="CalSetCalDate.Button7" Source="path2924" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalSetCalDate.Button" Source="path2923" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalSetCalDate.Button1" Source="path2924" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalSetCalDate.Button2" Source="path2923" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalSetCalDate.Button3" Source="path2924" Width="68" Height="59" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalSetCalDate.Button4" Source="path2923" Width="68" Height="59" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

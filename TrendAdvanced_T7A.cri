@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="TrendAdvanced_T7A.btnSwitchSpan" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.Trend1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnZoomIn" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnZoomOut" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnPanUp" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnPanDown" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnRestore" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnLegend" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnLastSample" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnForward25Percent" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnPlay" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnPause" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="TrendAdvanced_T7A.btnBack25Percent" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="TrendAdvanced_T7A.btnSwitchSpan" TargetProperty="TextValue" Source="Tags.span" />
+        <Item Target="TrendAdvanced_T7A.Trend1" TargetProperty="ValueScaleMaximum" Source="Tags.GraphMax" />
+        <Item Target="TrendAdvanced_T7A.Trend1" TargetProperty="TimeRange" Source="Tags.span" />
+        <Item Target="TrendAdvanced_T7A.Trend1" TargetProperty="TimeOffset" Source="Tags.Offset" />
+        <Item xsi:type="DecoratedItem" Target="TrendAdvanced_T7A.Trend1.Flow Rate" TargetProperty="DataSourceName" Source="Tags.MainFlowRateDisplay" />
+        <Item xsi:type="DecoratedItem" Target="TrendAdvanced_T7A.Trend1.Test Pressure" TargetProperty="DataSourceName" Source="Tags.MainPressDisplay" />
+        <Item Target="TrendAdvanced_T7A.btnLastSample" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.TrendButtonsEnabled" />
+        <Item Target="TrendAdvanced_T7A.btnForward25Percent" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.TrendButtonsEnabled" />
+        <Item Target="TrendAdvanced_T7A.btnBack25Percent" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.TrendButtonsEnabled" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="TrendAdvanced_T7A.btnSwitchSpan" Source="-21333734_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnSwitchSpan" Source="-21333734_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnSwitchSpan" Source="-21333734_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.SymbolControl2" Source="TrendAdvanced_T7A.m_SymbolControl2.bmp" />
+        <Item Target="TrendAdvanced_T7A.Button3" Source="-21333734_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.Button3" Source="-21333734_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.Button3" Source="-21333734_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.Trend1" Source="TrendAdvanced_T7A.m_Trend1.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnZoomIn" Source="2096883334_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnZoomIn" Source="2096883334_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnZoomIn" Source="2096883334_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnZoomOut" Source="1586972952_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnZoomOut" Source="1586972952_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnZoomOut" Source="1586972952_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPanUp" Source="228277973_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPanUp" Source="228277973_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPanUp" Source="228277973_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPanDown" Source="-1183472824_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPanDown" Source="-1183472824_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPanDown" Source="-1183472824_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnRestore" Source="1357286102_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnRestore" Source="1357286102_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnRestore" Source="1357286102_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnLegend" Source="1103666394_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnLegend" Source="1103666394_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnLegend" Source="1103666394_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnLastSample" Source="-392307759_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnLastSample" Source="-392307759_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnLastSample" Source="-392307759_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnForward25Percent" Source="-2078939545_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnForward25Percent" Source="-2078939545_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnForward25Percent" Source="-2078939545_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPlay" Source="-578108250_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPlay" Source="-578108250_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPlay" Source="-578108250_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPause" Source="-1162676451_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPause" Source="-1162676451_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnPause" Source="-1162676451_Disabled.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnBack25Percent" Source="1319418021_Normal.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnBack25Percent" Source="1319418021_Pressed.bmp" />
+        <Item Target="TrendAdvanced_T7A.btnBack25Percent" Source="1319418021_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>TrendAdvanced_T7A</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>15</ObjectsCount>
+          <ScreenName>TrendAdvanced_T7A</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="TrendAdvanced_T7A.Script.cs" Source="Tags.GraphMax" />
+        <Item Target="TrendAdvanced_T7A.Script.cs" Source="Tags.GraphMin" />
+        <Item Target="TrendAdvanced_T7A.Script.cs" Source="Tags.TrendButtonsEnabled" />
+        <Item Target="TrendAdvanced_T7A.Script.cs" Source="Tags.Offset" />
+        <Item Target="TrendAdvanced_T7A.Script.cs" Source="Tags.span" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnZoomIn" Source="zoom in" Width="33" Height="33" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnZoomOut" Source="zoom out" Width="33" Height="33" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnPanUp" Source="panup" Width="33" Height="33" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnPanDown" Source="pandown" Width="33" Height="33" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnRestore" Source="close (1)" Width="33" Height="33" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnLegend" Source="trend" Width="33" Height="33" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnLastSample" Source="last" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnForward25Percent" Source="next (1)" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnPlay" Source="play" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnPause" Source="pause" Width="38" Height="38" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="TrendAdvanced_T7A.btnBack25Percent" Source="previous (1)" Width="38" Height="38" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items>
+        <Item xsi:type="TrendViewerItem" Target="TrendAdvanced_T7A.Trend1" TrendWidth="573" TimeRangeBoundDataItem="Tags.span" TimeRange="PT0S">
+          <DataSourceNames>
+            <DataSourceName>Tags.MainFlowRateDisplay</DataSourceName>
+            <DataSourceName>Tags.MainPressDisplay</DataSourceName>
+          </DataSourceNames>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

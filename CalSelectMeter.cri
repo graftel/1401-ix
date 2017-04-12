@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="CalSelectMeter.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSelectMeter.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSelectMeter.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSelectMeter.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSelectMeter.lblSerialNum" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalSelectMeter.btnSelectMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalSelectMeter" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="CalSelectMeter.btnSelectMeter" Source="758179003_Normal.bmp" />
+        <Item Target="CalSelectMeter.btnSelectMeter" Source="758179003_Pressed.bmp" />
+        <Item Target="CalSelectMeter.btnSelectMeter" Source="758179003_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>CalSelectMeter</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>20</ObjectsCount>
+          <ScreenName>CalSelectMeter</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="CalSelectMeter.Script.cs" Source="Tags.calSelMeter" />
+        <Item Target="CalSelectMeter.Script.cs" Source="Tags.calRawDisplayEnable" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalSelectMeter" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

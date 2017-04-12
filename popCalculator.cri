@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="popCalculator.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.lblPwd" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPassDel" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPass0" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPassEnter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnPassClose" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnDot" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalculator.btnToggleNeg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="popCalculator.AnalogNumeric" TargetProperty="Value" Source="Tags.Enter_Value" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="popCalculator.btnPass7" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass7" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass7" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass8" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass8" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass8" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass9" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass9" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass9" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPassDel" Source="550543585_Normal.bmp" />
+        <Item Target="popCalculator.btnPassDel" Source="550543585_Pressed.bmp" />
+        <Item Target="popCalculator.btnPassDel" Source="550543585_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass4" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass4" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass4" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass5" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass5" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass5" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass6" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass6" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass6" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass1" Source="-1402125666_Normal.bmp" />
+        <Item Target="popCalculator.btnPass1" Source="-1402125666_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass1" Source="-1402125666_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass2" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass2" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass2" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass3" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass3" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass3" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPass0" Source="-730506582_Normal.bmp" />
+        <Item Target="popCalculator.btnPass0" Source="-730506582_Pressed.bmp" />
+        <Item Target="popCalculator.btnPass0" Source="-730506582_Disabled.bmp" />
+        <Item Target="popCalculator.btnPassEnter" Source="-1760649341_Normal.bmp" />
+        <Item Target="popCalculator.btnPassEnter" Source="-1760649341_Pressed.bmp" />
+        <Item Target="popCalculator.btnPassEnter" Source="-1760649341_Disabled.bmp" />
+        <Item Target="popCalculator.btnPassClose" Source="-1760649341_Normal.bmp" />
+        <Item Target="popCalculator.btnPassClose" Source="-1760649341_Pressed.bmp" />
+        <Item Target="popCalculator.btnPassClose" Source="-1760649341_Disabled.bmp" />
+        <Item Target="popCalculator.btnDot" Source="-1772425242_Normal.bmp" />
+        <Item Target="popCalculator.btnDot" Source="-1772425242_Pressed.bmp" />
+        <Item Target="popCalculator.btnDot" Source="-1772425242_Disabled.bmp" />
+        <Item Target="popCalculator.btnToggleNeg" Source="-1772425242_Normal.bmp" />
+        <Item Target="popCalculator.btnToggleNeg" Source="-1772425242_Pressed.bmp" />
+        <Item Target="popCalculator.btnToggleNeg" Source="-1772425242_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>popCalculator</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>17</ObjectsCount>
+          <ScreenName>popCalculator</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="popCalculator.Script.cs" Source="Tags.Enter_Value" />
+        <Item Target="popCalculator.Script.cs" Source="Tags.Status_CalculatorScr" />
+        <Item Target="popCalculator.Script.cs" Source="Tags.CalculatorTargetScr" />
+        <Item Target="popCalculator.Script.cs" Source="Tags.firmware" />
+        <Item Target="popCalculator.Script.cs" Source="Tags.SettingSel" />
+        <Item Target="popCalculator.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="popCalculator.Script.cs" Source="Tags.popLRMIDEn" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="popCalculator.btnPassDel" Source="path5894" Width="108" Height="63" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

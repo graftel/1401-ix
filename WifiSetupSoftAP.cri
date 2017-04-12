@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WifiSetupSoftAP.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetupSoftAP.btnOK" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetupSoftAP.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetupSoftAP.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetupSoftAP.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetupSoftAP.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="WifiSetupSoftAP.Text" TargetProperty="Value" Source="Tags.wifiConnectionStatus" />
+        <Item Target="WifiSetupSoftAP.LinearMeter" TargetProperty="Value" Source="Tags.wifiConnectAPProgress" />
+        <Item xsi:type="ActionItem" Target="WifiSetupSoftAP" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="WifiSetupSoftAP.LinearMeter" Source="WifiSetupSoftAP.m_LinearMeter.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiSetupSoftAP.btnOK" TargetProperty="Actions" Source="WifiSetting" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WifiSetupSoftAP</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>6</ObjectsCount>
+          <ScreenName>WifiSetupSoftAP</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="WifiSetupSoftAP.Script.cs" Source="Tags.wifiConnectAPProgress" />
+        <Item Target="WifiSetupSoftAP.Script.cs" Source="Tags.wifiConnectionStatus" />
+        <Item Target="WifiSetupSoftAP.Script.cs" Source="Tags.wifiSSID" />
+        <Item Target="WifiSetupSoftAP.Script.cs" Source="Tags.wifiPassword" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiSetupSoftAP" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

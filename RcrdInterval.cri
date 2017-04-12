@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RcrdInterval.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdInterval.lblMin" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.lblSec" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.CheckBox" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Button22" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Button23" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdInterval.Text1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="RcrdInterval.CheckBox" TargetProperty="IsChecked" Source="Tags.popRcrdShow" />
+        <Item xsi:type="ActionItem" Target="RcrdInterval" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RcrdInterval.Button22" Source="-1119372181_Normal.bmp" />
+        <Item Target="RcrdInterval.Button22" Source="-1119372181_Pressed.bmp" />
+        <Item Target="RcrdInterval.Button22" Source="-1119372181_Disabled.bmp" />
+        <Item Target="RcrdInterval.Button23" Source="-1389762488_Normal.bmp" />
+        <Item Target="RcrdInterval.Button23" Source="-1389762488_Pressed.bmp" />
+        <Item Target="RcrdInterval.Button23" Source="-1389762488_Disabled.bmp" />
+        <Item Target="RcrdInterval.Button" Source="-1103409451_Normal.bmp" />
+        <Item Target="RcrdInterval.Button" Source="-1103409451_Pressed.bmp" />
+        <Item Target="RcrdInterval.Button" Source="-1103409451_Disabled.bmp" />
+        <Item Target="RcrdInterval.Button1" Source="-1389762488_Normal.bmp" />
+        <Item Target="RcrdInterval.Button1" Source="-1389762488_Pressed.bmp" />
+        <Item Target="RcrdInterval.Button1" Source="-1389762488_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RcrdInterval</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>25</ObjectsCount>
+          <ScreenName>RcrdInterval</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="RcrdInterval.Script.cs" Source="Tags.RcrdInterval" />
+        <Item Target="RcrdInterval.Script.cs" Source="Tags.popRcrdMode" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RcrdInterval" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="RcrdInterval.Button22" Source="path2985" Width="41" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RcrdInterval.Button23" Source="path29851" Width="41" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RcrdInterval.Button" Source="path2985" Width="41" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RcrdInterval.Button1" Source="path29851" Width="41" Height="47" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

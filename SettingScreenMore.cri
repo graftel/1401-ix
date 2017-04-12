@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SettingScreenMore.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreenMore.Button5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreenMore.Button" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreenMore.Button11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreenMore.Button3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SettingScreenMore" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SettingScreenMore.Button5" Source="-1536329235_Normal.bmp" />
+        <Item Target="SettingScreenMore.Button5" Source="-1536329235_Pressed.bmp" />
+        <Item Target="SettingScreenMore.Button5" Source="-1536329235_Disabled.bmp" />
+        <Item Target="SettingScreenMore.Button" Source="-697956083_Normal.bmp" />
+        <Item Target="SettingScreenMore.Button" Source="-697956083_Pressed.bmp" />
+        <Item Target="SettingScreenMore.Button" Source="-697956083_Disabled.bmp" />
+        <Item Target="SettingScreenMore.Button11" Source="-1777264331_Normal.bmp" />
+        <Item Target="SettingScreenMore.Button11" Source="-1777264331_Pressed.bmp" />
+        <Item Target="SettingScreenMore.Button11" Source="-1777264331_Disabled.bmp" />
+        <Item Target="SettingScreenMore.Button3" Source="-697956083_Normal.bmp" />
+        <Item Target="SettingScreenMore.Button3" Source="-697956083_Pressed.bmp" />
+        <Item Target="SettingScreenMore.Button3" Source="-697956083_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SettingScreenMore.Button5" TargetProperty="Actions" Source="PressDecayScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreenMore.Button" TargetProperty="Actions" Source="WifiSetting" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreenMore.Button11" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreenMore.Button3" TargetProperty="Actions" Source="BuzzerConfig" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SettingScreenMore</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>6</ObjectsCount>
+          <ScreenName>SettingScreenMore</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SettingScreenMore" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="FlowRateDisplay.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.Header4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.Header5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.Header1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblPage" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.Header3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.Header2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData00" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData01" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData02" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData03" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData04" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData05" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData20" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData30" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData40" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData41" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData42" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData43" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData44" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData45" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData22" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData23" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData24" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData25" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData31" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData32" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData33" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData34" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblData35" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblDate" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.lblGasType" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FlowRateDisplay.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FlowRateDisplay" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="FlowRateDisplay.Button" Source="629837491_Normal.bmp" />
+        <Item Target="FlowRateDisplay.Button" Source="629837491_Pressed.bmp" />
+        <Item Target="FlowRateDisplay.Button" Source="629837491_Disabled.bmp" />
+        <Item Target="FlowRateDisplay.btnPrev" Source="629837491_Normal.bmp" />
+        <Item Target="FlowRateDisplay.btnPrev" Source="629837491_Pressed.bmp" />
+        <Item Target="FlowRateDisplay.btnPrev" Source="629837491_Disabled.bmp" />
+        <Item Target="FlowRateDisplay.btnNext" Source="629837491_Normal.bmp" />
+        <Item Target="FlowRateDisplay.btnNext" Source="629837491_Pressed.bmp" />
+        <Item Target="FlowRateDisplay.btnNext" Source="629837491_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>FlowRateDisplay</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>53</ObjectsCount>
+          <ScreenName>FlowRateDisplay</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.LeakRateDataFileName" />
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.selMeter" />
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.flow_unit_low" />
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.flow_unit_mid" />
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.PressUnit" />
+        <Item Target="FlowRateDisplay.Script.cs" Source="Tags.flow_unit_high" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FlowRateDisplay" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

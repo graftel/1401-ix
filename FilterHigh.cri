@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="FilterHigh.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterHigh.Text6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterHigh.Text7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterHigh.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterHigh.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="FilterHigh.AnalogNumeric1" TargetProperty="Value" Source="Tags.FilterResponseHigh" />
+        <Item Target="FilterHigh.AnalogNumeric" TargetProperty="Value" Source="Tags.FilterUpperLimitHigh" />
+        <Item xsi:type="ActionItem" Target="FilterHigh" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="FilterHigh.Button" Source="2135213450_Normal.bmp" />
+        <Item Target="FilterHigh.Button" Source="2135213450_Pressed.bmp" />
+        <Item Target="FilterHigh.Button" Source="2135213450_Disabled.bmp" />
+        <Item Target="FilterHigh.Button1" Source="774664809_Normal.bmp" />
+        <Item Target="FilterHigh.Button1" Source="774664809_Pressed.bmp" />
+        <Item Target="FilterHigh.Button1" Source="774664809_Disabled.bmp" />
+        <Item Target="FilterHigh.Button2" Source="2135213450_Normal.bmp" />
+        <Item Target="FilterHigh.Button2" Source="2135213450_Pressed.bmp" />
+        <Item Target="FilterHigh.Button2" Source="2135213450_Disabled.bmp" />
+        <Item Target="FilterHigh.Button3" Source="774664809_Normal.bmp" />
+        <Item Target="FilterHigh.Button3" Source="774664809_Pressed.bmp" />
+        <Item Target="FilterHigh.Button3" Source="774664809_Disabled.bmp" />
+        <Item Target="FilterHigh.Button8" Source="-1951602204_Normal.bmp" />
+        <Item Target="FilterHigh.Button8" Source="-1951602204_Pressed.bmp" />
+        <Item Target="FilterHigh.Button8" Source="-1951602204_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>FilterHigh</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>21</ObjectsCount>
+          <ScreenName>FilterHigh</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="FilterHigh.Script.cs" Source="Tags.FilterUpperLimitHigh" />
+        <Item Target="FilterHigh.Script.cs" Source="Tags.FilterResponseHigh" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FilterHigh" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="FilterHigh.Button" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterHigh.Button1" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterHigh.Button2" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterHigh.Button3" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

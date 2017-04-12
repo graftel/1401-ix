@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Recording.Script.cs" Source="Tags.SystemTagAvailableStorage" />
+        <Item Target="Recording.Script.cs" Source="Tags.DateFormat" />
+        <Item Target="Recording.Script.cs" Source="Tags.TimeFormat" />
+        <Item Target="Recording.Script.cs" Source="Tags.Selected_FileName" />
+        <Item Target="Recording.Script.cs" Source="Tags.Selected_TesterInitial" />
+        <Item Target="Recording.Script.cs" Source="Tags.currentDataSet" />
+        <Item Target="Recording.Script.cs" Source="Tags.RcrdTotalSeconds" />
+        <Item Target="Recording.Script.cs" Source="Tags.RcrdTotalTimes" />
+        <Item Target="Recording.Script.cs" Source="Tags.popRcrdShow" />
+        <Item Target="Recording.Script.cs" Source="Tags.calDueDate" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrLRMID" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrTesterPIN" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrJobNum" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrTaskNum" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrComment" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrComment1" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrComment2" />
+        <Item Target="Recording.Script.cs" Source="Tags.popStrComment3" />
+        <Item Target="Recording.Script.cs" Source="Tags.PressUnit" />
+        <Item Target="Recording.Script.cs" Source="Tags.RcrdStatus" />
+        <Item Target="Recording.Script.cs" Source="Tags.MainDisplayMessage" />
+        <Item Target="Recording.Script.cs" Source="Tags.gasType" />
+        <Item Target="Recording.Script.cs" Source="Tags.RawInletPressure" />
+        <Item Target="Recording.Script.cs" Source="Tags.press_meter_unit" />
+        <Item Target="Recording.Script.cs" Source="Tags.RawTestPressure" />
+        <Item Target="Recording.Script.cs" Source="Tags.selMeter" />
+        <Item Target="Recording.Script.cs" Source="Tags.MainFlowRateDisplayStr" />
+        <Item Target="Recording.Script.cs" Source="Tags.MainFlowUnitBtn" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

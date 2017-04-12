@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.gasType" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.flow_unit_low" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.flow_unit_mid" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.flow_unit_high" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.LowsccmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.LowslpmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.LowscfmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.LowscfhDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MidsccmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MidslpmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MidscfmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MidscfhDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.HighsccmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.HighslpmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.HighscfmDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.HighscfhDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_LOW_SCCM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_LOW_SLPM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_LOW_SCFM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_LOW_SCFH_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_MID_SCCM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_MID_SLPM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_MID_SCFM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_MID_SCFH_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_HI_SCCM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_HI_SLPM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_HI_SCFM_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_HI_SCFH_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.psigDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.ksiDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.barDecimal" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_PSIG_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_KSI_DECIMAL" />
+        <Item Target="UnitsAndConversion.Script.cs" Source="Tags.MAX_BAR_DECIMAL" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

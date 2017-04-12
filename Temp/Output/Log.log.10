@@ -1,0 +1,867 @@
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-01 15:08:29,703 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-01 15:08:29,710 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-01 15:08:29,711 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-01 15:08:29,783 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-01 15:08:29,802 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-01 15:08:29,802 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-01 15:08:29,802 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-01 15:08:29,819 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-01 15:08:29,819 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-01 15:08:29,821 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-01 15:08:29,821 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-01 15:08:29,824 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-01 15:08:29,825 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-01 15:08:29,825 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-01 15:08:29,826 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-01 15:08:29,826 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-01 15:08:29,831 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-01 15:08:29,838 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-01 15:08:29,839 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-01 15:08:29,839 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-01 15:08:29,841 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-01 15:08:29,842 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-01 15:08:29,842 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-01 15:08:29,842 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-01 15:08:29,842 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-01 15:08:29,843 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-01 15:08:29,843 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-01 15:08:29,843 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-01 15:08:29,844 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-01 15:08:29,844 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-01 15:08:29,844 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-01 15:08:29,845 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-01 15:08:29,845 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-01 15:08:29,846 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-01 15:08:29,848 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-01 15:08:29,848 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-01 15:08:29,849 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-01 15:08:29,849 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-01 15:08:29,849 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-01 15:08:29,849 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-01 15:08:29,850 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-01 15:08:29,851 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-01 15:08:29,851 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-01 15:08:29,851 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-01 15:08:29,851 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-01 15:08:29,852 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-01 15:08:29,853 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-01 15:08:30,215 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-01 15:08:30,222 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-01 15:08:30,226 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-01 15:08:30,233 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-01 15:08:30,307 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-01 15:08:30,534 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Creating database with page size 4096 bytes.
+2016-11-01 15:08:30,642 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-01 15:08:30,644 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-01 15:08:30,647 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Database created.
+2016-11-01 15:08:30,817 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-01 15:08:31,031 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 12480 bytes.
+2016-11-01 15:08:31,108 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:31,108 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:31,109 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:31,109 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:31,112 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Creating database with page size 4096 bytes.
+2016-11-01 15:08:31,249 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-01 15:08:31,258 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-01 15:08:31,261 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Database created.
+2016-11-01 15:08:31,406 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-01 15:08:31,498 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:31,499 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:31,649 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DefaultSettings'
+2016-11-01 15:08:31,728 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'InternalSettings'
+2016-11-01 15:08:31,816 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'PersistentVariables'
+2016-11-01 15:08:31,881 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DecimalSettings'
+2016-11-01 15:08:31,939 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingMid'
+2016-11-01 15:08:32,012 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingMid'
+2016-11-01 15:08:32,081 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingLow'
+2016-11-01 15:08:32,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingLow'
+2016-11-01 15:08:32,207 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingHigh'
+2016-11-01 15:08:32,265 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingHigh'
+2016-11-01 15:08:32,730 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,747 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-01 15:08:32,749 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,749 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,749 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,753 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,753 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,754 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,755 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:32,755 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:08:32,755 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:08:37,684 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:08:51,866 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:08:51,944 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:08:54,682 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:08:54,764 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting saved.
+2016-11-01 15:08:55,170 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:08:55,233 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting saved.
+2016-11-01 15:08:55,355 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:08:55,419 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting saved.
+2016-11-01 15:08:55,530 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:08:55,586 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting saved.
+2016-11-01 15:09:06,777 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:06,845 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:06,845 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:06,924 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:07,062 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:07,224 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:07,224 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:07,293 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:07,377 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:07,578 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:07,578 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:07,662 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:08,324 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:08,424 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:08,424 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:08,478 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:08,909 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:08,994 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:08,994 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:09,078 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:09,078 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:09,194 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:10,440 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:10,525 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:10,641 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:10,725 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:11,163 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-01 15:09:11,225 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-01 15:09:12,258 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:12,258 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:12,258 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:12,258 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:12,259 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-01 15:09:18,957 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-01 15:09:18,965 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-01 15:09:18,965 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-01 15:09:18,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-01 15:09:18,993 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-01 15:09:18,994 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-01 15:09:18,994 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-01 15:09:18,994 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-01 15:09:18,994 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-01 15:09:18,995 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-01 15:09:18,995 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-01 15:09:18,996 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-01 15:09:18,996 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-01 15:09:18,996 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-01 15:09:18,996 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-01 15:09:18,996 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-01 15:09:18,998 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-01 15:09:19,001 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-01 15:09:19,002 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-01 15:09:19,002 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-01 15:09:19,003 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-01 15:09:19,003 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-01 15:09:19,004 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-01 15:09:19,004 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-01 15:09:19,004 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-01 15:09:19,004 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-01 15:09:19,004 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-01 15:09:19,004 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-01 15:09:19,005 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-01 15:09:19,005 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-01 15:09:19,005 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-01 15:09:19,005 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-01 15:09:19,006 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-01 15:09:19,006 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-01 15:09:19,007 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-01 15:09:19,007 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-01 15:09:19,008 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-01 15:09:19,008 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-01 15:09:19,008 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-01 15:09:19,008 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-01 15:09:19,009 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-01 15:09:19,009 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-01 15:09:19,010 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-01 15:09:19,010 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-01 15:09:19,010 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-01 15:09:19,010 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-01 15:09:19,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-01 15:09:19,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-01 15:09:19,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-01 15:09:19,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-01 15:09:19,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-01 15:09:19,012 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-01 15:09:19,012 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-01 15:09:19,224 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-01 15:09:19,231 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-01 15:09:19,236 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-01 15:09:19,243 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-01 15:09:19,273 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-01 15:09:19,484 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-01 15:09:19,484 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-01 15:09:19,646 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-01 15:09:19,746 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 0 bytes.
+2016-11-01 15:09:19,846 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-01 15:09:19,846 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-01 15:09:19,960 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup started.
+2016-11-01 15:09:20,068 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2016-11-01 15:09:20,330 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-01 15:09:20,420 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:20,421 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:20,719 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-01 15:09:20,734 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-01 15:09:23,089 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:23,089 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:23,089 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:23,090 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-01 15:09:23,090 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-02 10:53:20,141 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-02 10:53:20,149 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-02 10:53:20,150 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-02 10:53:20,253 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-02 10:53:20,258 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-02 10:53:20,259 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-02 10:53:20,259 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-02 10:53:20,259 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-02 10:53:20,259 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-02 10:53:20,259 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-02 10:53:20,260 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-02 10:53:20,260 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-02 10:53:20,261 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-02 10:53:20,261 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-02 10:53:20,262 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-02 10:53:20,262 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-02 10:53:20,264 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-02 10:53:20,269 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-02 10:53:20,270 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-02 10:53:20,271 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-02 10:53:20,273 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-02 10:53:20,273 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-02 10:53:20,273 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-02 10:53:20,273 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-02 10:53:20,275 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-02 10:53:20,275 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-02 10:53:20,275 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-02 10:53:20,275 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-02 10:53:20,276 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-02 10:53:20,277 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-02 10:53:20,277 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-02 10:53:20,277 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-02 10:53:20,278 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-02 10:53:20,278 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-02 10:53:20,279 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-02 10:53:20,279 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-02 10:53:20,280 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-02 10:53:20,280 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-02 10:53:20,280 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-02 10:53:20,281 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-02 10:53:20,282 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-02 10:53:20,282 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-02 10:53:20,282 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-02 10:53:20,282 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-02 10:53:20,282 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-02 10:53:20,283 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-02 10:53:20,284 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-02 10:53:20,284 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-02 10:53:20,284 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-02 10:53:20,284 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-02 10:53:20,285 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-02 10:53:20,285 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-02 10:53:20,285 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-02 10:53:20,546 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-02 10:53:20,553 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-02 10:53:20,556 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-02 10:53:20,562 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-02 10:53:20,629 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-02 10:53:20,928 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-02 10:53:20,929 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-02 10:53:21,326 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-02 10:53:21,563 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 0 bytes.
+2016-11-02 10:53:21,808 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-02 10:53:21,809 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-02 10:53:22,085 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup started.
+2016-11-02 10:53:22,333 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2016-11-02 10:53:23,170 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-02 10:53:23,272 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:23,272 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:23,766 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,789 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-02 10:53:23,791 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,791 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,791 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,795 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,795 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,795 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,796 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,797 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:23,797 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-02 10:53:23,797 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-02 10:53:28,724 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:51,791 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:51,791 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:51,791 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:51,791 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-02 10:53:51,791 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-28 09:25:52,713 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-28 09:25:52,760 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-28 09:25:52,760 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-28 09:25:52,882 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-28 09:25:52,953 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-28 09:25:52,969 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-28 09:25:52,972 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-28 09:25:52,973 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-28 09:25:52,973 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-28 09:25:52,974 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-28 09:25:52,974 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-28 09:25:52,974 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-28 09:25:52,974 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-28 09:25:52,974 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-28 09:25:52,975 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-28 09:25:52,975 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-28 09:25:52,975 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-28 09:25:52,975 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-28 09:25:52,975 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-28 09:25:52,976 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-28 09:25:52,976 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-28 09:25:52,976 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-28 09:25:52,977 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-28 09:25:52,978 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-28 09:25:52,978 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-28 09:25:52,978 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-28 09:25:52,979 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-28 09:25:52,979 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-28 09:25:52,979 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-28 09:25:52,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-28 09:25:52,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-28 09:25:52,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-28 09:25:52,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-28 09:25:52,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-28 09:25:52,981 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-28 09:25:52,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-28 09:25:53,482 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:25:53,482 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-28 09:25:53,482 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:25:53,498 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-28 09:25:53,598 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:25:53,897 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Creating database with page size 4096 bytes.
+2016-11-28 09:25:54,382 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-28 09:25:54,382 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-28 09:25:54,398 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Database created.
+2016-11-28 09:25:54,783 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-28 09:25:55,099 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 12480 bytes.
+2016-11-28 09:25:55,215 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Creating database with page size 4096 bytes.
+2016-11-28 09:25:55,731 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-28 09:25:55,731 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-28 09:25:55,731 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Database created.
+2016-11-28 09:25:56,030 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-28 09:25:56,114 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:25:56,114 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:25:56,399 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DefaultSettings'
+2016-11-28 09:25:56,615 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'InternalSettings'
+2016-11-28 09:25:56,830 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'PersistentVariables'
+2016-11-28 09:25:56,984 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DecimalSettings'
+2016-11-28 09:25:57,099 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingMid'
+2016-11-28 09:25:57,184 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingMid'
+2016-11-28 09:25:57,262 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingLow'
+2016-11-28 09:25:57,331 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingLow'
+2016-11-28 09:25:57,399 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingHigh'
+2016-11-28 09:25:57,462 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingHigh'
+2016-11-28 09:25:57,931 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,946 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:25:57,962 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:02,899 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:14,716 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:14,716 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:14,717 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:14,717 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:14,718 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-28 09:26:32,030 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-28 09:26:32,045 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-28 09:26:32,045 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-28 09:26:32,098 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-28 09:26:32,114 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-28 09:26:32,345 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:26:32,345 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-28 09:26:32,345 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:26:32,361 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-28 09:26:32,394 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:26:32,597 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-28 09:26:32,597 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-28 09:26:32,777 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-28 09:26:32,896 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 0 bytes.
+2016-11-28 09:26:33,014 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-28 09:26:33,014 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-28 09:26:33,146 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup started.
+2016-11-28 09:26:33,262 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Cleanup recovered 0 bytes.
+2016-11-28 09:26:33,515 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-28 09:26:33,600 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:33,600 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:26:33,731 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - New design time data version, cleared recipe data on 'DefaultSettings'
+2016-11-28 09:26:33,778 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DefaultSettings'
+2016-11-28 09:26:34,116 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,131 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:26:34,147 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:26:39,078 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:27:05,101 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-28 09:27:05,216 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-28 09:27:06,816 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-28 09:27:06,895 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-28 09:27:37,642 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:27:37,642 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:27:37,642 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:27:37,642 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:27:37,642 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-28 09:55:31,020 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-28 09:55:31,025 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-28 09:55:31,025 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-28 09:55:31,087 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-28 09:55:31,103 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-28 09:55:31,319 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:55:31,324 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-28 09:55:31,325 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:55:31,325 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-28 09:55:31,357 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-28 09:55:31,581 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Creating database with page size 4096 bytes.
+2016-11-28 09:55:31,863 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-28 09:55:31,863 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-28 09:55:31,863 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Database created.
+2016-11-28 09:55:32,089 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-28 09:55:32,222 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 12480 bytes.
+2016-11-28 09:55:32,305 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Creating database with page size 4096 bytes.
+2016-11-28 09:55:32,489 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-28 09:55:32,505 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-28 09:55:32,505 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Database created.
+2016-11-28 09:55:32,524 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-28 09:55:32,627 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:32,627 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:32,774 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DefaultSettings'
+2016-11-28 09:55:32,843 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'InternalSettings'
+2016-11-28 09:55:32,905 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'PersistentVariables'
+2016-11-28 09:55:33,074 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DecimalSettings'
+2016-11-28 09:55:33,142 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingMid'
+2016-11-28 09:55:33,205 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingMid'
+2016-11-28 09:55:33,274 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingLow'
+2016-11-28 09:55:33,343 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingLow'
+2016-11-28 09:55:33,405 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingHigh'
+2016-11-28 09:55:33,474 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingHigh'
+2016-11-28 09:55:33,789 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,805 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,821 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,821 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,821 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,821 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,821 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,821 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,822 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:33,822 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-28 09:55:33,822 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-28 09:55:38,744 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:39,605 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:39,605 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:39,605 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:39,605 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-28 09:55:39,605 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-11-30 14:38:27,813 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-11-30 14:38:27,855 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-11-30 14:38:27,856 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-11-30 14:38:27,951 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-11-30 14:38:27,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-11-30 14:38:27,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-11-30 14:38:27,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-11-30 14:38:27,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-11-30 14:38:27,980 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-11-30 14:38:27,981 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-11-30 14:38:27,981 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-11-30 14:38:27,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-11-30 14:38:27,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-11-30 14:38:27,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-11-30 14:38:27,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-11-30 14:38:27,982 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-11-30 14:38:27,984 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-11-30 14:38:27,987 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-11-30 14:38:27,987 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-11-30 14:38:27,987 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-11-30 14:38:27,988 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-11-30 14:38:27,989 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-11-30 14:38:27,990 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-11-30 14:38:27,990 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-11-30 14:38:28,009 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-11-30 14:38:28,009 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-11-30 14:38:28,009 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-11-30 14:38:28,010 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-11-30 14:38:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-11-30 14:38:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-11-30 14:38:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-11-30 14:38:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-11-30 14:38:28,011 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-11-30 14:38:28,012 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-11-30 14:38:28,013 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-11-30 14:38:28,013 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-11-30 14:38:28,013 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-11-30 14:38:28,013 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-11-30 14:38:28,013 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-11-30 14:38:28,014 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-11-30 14:38:28,014 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-11-30 14:38:28,015 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-11-30 14:38:28,015 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-11-30 14:38:28,015 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-11-30 14:38:28,015 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-11-30 14:38:28,015 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+2016-11-30 14:38:28,015 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: WebServerConfigToolCF
+2016-11-30 14:38:28,350 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-30 14:38:28,356 [1] INFO  Neo.ApplicationFramework.Common.Runtime.GlobalsBase - Version: 2.22.184.0
+2016-11-30 14:38:28,360 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-30 14:38:28,368 [1] INFO  Core.Engine.ToolManager.Private.ToolMgrCF - Initializing ToolManager
+2016-11-30 14:38:28,443 [1] INFO  BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx - System.DllNotFoundException: Unable to load DLL 'BeHwApi.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.BeHWAPI_IsOptimus()
+   at BeHwApiProvider.LegacyToBeIncorporatedWithinIBeHwApiInTheLongRun.BeHwApiEx.IsOptimus()
+2016-11-30 14:38:28,697 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Creating database with page size 4096 bytes.
+2016-11-30 14:38:28,867 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check started.
+2016-11-30 14:38:28,872 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Integrity check finished without errors.
+2016-11-30 14:38:28,880 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Database created.
+2016-11-30 14:38:29,116 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup started.
+2016-11-30 14:38:29,243 [1] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - Database: Cleanup recovered 12480 bytes.
+2016-11-30 14:38:29,294 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Creating database with page size 4096 bytes.
+2016-11-30 14:38:29,461 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check started.
+2016-11-30 14:38:29,462 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Integrity check finished without errors.
+2016-11-30 14:38:29,465 [9] INFO  Neo.ApplicationFramework.Storage.Providers.CommonDatabase.CommonDatabaseBase - NonVolatileDatabase: Database created.
+2016-11-30 14:38:29,502 [1] INFO  Neo.ApplicationFramework.Tools.Reporting.Reports - Loading support for reporting with type of FlexCel.XlsAdapter.XlsFile.
+2016-11-30 14:38:29,615 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:38:29,616 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:38:29,750 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DefaultSettings'
+2016-11-30 14:38:29,871 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'InternalSettings'
+2016-11-30 14:38:29,941 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'PersistentVariables'
+2016-11-30 14:38:30,017 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'DecimalSettings'
+2016-11-30 14:38:30,081 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingMid'
+2016-11-30 14:38:30,155 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingMid'
+2016-11-30 14:38:30,237 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingLow'
+2016-11-30 14:38:30,311 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingLow'
+2016-11-30 14:38:30,371 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'FilterSettingHigh'
+2016-11-30 14:38:30,433 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Updating recipe runtime data in 'StabSettingHigh'
+2016-11-30 14:38:30,846 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,866 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Default_Setting loaded.
+2016-11-30 14:38:30,867 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,868 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,868 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,871 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,871 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,872 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,873 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:30,873 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - LoadRecipe called on recipe
+2016-11-30 14:38:30,873 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current loaded.
+2016-11-30 14:38:35,797 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:44:59,012 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-30 14:44:59,114 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-30 14:44:59,794 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - SaveRecipe called on recipe
+2016-11-30 14:44:59,886 [1] INFO  Neo.ApplicationFramework.Tools.Recipe.Recipe - Recipe Current saved.
+2016-11-30 14:45:04,392 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:45:04,392 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:45:04,393 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:45:04,394 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+2016-11-30 14:45:04,394 [1] ERROR Neo.ApplicationFramework.Tools.Backlight.BacklightController - Failed to find registryKey HKEY_CURRENT_USER\ControlPanel\backlight
+[Header Microsoft Windows NT 6.2.9200.0]
+2016-12-05 13:08:27,282 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PlatformFactoryToolCF
+2016-12-05 13:08:27,297 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: FeatureSecurityToolCF
+2016-12-05 13:08:27,297 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageToolCF
+2016-12-05 13:08:27,381 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SqlCeDatabaseTool
+2016-12-05 13:08:27,500 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SQLiteDatabaseToolCF
+2016-12-05 13:08:27,501 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SplashServiceTool
+2016-12-05 13:08:27,501 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DatabaseToolCF
+2016-12-05 13:08:27,501 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MultiLanguageToolCF
+2016-12-05 13:08:27,501 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageBoxToolCF
+2016-12-05 13:08:27,502 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: OpcClientToolCF
+2016-12-05 13:08:27,502 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemTagToolCF
+2016-12-05 13:08:27,503 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageClientToolCF
+2016-12-05 13:08:27,503 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NonVolatileToolCF
+2016-12-05 13:08:27,503 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectTool
+2016-12-05 13:08:27,503 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AlarmTool
+2016-12-05 13:08:27,503 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: AuditTrailToolCF
+2016-12-05 13:08:27,505 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: UserChangedAuditTrailToolCF
+2016-12-05 13:08:27,508 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BacklightTool
+2016-12-05 13:08:27,509 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: BrandTool
+2016-12-05 13:08:27,509 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CachedDataItemToolCF
+2016-12-05 13:08:27,510 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DateTimeEditToolCF
+2016-12-05 13:08:27,510 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DebugLoggerTool
+2016-12-05 13:08:27,510 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DeviceManagerToolCF
+2016-12-05 13:08:27,511 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: DriverPropertiesToolCF
+2016-12-05 13:08:27,511 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: EmailSenderTool
+2016-12-05 13:08:27,511 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: LicenseToolCF
+2016-12-05 13:08:27,511 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NativeToolCF
+2016-12-05 13:08:27,511 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NetworkToolCF
+2016-12-05 13:08:27,512 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrinterToolCF
+2016-12-05 13:08:27,512 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ProjectInformationToolCF
+2016-12-05 13:08:27,512 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RecipeToolCF
+2016-12-05 13:08:27,513 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: RenderableControlTool
+2016-12-05 13:08:27,513 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: CommandLineTool
+2016-12-05 13:08:27,513 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: MessageFilterTool
+2016-12-05 13:08:27,514 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: NotifierService
+2016-12-05 13:08:27,515 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: PrintScreenToolCF
+2016-12-05 13:08:27,515 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimerToolCF
+2016-12-05 13:08:27,515 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: Run
+2016-12-05 13:08:27,515 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SimulationTool
+2016-12-05 13:08:27,516 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScreenManager
+2016-12-05 13:08:27,517 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SecurityManagerToolCF
+2016-12-05 13:08:27,517 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ObjectSerializationToolCF
+2016-12-05 13:08:27,517 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SMSSenderTool
+2016-12-05 13:08:27,517 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StorageCacheTool
+2016-12-05 13:08:27,518 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: StructuredTypesToolCF
+2016-12-05 13:08:27,518 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SymbolService
+2016-12-05 13:08:27,519 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: SystemInformationToolCF
+2016-12-05 13:08:27,519 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TagMonitorDataToolCF
+2016-12-05 13:08:27,519 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: KeyPanelConfigToolCF
+2016-12-05 13:08:27,519 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: ScopeToolCF
+2016-12-05 13:08:27,519 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TimeInformationToolCF
+2016-12-05 13:08:27,519 [1] INFO  Core.Engine.ToolManager.Private.Tools - Loaded tool: TrendDataToolCF
+[Footer]

@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SelectData.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.tbName7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.lblPage" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="SelectData.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="SelectData.tbName1" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName1" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName2" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName2" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName3" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName3" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName4" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName4" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName5" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName5" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName6" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName6" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName7" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="SelectData.tbName7" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item xsi:type="ActionItem" Target="SelectData" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SelectData.btnPrev" Source="1484942468_Normal.bmp" />
+        <Item Target="SelectData.btnPrev" Source="1484942468_Pressed.bmp" />
+        <Item Target="SelectData.btnPrev" Source="1484942468_Disabled.bmp" />
+        <Item Target="SelectData.btnNext" Source="1484942468_Normal.bmp" />
+        <Item Target="SelectData.btnNext" Source="1484942468_Pressed.bmp" />
+        <Item Target="SelectData.btnNext" Source="1484942468_Disabled.bmp" />
+        <Item Target="SelectData.Button" Source="1484942468_Normal.bmp" />
+        <Item Target="SelectData.Button" Source="1484942468_Pressed.bmp" />
+        <Item Target="SelectData.Button" Source="1484942468_Disabled.bmp" />
+        <Item Target="SelectData.Button1" Source="1484942468_Normal.bmp" />
+        <Item Target="SelectData.Button1" Source="1484942468_Pressed.bmp" />
+        <Item Target="SelectData.Button1" Source="1484942468_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SelectData.Button1" TargetProperty="Actions" Source="RcrdFileName" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SelectData</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>14</ObjectsCount>
+          <ScreenName>SelectData</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="SelectData.Script.cs" Source="Tags.listSelected" />
+        <Item Target="SelectData.Script.cs" Source="Tags.listSelectedText" />
+        <Item Target="SelectData.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="SelectData.Script.cs" Source="Tags.LeakRateDataFileName" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SelectData" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

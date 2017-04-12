@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="ShowFile.lblPage" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.tbName7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.btnUp" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.btnCancel" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.btnOK" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="ShowFile.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="ShowFile.tbName1" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName1" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName2" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName2" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName3" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName3" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName4" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName4" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName5" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName5" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName6" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName6" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName7" TargetProperty="Background" Source="Tags.listSelected" />
+        <Item Target="ShowFile.tbName7" TargetProperty="Foreground" Source="Tags.listSelected" />
+        <Item xsi:type="ActionItem" Target="ShowFile" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="ShowFile.btnUp" Source="654449863_Normal.bmp" />
+        <Item Target="ShowFile.btnUp" Source="654449863_Pressed.bmp" />
+        <Item Target="ShowFile.btnUp" Source="654449863_Disabled.bmp" />
+        <Item Target="ShowFile.btnCancel" Source="532730406_Normal.bmp" />
+        <Item Target="ShowFile.btnCancel" Source="532730406_Pressed.bmp" />
+        <Item Target="ShowFile.btnCancel" Source="532730406_Disabled.bmp" />
+        <Item Target="ShowFile.btnOK" Source="532730406_Normal.bmp" />
+        <Item Target="ShowFile.btnOK" Source="532730406_Pressed.bmp" />
+        <Item Target="ShowFile.btnOK" Source="532730406_Disabled.bmp" />
+        <Item Target="ShowFile.btnPrev" Source="-1422308553_Normal.bmp" />
+        <Item Target="ShowFile.btnPrev" Source="-1422308553_Pressed.bmp" />
+        <Item Target="ShowFile.btnPrev" Source="-1422308553_Disabled.bmp" />
+        <Item Target="ShowFile.btnNext" Source="-1422308553_Normal.bmp" />
+        <Item Target="ShowFile.btnNext" Source="-1422308553_Pressed.bmp" />
+        <Item Target="ShowFile.btnNext" Source="-1422308553_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>ShowFile</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>15</ObjectsCount>
+          <ScreenName>ShowFile</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="ShowFile.Script.cs" Source="Tags.listSelected" />
+        <Item Target="ShowFile.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="ShowFile.Script.cs" Source="Tags.LeakRateDataFileName" />
+        <Item Target="ShowFile.Script.cs" Source="Tags.listSelectedText" />
+        <Item Target="ShowFile.Script.cs" Source="Tags.valueChanged" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="ShowFile" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="ShowFile.btnUp" Source="panup" Width="76" Height="76" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

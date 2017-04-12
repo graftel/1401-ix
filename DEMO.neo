@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.21.28.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcClient.DataSourceContainer, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" IsActive="False" Driver="SAIA_S-BUS_Serial_Ethernet_Pre2.SAIA_S-BUS_Serial_Ethernet_Pre2.1" Servername="Beijer.InprocessNeo.1" Node="" Url="" TargetInfoString="iXDeveloper;WinCe6;Beijer;Exter iX;QTERM-A7;en;" d1p1:Site.Name="DEMO" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+    <OpcUaNamespaceInfos>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.OpcUaClient.OpcUaNamespaceInfos, ToolsCF, Version=2.21.28.0, Culture=neutral, PublicKeyToken=null" />
+    </OpcUaNamespaceInfos>
+  </Object>
+</NeoItem>

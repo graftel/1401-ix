@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WifiSetting.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="WifiSetting.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.Button11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="WifiSetting.btnCancel" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSetting.btnOK" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="WifiSetting.Text2" TargetProperty="Value" Source="Tags.wifiStatus" />
+        <Item Target="WifiSetting.LinearMeter" TargetProperty="Value" Source="Tags.wifiSignal" />
+        <Item Target="WifiSetting.LinearMeter" TargetProperty="IndicatorColor" Source="Tags.wifiSignal" />
+        <Item Target="WifiSetting.Text4" TargetProperty="Value" Source="Tags.wifiSignal" />
+        <Item Target="WifiSetting.Text3" TargetProperty="Text" Source="Tags.RemoteDesktopIcon" />
+        <Item Target="WifiSetting.Text3" TargetProperty="Foreground" Source="Tags.RemoteDesktopIcon" />
+        <Item xsi:type="ActionItem" Target="WifiSetting" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="WifiSetting.LinearMeter" Source="WifiSetting.m_LinearMeter.bmp" />
+        <Item Target="WifiSetting.Button11" Source="-845384002_Normal.bmp" />
+        <Item Target="WifiSetting.Button11" Source="-845384002_Pressed.bmp" />
+        <Item Target="WifiSetting.Button11" Source="-845384002_Disabled.bmp" />
+        <Item Target="WifiSetting.btnCancel" Source="-2001805299_Normal.bmp" />
+        <Item Target="WifiSetting.btnCancel" Source="-2001805299_Pressed.bmp" />
+        <Item Target="WifiSetting.btnCancel" Source="-2001805299_Disabled.bmp" />
+        <Item Target="WifiSetting.btnOK" Source="1463717094_Normal.bmp" />
+        <Item Target="WifiSetting.btnOK" Source="1463717094_Pressed.bmp" />
+        <Item Target="WifiSetting.btnOK" Source="1463717094_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiSetting.Button11" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="WifiSetting.btnCancel" TargetProperty="Actions" Source="WifiAdvanceSetup" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WifiSetting</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>14</ObjectsCount>
+          <ScreenName>WifiSetting</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="WifiSetting.Script.cs" Source="Tags.wifiStatus" />
+        <Item Target="WifiSetting.Script.cs" Source="Tags.wifiSignal" />
+        <Item Target="WifiSetting.Script.cs" Source="Tags.wifiReset" />
+        <Item Target="WifiSetting.Script.cs" Source="Tags.wifidebugint" />
+        <Item Target="WifiSetting.Script.cs" Source="Tags.wifiTempSignalStrength" />
+        <Item Target="WifiSetting.Script.cs" Source="Tags.GeneralConfirmMsg" />
+        <Item Target="WifiSetting.Script.cs" Source="Tags.ConfirmAction" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiSetting" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items>
+        <Item xsi:type="TextLibraryItem" Target="WifiSetting.Text3" TargetProperty="Text" Source="RemoteClientStatus" />
+      </Items>
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

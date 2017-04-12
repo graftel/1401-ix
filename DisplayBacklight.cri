@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DisplayBacklight.CheckBox" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayBacklight.Slider" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayBacklight.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayBacklight.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayBacklight.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayBacklight.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayBacklight.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DisplayBacklight.CheckBox" TargetProperty="IsChecked" Source="Tags.ScreenSaver" />
+        <Item Target="DisplayBacklight.Slider" TargetProperty="Value" Source="Tags.SystemTagBacklightBrightnessLevel" />
+        <Item Target="DisplayBacklight.AnalogNumeric1" TargetProperty="Value" Source="Tags.ScreenSaverTimeout" />
+        <Item Target="DisplayBacklight.AnalogNumeric1" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.ScreenSaver" />
+        <Item Target="DisplayBacklight.Button4" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.ScreenSaver" />
+        <Item Target="DisplayBacklight.Button3" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.ScreenSaver" />
+        <Item xsi:type="ActionItem" Target="DisplayBacklight" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DisplayBacklight.Slider" Source="DisplayBacklight.m_Slider.bmp" />
+        <Item Target="DisplayBacklight.Button4" Source="-679689972_Normal.bmp" />
+        <Item Target="DisplayBacklight.Button4" Source="-679689972_Pressed.bmp" />
+        <Item Target="DisplayBacklight.Button4" Source="-679689972_Disabled.bmp" />
+        <Item Target="DisplayBacklight.Button3" Source="-356692703_Normal.bmp" />
+        <Item Target="DisplayBacklight.Button3" Source="-356692703_Pressed.bmp" />
+        <Item Target="DisplayBacklight.Button3" Source="-356692703_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DisplayBacklight</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>18</ObjectsCount>
+          <ScreenName>DisplayBacklight</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DisplayBacklight.Script.cs" Source="Tags.ScreenSaver" />
+        <Item Target="DisplayBacklight.Script.cs" Source="Tags.ScreenSaverTimeout" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DisplayBacklight" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DisplayBacklight.Button4" Source="path29851" Width="70" Height="81" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplayBacklight.Button3" Source="path2985" Width="70" Height="81" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

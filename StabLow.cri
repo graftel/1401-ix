@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="StabLow.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabLow.Text7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabLow.Text8" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabLow.Text9" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabLow.lblGreen" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.lblOrange" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.lblRed" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StabLow.lblLowDarkred" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StabLow.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="StabLow.lblGreen" TargetProperty="Value" Source="Tags.Stab_low_green" />
+        <Item Target="StabLow.lblOrange" TargetProperty="Value" Source="Tags.Stab_low_orange" />
+        <Item Target="StabLow.lblRed" TargetProperty="Value" Source="Tags.Stab_low_red" />
+        <Item xsi:type="ActionItem" Target="StabLow" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="StabLow.Button5" Source="-748428884_Normal.bmp" />
+        <Item Target="StabLow.Button5" Source="-748428884_Pressed.bmp" />
+        <Item Target="StabLow.Button5" Source="-748428884_Disabled.bmp" />
+        <Item Target="StabLow.Button6" Source="-1933976078_Normal.bmp" />
+        <Item Target="StabLow.Button6" Source="-1933976078_Pressed.bmp" />
+        <Item Target="StabLow.Button6" Source="-1933976078_Disabled.bmp" />
+        <Item Target="StabLow.Button" Source="-125237332_Normal.bmp" />
+        <Item Target="StabLow.Button" Source="-125237332_Pressed.bmp" />
+        <Item Target="StabLow.Button" Source="-125237332_Disabled.bmp" />
+        <Item Target="StabLow.Button1" Source="552993641_Normal.bmp" />
+        <Item Target="StabLow.Button1" Source="552993641_Pressed.bmp" />
+        <Item Target="StabLow.Button1" Source="552993641_Disabled.bmp" />
+        <Item Target="StabLow.Button2" Source="1164447438_Normal.bmp" />
+        <Item Target="StabLow.Button2" Source="1164447438_Pressed.bmp" />
+        <Item Target="StabLow.Button2" Source="1164447438_Disabled.bmp" />
+        <Item Target="StabLow.Button3" Source="21865992_Normal.bmp" />
+        <Item Target="StabLow.Button3" Source="21865992_Pressed.bmp" />
+        <Item Target="StabLow.Button3" Source="21865992_Disabled.bmp" />
+        <Item Target="StabLow.Button8" Source="1383350128_Normal.bmp" />
+        <Item Target="StabLow.Button8" Source="1383350128_Pressed.bmp" />
+        <Item Target="StabLow.Button8" Source="1383350128_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>StabLow</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>27</ObjectsCount>
+          <ScreenName>StabLow</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="StabLow.Script.cs" Source="Tags.bStabEnable" />
+        <Item Target="StabLow.Script.cs" Source="Tags.StabONOFF" />
+        <Item Target="StabLow.Script.cs" Source="Tags.Stab_low_green" />
+        <Item Target="StabLow.Script.cs" Source="Tags.Stab_low_orange" />
+        <Item Target="StabLow.Script.cs" Source="Tags.Stab_low_red" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StabLow" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="StabLow.Button5" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabLow.Button6" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabLow.Button" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabLow.Button1" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabLow.Button2" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StabLow.Button3" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="popCalValueAdjust.lblTitle1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblValue" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblTitle" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblTitle2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblTitle3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblSubRdg1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblSubRdg2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblSubRdg3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.lblRdg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.btnUp" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.btnDown" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="popCalValueAdjust.btnToggle" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="popCalValueAdjust.lblValue" TargetProperty="Foreground" Source="Tags.calCalValueColor" />
+      </Items>
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="popCalValueAdjust.btnUp" Source="2027497272_Normal.bmp" />
+        <Item Target="popCalValueAdjust.btnUp" Source="2027497272_Pressed.bmp" />
+        <Item Target="popCalValueAdjust.btnUp" Source="2027497272_Disabled.bmp" />
+        <Item Target="popCalValueAdjust.btnDown" Source="89136559_Normal.bmp" />
+        <Item Target="popCalValueAdjust.btnDown" Source="89136559_Pressed.bmp" />
+        <Item Target="popCalValueAdjust.btnDown" Source="89136559_Disabled.bmp" />
+        <Item Target="popCalValueAdjust.Button" Source="-71742740_Normal.bmp" />
+        <Item Target="popCalValueAdjust.Button" Source="-71742740_Pressed.bmp" />
+        <Item Target="popCalValueAdjust.Button" Source="-71742740_Disabled.bmp" />
+        <Item Target="popCalValueAdjust.btnToggle" Source="-243982131_Normal.bmp" />
+        <Item Target="popCalValueAdjust.btnToggle" Source="-243982131_Pressed.bmp" />
+        <Item Target="popCalValueAdjust.btnToggle" Source="-243982131_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>popCalValueAdjust</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>19</ObjectsCount>
+          <ScreenName>popCalValueAdjust</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.calRegType" />
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.calSelMeter" />
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.gasType" />
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.Status_CalculatorScr" />
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.Enter_Value" />
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.calCalValueColor" />
+        <Item Target="popCalValueAdjust.Script.cs" Source="Tags.CalculatorTargetScr" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="popCalValueAdjust.btnCal" Source="calculator" Width="61" Height="69" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="popCalValueAdjust.btnUp" Source="path2924" Width="55" Height="47" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="popCalValueAdjust.btnDown" Source="path2923" Width="54" Height="46" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

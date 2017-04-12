@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items>
+        <Item Target="StartScreen.lblFirmware" TargetProperty="Text" Source="firmware" />
+        <Item Target="StartScreen.Text" TargetProperty="Text" Source="zzz" />
+      </Items>
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="StartScreen.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StartScreen.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="StartScreen.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StartScreen.lblFirmware" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StartScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StartScreen.Text4" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StartScreen.btnStart" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="StartScreen.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="StartScreen.Text5" TargetProperty="Value" Source="Tags.calDueDate" />
+        <Item Target="StartScreen.Text5" TargetProperty="Foreground" Source="Tags.CalDueDateCheck" />
+        <Item Target="StartScreen.Text5" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.CalDueDateCheck" />
+        <Item Target="StartScreen.Text5" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.calDueDateShow" />
+        <Item Target="StartScreen.lblFirmware" TargetProperty="Text" Source="Tags.firmware" />
+        <Item Target="StartScreen.Text" TargetProperty="Text" Source="Tags.serial" />
+        <Item Target="StartScreen.Text4" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.calDueDateShow" />
+        <Item xsi:type="ActionItem" Target="StartScreen.btnStart" TargetProperty="Actions" Source="Tags.ValveState" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="StartScreen.btnStart" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.StartBtnEnable" />
+        <Item Target="StartScreen.Text2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.StartScreenErrorMessage" />
+        <Item xsi:type="ActionItem" Target="StartScreen" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="StartScreen.btnStart" Source="-1961266367_Normal.bmp" />
+        <Item Target="StartScreen.btnStart" Source="-1961266367_Pressed.bmp" />
+        <Item Target="StartScreen.btnStart" Source="-1961266367_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StartScreen.btnStart" TargetProperty="Actions" Source="MainScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>StartScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>12</ObjectsCount>
+          <ScreenName>StartScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="StartScreen.Script.cs" Source="Tags.Initialized" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.StartBtnEnable" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.CurrentScreen" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.DemoModeOnOff" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.GraphMax" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.HighRangeMax" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.GraphMin" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.GraphLeftMax" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.GraphLeftMin" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.selMeter" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.tmr485_control" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.Enter_Value" />
+        <Item Target="StartScreen.Script.cs" Source="Tags.CalculatorTargetScr" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="StartScreen.btnStart" TargetProperty="Actions" Source="Tags.ValveState" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="StartScreen" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="StartScreen.Picture1" Source="graftel-logo" Width="123" Height="128" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="StartScreen.Picture" Source="callaway energy center - color" Width="720" Height="191" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

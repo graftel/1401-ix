@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="QuickFillScreen2.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.lblTitle" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen2.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillScreen2" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="QuickFillScreen2.btnNext" Source="-1583087158_Normal.bmp" />
+        <Item Target="QuickFillScreen2.btnNext" Source="-1583087158_Pressed.bmp" />
+        <Item Target="QuickFillScreen2.btnNext" Source="-1583087158_Disabled.bmp" />
+        <Item Target="QuickFillScreen2.Button1" Source="-1583087158_Normal.bmp" />
+        <Item Target="QuickFillScreen2.Button1" Source="-1583087158_Pressed.bmp" />
+        <Item Target="QuickFillScreen2.Button1" Source="-1583087158_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillScreen2.btnNext" TargetProperty="Actions" Source="QuickFillScreen3" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>QuickFillScreen2</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>34</ObjectsCount>
+          <ScreenName>QuickFillScreen2</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="QuickFillScreen2.Script.cs" Source="Tags.GeneralConfirmMsg" />
+        <Item Target="QuickFillScreen2.Script.cs" Source="Tags.ConfirmAction" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillScreen2" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="QuickFillScreen2.Picture3" Source="image2993" Width="45" Height="42" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

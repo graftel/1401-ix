@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items>
+        <Item Target="AutoCal.LinearMeter" TargetProperty="Maximum" Source="UnitConvertLow" />
+        <Item Target="AutoCal.LinearMeter1" TargetProperty="Maximum" Source="UnitConvsionMid" />
+        <Item Target="AutoCal.LinearMeter2" TargetProperty="Maximum" Source="UnitConvertHigh" />
+      </Items>
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="AutoCal.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.anLow25" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.anLow100" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text12" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="AutoCal.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text14" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.LinearMeter1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.AnalogNumeric6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.LinearMeter2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Text11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="AutoCal.Button12" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="AutoCal.AnalogNumeric" TargetProperty="Value" Source="Tags.CalFlowRateLow" />
+        <Item Target="AutoCal.anLow25" TargetProperty="Value" Source="Tags.LowFlowSpan25" />
+        <Item Target="AutoCal.anLow100" TargetProperty="Value" Source="Tags.LowFlowSpan100" />
+        <Item Target="AutoCal.LinearMeter" TargetProperty="Maximum" Source="Tags.LowRangeCalMax" />
+        <Item Target="AutoCal.LinearMeter" TargetProperty="Value" Source="Tags.RawFlowRateLow" />
+        <Item Target="AutoCal.lowindred" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LowSolenoidStatus" />
+        <Item Target="AutoCal.lowindgreen" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.LowSolenoidStatus" />
+        <Item Target="AutoCal.Text14" TargetProperty="Value" Source="Tags.AutoCalStatus" />
+        <Item Target="AutoCal.Text14" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.AutoCalStatus" />
+        <Item Target="AutoCal.AnalogNumeric1" TargetProperty="Value" Source="Tags.CalFlowRateMid" />
+        <Item Target="AutoCal.AnalogNumeric2" TargetProperty="Value" Source="Tags.MidFlowSpan25" />
+        <Item Target="AutoCal.AnalogNumeric3" TargetProperty="Value" Source="Tags.MidFlowSpan100" />
+        <Item Target="AutoCal.LinearMeter1" TargetProperty="Maximum" Source="Tags.MidRangeCalMax" />
+        <Item Target="AutoCal.LinearMeter1" TargetProperty="Value" Source="Tags.RawFlowRateMid" />
+        <Item Target="AutoCal.Ellipse" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.MidSolenoidStatus" />
+        <Item Target="AutoCal.Ellipse1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.MidSolenoidStatus" />
+        <Item Target="AutoCal.AnalogNumeric4" TargetProperty="Value" Source="Tags.CalFlowRateHigh" />
+        <Item Target="AutoCal.AnalogNumeric5" TargetProperty="Value" Source="Tags.HighFlowSpan25" />
+        <Item Target="AutoCal.AnalogNumeric6" TargetProperty="Value" Source="Tags.HighFlowSpan100" />
+        <Item Target="AutoCal.LinearMeter2" TargetProperty="Maximum" Source="Tags.HighRangeCalMax" />
+        <Item Target="AutoCal.LinearMeter2" TargetProperty="Value" Source="Tags.RawFlowRateHigh" />
+        <Item Target="AutoCal.Ellipse2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.HighSolenoidStatus" />
+        <Item Target="AutoCal.Ellipse3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.HighSolenoidStatus" />
+        <Item xsi:type="ActionItem" Target="AutoCal" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="AutoCal.LinearMeter" Source="AutoCal.m_LinearMeter.bmp" />
+        <Item Target="AutoCal.LinearMeter1" Source="AutoCal.m_LinearMeter1.bmp" />
+        <Item Target="AutoCal.LinearMeter2" Source="AutoCal.m_LinearMeter2.bmp" />
+        <Item Target="AutoCal.Button12" Source="-1613828464_Normal.bmp" />
+        <Item Target="AutoCal.Button12" Source="-1613828464_Pressed.bmp" />
+        <Item Target="AutoCal.Button12" Source="-1613828464_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>AutoCal</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>38</ObjectsCount>
+          <ScreenName>AutoCal</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="AutoCal.Script.cs" Source="Tags.AutoCalStatus" />
+        <Item Target="AutoCal.Script.cs" Source="Tags.ConfirmAction" />
+        <Item Target="AutoCal.Script.cs" Source="Tags.GeneralConfirmMsg" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="AutoCal" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

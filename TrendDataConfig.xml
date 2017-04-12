@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TrendDataSources>
+  <TrendViewer Name="GraphRealTime.TrendViewer" TimeRangeBoundDataItem="" TrendWidth="658" TimeRange="PT10M">
+    <GlobalDataItems>
+      <GlobalDataItem DataSourceName="Tags.MainFlowRateDisplay" />
+      <GlobalDataItem DataSourceName="Tags.MainPressDisplay" />
+    </GlobalDataItems>
+  </TrendViewer>
+  <TrendViewer Name="TrendAdvanced_T7A.Trend1" TimeRangeBoundDataItem="Tags.span" TrendWidth="573" TimeRange="PT0S">
+    <GlobalDataItems>
+      <GlobalDataItem DataSourceName="Tags.MainFlowRateDisplay" />
+      <GlobalDataItem DataSourceName="Tags.MainPressDisplay" />
+    </GlobalDataItems>
+  </TrendViewer>
+</TrendDataSources>

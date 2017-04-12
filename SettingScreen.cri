@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="SettingScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button4" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button8" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button12" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button13" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="SettingScreen.Button6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button1" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button4" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button8" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button3" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button6" TargetProperty="Actions" Source="Tags.Enter_Value" Event="Click" Action="Set String" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button6" TargetProperty="Actions" Source="Tags.CalculatorTargetScr" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="SettingScreen.Button1" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button1" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button1" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button4" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button4" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button4" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button5" Source="166804321_Normal.bmp" />
+        <Item Target="SettingScreen.Button5" Source="166804321_Pressed.bmp" />
+        <Item Target="SettingScreen.Button5" Source="166804321_Disabled.bmp" />
+        <Item Target="SettingScreen.Button7" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button7" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button7" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button8" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button8" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button8" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button12" Source="985812242_Normal.bmp" />
+        <Item Target="SettingScreen.Button12" Source="985812242_Pressed.bmp" />
+        <Item Target="SettingScreen.Button12" Source="985812242_Disabled.bmp" />
+        <Item Target="SettingScreen.Button2" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button2" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button2" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button13" Source="1952519675_Normal.bmp" />
+        <Item Target="SettingScreen.Button13" Source="1952519675_Pressed.bmp" />
+        <Item Target="SettingScreen.Button13" Source="1952519675_Disabled.bmp" />
+        <Item Target="SettingScreen.Button3" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button3" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button3" Source="-1795428286_Disabled.bmp" />
+        <Item Target="SettingScreen.Button6" Source="-1795428286_Normal.bmp" />
+        <Item Target="SettingScreen.Button6" Source="-1795428286_Pressed.bmp" />
+        <Item Target="SettingScreen.Button6" Source="-1795428286_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button1" TargetProperty="Actions" Source="FilterLow" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button" TargetProperty="Actions" Source="DisplaySystemDate" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button4" TargetProperty="Actions" Source="RcrdDate" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button5" TargetProperty="Actions" Source="PressDecayScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button7" TargetProperty="Actions" Source="DiagScreen1" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button8" TargetProperty="Actions" Source="StabLow" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button12" TargetProperty="Actions" Source="MainScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button2" TargetProperty="Actions" Source="BuzzerConfig" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button13" TargetProperty="Actions" Source="WifiSetting" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button3" TargetProperty="Actions" Source="NozzleCheckValue" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button6" TargetProperty="Actions" Source="popCalculator" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>SettingScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>13</ObjectsCount>
+          <ScreenName>SettingScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="SettingScreen.Script.cs" Source="Tags.Enter_Value" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button1" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button4" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button8" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button3" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button6" TargetProperty="Actions" Source="Tags.Enter_Value" Event="Click" Action="Set String" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen.Button6" TargetProperty="Actions" Source="Tags.CalculatorTargetScr" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="SettingScreen" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

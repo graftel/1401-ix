@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="QuickFillScreen3.LinearMeter" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen3.lblQuickFill" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen3.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen3.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen3.lblStatus" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="QuickFillScreen3.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="QuickFillScreen3.LinearMeter" TargetProperty="Maximum" Source="Tags.quickFillTargetPress" />
+        <Item Target="QuickFillScreen3.LinearMeter" TargetProperty="Value" Source="Tags.RawTestPressure" />
+        <Item Target="QuickFillScreen3.lblQuickFill" TargetProperty="BlinkProperties.IsBlinkEnabled" Source="Tags.QuickFillProgressBlink" />
+        <Item Target="QuickFillScreen3.AnalogNumeric" TargetProperty="Value" Source="Tags.PressReadingFull" />
+        <Item Target="QuickFillScreen3.AnalogNumeric" TargetProperty="Foreground" Source="Tags.QuickFillBracketIndicator" />
+        <Item xsi:type="ActionItem" Target="QuickFillScreen3" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="QuickFillScreen3.LinearMeter" Source="QuickFillScreen3.m_LinearMeter.bmp" />
+        <Item Target="QuickFillScreen3.Button1" Source="-742649174_Normal.bmp" />
+        <Item Target="QuickFillScreen3.Button1" Source="-742649174_Pressed.bmp" />
+        <Item Target="QuickFillScreen3.Button1" Source="-742649174_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>QuickFillScreen3</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>11</ObjectsCount>
+          <ScreenName>QuickFillScreen3</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.QuickFillBracketIndicator" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.QuickFillProgressBlink" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.STDTolerence" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.Test_Press_Max" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.TargetPressHoldTime" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.quickFillTargetPress" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.RawTestPressure" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.TargetPressTolerance" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.QuickFillMessage" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.PressUnit" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.MainPressDecimal" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.QuickFillMessageVisi" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.ValveState" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.GeneralConfirmMsg" />
+        <Item Target="QuickFillScreen3.Script.cs" Source="Tags.ConfirmAction" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="QuickFillScreen3" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="QuickFillScreen3.Picture" Source="tank medium 1" Width="166" Height="261" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillScreen3.Picture1" Source="pipe bend 4" Width="33" Height="35" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillScreen3.Picture2" Source="pipe 1" Width="126" Height="24" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillScreen3.Picture3" Source="valve 5 on" Width="90" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="QuickFillScreen3.Picture4" Source="pipe 1" Width="75" Height="24" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.22.184.0'?>
+<NeoItem d1p1:Serializer="Neo.ApplicationFramework.Common.Serialization.ObjectSerializer" xmlns:d1p1="urn:Neo.ApplicationFramework.Serializer">
+  <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.Recipe, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" SchemaVersion="591" DataVersion="346" Guid="fad13a79-1385-408c-9082-f48638e28033" TableName="FilterSettingLow" d1p1:Site.Name="FilterSettingLow" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+    <RecipeItems>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Filter_Low_UpperLimit" DataConnection="Tags.FilterUpperLimitLow" ColumnName="Filter_Low_UpperLimit" VisualSortOrder="99" d1p1:Site.Name="Filter_Low_UpperLimit" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Current">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="5" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="5" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+      <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" Name="Filter_Low_Response" DataConnection="Tags.FilterResponseLow" ColumnName="Filter_Low_Response" VisualSortOrder="100" d1p1:Site.Name="Filter_Low_Response" ProjectGuid="838ab2ea-8330-4a44-8659-8df8638d1793">
+        <RecipeDataItems>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Current">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+          <Object d1p1:type="Neo.ApplicationFramework.Tools.Recipe.RecipeDataItem, ToolsCF, Version=2.22.184.0, Culture=neutral, PublicKeyToken=null" RecipeTitleName="Default">
+            <RuntimeData>
+              <Object d1p1:type="System.Int16, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="1" />
+            </RuntimeData>
+          </Object>
+        </RecipeDataItems>
+      </Object>
+    </RecipeItems>
+    <FieldNames>
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Current" />
+      <Object d1p1:type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" primitive.value="Default" />
+    </FieldNames>
+  </Object>
+</NeoItem>

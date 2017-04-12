@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items>
+        <Item Target="DiagScreen.picDiag2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="stage2" />
+        <Item Target="DiagScreen.picDiag1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="stage1" />
+        <Item Target="DiagScreen.lblMsgBig1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="stage1" />
+        <Item Target="DiagScreen.lblMsgBig2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="stage2" />
+      </Items>
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DiagScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.Text4" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.Text6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.pbDiag1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.lblMsgSmall1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.lblMsgSmall2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.pbDiag2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.lblMsgBig1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.lblMsgBig2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.lblMsgSmall3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.lblMsgBig3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.btnDetail1" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.btnDetail3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.btnDetail2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.btnSave" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.Button11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DiagScreen.pbDiag3" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DiagScreen.picDiag2" TargetProperty="Value" Source="Tags.DiagPic2" />
+        <Item Target="DiagScreen.picDiag2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.picDiag3" TargetProperty="Value" Source="Tags.DiagPic3" />
+        <Item Target="DiagScreen.picDiag3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.pbDiag1" TargetProperty="Value" Source="Tags.DiagProgressBar1" />
+        <Item Target="DiagScreen.pbDiag1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.lblMsgSmall1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.lblMsgSmall2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.pbDiag2" TargetProperty="Value" Source="Tags.DiagProgressBar2" />
+        <Item Target="DiagScreen.pbDiag2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.LoadGif1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.picDiag1" TargetProperty="Value" Source="Tags.DiagPic1" />
+        <Item Target="DiagScreen.picDiag1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.lblMsgBig1" TargetProperty="Value" Source="Tags.DiagMsg7" />
+        <Item Target="DiagScreen.lblMsgBig1" TargetProperty="Foreground" Source="Tags.DiagPic1" />
+        <Item Target="DiagScreen.lblMsgBig1" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.LoadGif2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.LoadGif3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.lblMsgBig2" TargetProperty="Value" Source="Tags.DiagMsg8" />
+        <Item Target="DiagScreen.lblMsgBig2" TargetProperty="Foreground" Source="Tags.DiagPic2" />
+        <Item Target="DiagScreen.lblMsgBig2" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.lblMsgSmall3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.lblMsgBig3" TargetProperty="Value" Source="Tags.DiagMsg9" />
+        <Item Target="DiagScreen.lblMsgBig3" TargetProperty="Foreground" Source="Tags.DiagPic3" />
+        <Item Target="DiagScreen.lblMsgBig3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail1" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="DiagScreen.btnDetail1" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.DiagStage" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail3" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="DiagScreen.btnDetail3" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.DiagStage" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail2" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item Target="DiagScreen.btnDetail2" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.btnSave" TargetProperty="EnabledProperties.EnabledDynamicsValue" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.pbDiag3" TargetProperty="Value" Source="Tags.DiagProgressBar3" />
+        <Item Target="DiagScreen.pbDiag3" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.DiagStage" />
+        <Item xsi:type="ActionItem" Target="DiagScreen" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DiagScreen.btnDetail1" Source="-796499818_Normal.bmp" />
+        <Item Target="DiagScreen.btnDetail1" Source="-796499818_Pressed.bmp" />
+        <Item Target="DiagScreen.btnDetail1" Source="-796499818_Disabled.bmp" />
+        <Item Target="DiagScreen.btnDetail3" Source="-796499818_Normal.bmp" />
+        <Item Target="DiagScreen.btnDetail3" Source="-796499818_Pressed.bmp" />
+        <Item Target="DiagScreen.btnDetail3" Source="-796499818_Disabled.bmp" />
+        <Item Target="DiagScreen.btnDetail2" Source="-796499818_Normal.bmp" />
+        <Item Target="DiagScreen.btnDetail2" Source="-796499818_Pressed.bmp" />
+        <Item Target="DiagScreen.btnDetail2" Source="-796499818_Disabled.bmp" />
+        <Item Target="DiagScreen.btnSave" Source="-962069653_Normal.bmp" />
+        <Item Target="DiagScreen.btnSave" Source="-962069653_Pressed.bmp" />
+        <Item Target="DiagScreen.btnSave" Source="-962069653_Disabled.bmp" />
+        <Item Target="DiagScreen.Button11" Source="-1613828464_Normal.bmp" />
+        <Item Target="DiagScreen.Button11" Source="-1613828464_Pressed.bmp" />
+        <Item Target="DiagScreen.Button11" Source="-1613828464_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail1" TargetProperty="Actions" Source="DiagReportFlow" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail3" TargetProperty="Actions" Source="DiagReportSolenoid" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail2" TargetProperty="Actions" Source="DiagReportPress" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.Button11" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="Default" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DiagScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>31</ObjectsCount>
+          <ScreenName>DiagScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DiagScreen.Script.cs" Source="Tags.GetDiagResult" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagStage" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagProgressBar1" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagProgressBar2" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagProgressBar3" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagProgress" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagPic1" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMsg7" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagPic2" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMsg8" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagPic3" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMsg9" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.USBStatus" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DateFormat" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.TimeFormat" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow11Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow11" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow12Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow12" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow13Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow13" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow14Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow14" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow21Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow21" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow22Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow22" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow23Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow23" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow24Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValueFlow24" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValuePress1Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValuePress1" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValuePress2Time" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.DiagMaxValuePress2" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.SolenoidCountA" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.SolenoidCountB" />
+        <Item Target="DiagScreen.Script.cs" Source="Tags.SolenoidCountC" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail1" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail3" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="DiagScreen.btnDetail2" TargetProperty="Actions" Source="Tags.SettingSel" Event="Click" Action="Set Analog" Param="" />
+        <Item xsi:type="ActionItem" Target="DiagScreen" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag2" Source="br_cancel9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag2" Source="br_cancel9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag2" Source="br_ok9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag2" Source="warning" Width="63" Height="58" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag3" Source="br_cancel9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag3" Source="br_cancel9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag3" Source="br_ok9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag3" Source="warning" Width="63" Height="58" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.LoadGif1" Source="ajax-loader (1)" Width="60" Height="63" IsAnimated="true" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag1" Source="br_cancel9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag1" Source="br_cancel9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag1" Source="br_ok9" Width="63" Height="63" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.picDiag1" Source="warning" Width="63" Height="58" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.LoadGif2" Source="ajax-loader (1)" Width="60" Height="63" IsAnimated="true" />
+        <Item xsi:type="SymbolItem" Target="DiagScreen.LoadGif3" Source="ajax-loader (1)" Width="60" Height="63" IsAnimated="true" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Comm.Script.cs" Source="Tags.meter_unit_low" />
+        <Item Target="Comm.Script.cs" Source="Tags.LowRangeMin" />
+        <Item Target="Comm.Script.cs" Source="Tags.LowRangeMax" />
+        <Item Target="Comm.Script.cs" Source="Tags.meter_unit_mid" />
+        <Item Target="Comm.Script.cs" Source="Tags.MidRangeMin" />
+        <Item Target="Comm.Script.cs" Source="Tags.MidRangeMax" />
+        <Item Target="Comm.Script.cs" Source="Tags.meter_unit_high" />
+        <Item Target="Comm.Script.cs" Source="Tags.HighRangeMin" />
+        <Item Target="Comm.Script.cs" Source="Tags.HighRangeMax" />
+        <Item Target="Comm.Script.cs" Source="Tags.PressUnitInlet" />
+        <Item Target="Comm.Script.cs" Source="Tags.Inlet_Press_Max" />
+        <Item Target="Comm.Script.cs" Source="Tags.PressUnitTest" />
+        <Item Target="Comm.Script.cs" Source="Tags.Test_Press_Max" />
+        <Item Target="Comm.Script.cs" Source="Tags.IsTouchScreen" />
+        <Item Target="Comm.Script.cs" Source="Tags.StartBtnEnable" />
+        <Item Target="Comm.Script.cs" Source="Tags.CurrentScreen" />
+        <Item Target="Comm.Script.cs" Source="Tags.AutoCalStatus" />
+        <Item Target="Comm.Script.cs" Source="Tags.DemoModeOnOff" />
+        <Item Target="Comm.Script.cs" Source="Tags.DemoModeFlowRateLow" />
+        <Item Target="Comm.Script.cs" Source="Tags.DemoModeFlowRateHigh" />
+        <Item Target="Comm.Script.cs" Source="Tags.DemoModeFlowRateMid" />
+        <Item Target="Comm.Script.cs" Source="Tags.tmr232_control" />
+        <Item Target="Comm.Script.cs" Source="Tags.debugstring2" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow11" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow11Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow12" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow12Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow13" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow13Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow14" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow14Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.selMeter" />
+        <Item Target="Comm.Script.cs" Source="Tags.RawFlowRateMid" />
+        <Item Target="Comm.Script.cs" Source="Tags.HighRangeZeroBand" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow21" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow21Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow22" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow22Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow23" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow23Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow24" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow24Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.RawFlowRateHigh" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow31" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow31Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow32" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow32Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow33" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow33Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow34" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValueFlow34Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.tmr485_control" />
+        <Item Target="Comm.Script.cs" Source="Tags.SolenoidCountA" />
+        <Item Target="Comm.Script.cs" Source="Tags.MAXSOLENOIDCOUNT" />
+        <Item Target="Comm.Script.cs" Source="Tags.SolenoidCountB" />
+        <Item Target="Comm.Script.cs" Source="Tags.SolenoidCountC" />
+        <Item Target="Comm.Script.cs" Source="Tags.InletPressIndicator" />
+        <Item Target="Comm.Script.cs" Source="Tags.wifiStreaming" />
+        <Item Target="Comm.Script.cs" Source="Tags.gTimerCount" />
+        <Item Target="Comm.Script.cs" Source="Tags.RemoteDesktopIcon" />
+        <Item Target="Comm.Script.cs" Source="Tags.serial" />
+        <Item Target="Comm.Script.cs" Source="Tags.firmware" />
+        <Item Target="Comm.Script.cs" Source="Tags.press_meter_unit" />
+        <Item Target="Comm.Script.cs" Source="Tags.FlowMeterReadTag" />
+        <Item Target="Comm.Script.cs" Source="Tags.gasType" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValuePress1" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValuePress1Time" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValuePress2" />
+        <Item Target="Comm.Script.cs" Source="Tags.DiagMaxValuePress2Time" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="StabSettingMid.Stability_MID_GREEN" TargetProperty="Value" Source="Tags.Stab_mid_green" />
+        <Item Target="StabSettingMid.Stability_MID_ORANGE" TargetProperty="Value" Source="Tags.Stab_mid_orange" />
+        <Item Target="StabSettingMid.Stability_MID_RED" TargetProperty="Value" Source="Tags.Stab_mid_red" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

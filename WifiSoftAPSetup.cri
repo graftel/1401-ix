@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WifiSoftAPSetup.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="WifiSoftAPSetup.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSoftAPSetup.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSoftAPSetup.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSoftAPSetup.AnalogNumeric1" TargetProperty="FontFamily" Source="PASSWORD.TTF" />
+        <Item Target="WifiSoftAPSetup.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiSoftAPSetup.btnNext" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="WifiSoftAPSetup.AnalogNumeric" TargetProperty="Value" Source="Tags.wifiSSID" />
+        <Item Target="WifiSoftAPSetup.AnalogNumeric1" TargetProperty="Value" Source="Tags.wifiPassword" />
+        <Item xsi:type="ActionItem" Target="WifiSoftAPSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="WifiSoftAPSetup.btnPrev" Source="38304744_Normal.bmp" />
+        <Item Target="WifiSoftAPSetup.btnPrev" Source="38304744_Pressed.bmp" />
+        <Item Target="WifiSoftAPSetup.btnPrev" Source="38304744_Disabled.bmp" />
+        <Item Target="WifiSoftAPSetup.btnNext" Source="-1560276245_Normal.bmp" />
+        <Item Target="WifiSoftAPSetup.btnNext" Source="-1560276245_Pressed.bmp" />
+        <Item Target="WifiSoftAPSetup.btnNext" Source="-1560276245_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiSoftAPSetup.btnPrev" TargetProperty="Actions" Source="WifiAdvanceSetup" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WifiSoftAPSetup</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>7</ObjectsCount>
+          <ScreenName>WifiSoftAPSetup</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="WifiSoftAPSetup.Script.cs" Source="Tags.wifiSSID" />
+        <Item Target="WifiSoftAPSetup.Script.cs" Source="Tags.GeneralMessage" />
+        <Item Target="WifiSoftAPSetup.Script.cs" Source="Tags.wifiPassword" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiSoftAPSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

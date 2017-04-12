@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DisplaySystemTime.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.AnalogNumeric2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.btnHourAdd" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.btnHourSub" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.btnMinAdd" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.btnMinSub" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.btnSecAdd" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplaySystemTime.btnSecSub" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="DisplaySystemTime.AnalogNumeric" TargetProperty="Value" Source="Tags.DisplayHour" />
+        <Item Target="DisplaySystemTime.AnalogNumeric1" TargetProperty="Value" Source="Tags.DisplayMinute" />
+        <Item Target="DisplaySystemTime.AnalogNumeric2" TargetProperty="Value" Source="Tags.DisplaySecond" />
+        <Item xsi:type="ActionItem" Target="DisplaySystemTime" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DisplaySystemTime.Button7" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemTime.Button7" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.Button7" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.Button" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemTime.Button" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.Button" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.Button1" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemTime.Button1" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.Button1" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.Button2" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemTime.Button2" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.Button2" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.Button3" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemTime.Button3" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.Button3" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.Button4" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemTime.Button4" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.Button4" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.btnHourAdd" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemTime.btnHourAdd" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.btnHourAdd" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.btnHourSub" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemTime.btnHourSub" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.btnHourSub" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.btnMinAdd" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemTime.btnMinAdd" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.btnMinAdd" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.btnMinSub" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemTime.btnMinSub" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.btnMinSub" Source="-1318370858_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.btnSecAdd" Source="-1356317360_Normal.bmp" />
+        <Item Target="DisplaySystemTime.btnSecAdd" Source="-1356317360_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.btnSecAdd" Source="-1356317360_Disabled.bmp" />
+        <Item Target="DisplaySystemTime.btnSecSub" Source="-1318370858_Normal.bmp" />
+        <Item Target="DisplaySystemTime.btnSecSub" Source="-1318370858_Pressed.bmp" />
+        <Item Target="DisplaySystemTime.btnSecSub" Source="-1318370858_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DisplaySystemTime</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>31</ObjectsCount>
+          <ScreenName>DisplaySystemTime</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="DisplaySystemTime.Script.cs" Source="Tags.IsTouchScreen" />
+        <Item Target="DisplaySystemTime.Script.cs" Source="Tags.DisplayHour" />
+        <Item Target="DisplaySystemTime.Script.cs" Source="Tags.DisplayMinute" />
+        <Item Target="DisplaySystemTime.Script.cs" Source="Tags.DisplaySecond" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DisplaySystemTime" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.Button7" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.Button" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.Button1" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.Button2" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.Button3" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.Button4" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.btnHourAdd" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.btnHourSub" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.btnMinAdd" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.btnMinSub" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.btnSecAdd" Source="path2924" Width="78" Height="66" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplaySystemTime.btnSecSub" Source="path2923" Width="78" Height="66" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

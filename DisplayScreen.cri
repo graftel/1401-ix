@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="DisplayScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DisplayScreen.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Text2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Text4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DisplayScreen.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Button" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DisplayScreen.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Button11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="DisplayScreen.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="DisplayScreen.Button6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="DisplayScreen.Button" Source="404302273_Normal.bmp" />
+        <Item Target="DisplayScreen.Button" Source="404302273_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button" Source="404302273_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button1" Source="-1136440313_Normal.bmp" />
+        <Item Target="DisplayScreen.Button1" Source="-1136440313_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button1" Source="-1136440313_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button2" Source="1909541027_Normal.bmp" />
+        <Item Target="DisplayScreen.Button2" Source="1909541027_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button2" Source="1909541027_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button4" Source="345275052_Normal.bmp" />
+        <Item Target="DisplayScreen.Button4" Source="345275052_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button4" Source="345275052_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button5" Source="1909541027_Normal.bmp" />
+        <Item Target="DisplayScreen.Button5" Source="1909541027_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button5" Source="1909541027_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button11" Source="-1613828464_Normal.bmp" />
+        <Item Target="DisplayScreen.Button11" Source="-1613828464_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button11" Source="-1613828464_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button3" Source="-536315925_Normal.bmp" />
+        <Item Target="DisplayScreen.Button3" Source="-536315925_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button3" Source="-536315925_Disabled.bmp" />
+        <Item Target="DisplayScreen.Button6" Source="404302273_Normal.bmp" />
+        <Item Target="DisplayScreen.Button6" Source="404302273_Pressed.bmp" />
+        <Item Target="DisplayScreen.Button6" Source="404302273_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="DisplayScreen.Button11" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>DisplayScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>20</ObjectsCount>
+          <ScreenName>DisplayScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="DisplayScreen.Button4" Source="path29851" Width="36" Height="41" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="DisplayScreen.Button3" Source="path2985" Width="36" Height="41" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

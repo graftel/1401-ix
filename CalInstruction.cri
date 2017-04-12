@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="CalInstruction.lblFlowAdjust" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalInstruction.lblFlowCalibration" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalInstruction.lblPressCalibration" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalInstruction.lblPressAdjust" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalInstruction.Slider" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalInstruction.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalInstruction.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="CalInstruction.lblFlowAdjust" TargetProperty="Value" Source="Tags.calInstPrg" />
+        <Item Target="CalInstruction.lblFlowAdjust" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.InstDisp" />
+        <Item Target="CalInstruction.lblFlowCalibration" TargetProperty="Value" Source="Tags.calInstPrg" />
+        <Item Target="CalInstruction.lblFlowCalibration" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.InstDisp" />
+        <Item Target="CalInstruction.lblPressCalibration" TargetProperty="Value" Source="Tags.calInstPrg" />
+        <Item Target="CalInstruction.lblPressCalibration" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.InstDisp" />
+        <Item Target="CalInstruction.lblPressAdjust" TargetProperty="Value" Source="Tags.calInstPrg" />
+        <Item Target="CalInstruction.lblPressAdjust" TargetProperty="BlinkProperties.VisibleDynamicsValue" Source="Tags.InstDisp" />
+        <Item Target="CalInstruction.Slider" TargetProperty="Value" Source="Tags.calInstPrg" />
+        <Item xsi:type="ActionItem" Target="CalInstruction" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="CalInstruction.Slider" Source="CalInstruction.m_Slider.bmp" />
+        <Item Target="CalInstruction.Button" Source="-641995100_Normal.bmp" />
+        <Item Target="CalInstruction.Button" Source="-641995100_Pressed.bmp" />
+        <Item Target="CalInstruction.Button" Source="-641995100_Disabled.bmp" />
+        <Item Target="CalInstruction.Button1" Source="-212819491_Normal.bmp" />
+        <Item Target="CalInstruction.Button1" Source="-212819491_Pressed.bmp" />
+        <Item Target="CalInstruction.Button1" Source="-212819491_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>CalInstruction</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>20</ObjectsCount>
+          <ScreenName>CalInstruction</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="CalInstruction.Script.cs" Source="Tags.calInstPrg" />
+        <Item Target="CalInstruction.Script.cs" Source="Tags.calSelMeter" />
+        <Item Target="CalInstruction.Script.cs" Source="Tags.InstDisp" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalInstruction" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="PersistentVariables.Test_Press_Zero" TargetProperty="Value" Source="Tags.TestPressZero" />
+        <Item Target="PersistentVariables.Test_Press_Max" TargetProperty="Value" Source="Tags.Max_Test_Pressure" />
+        <Item Target="PersistentVariables.Recording_Interval" TargetProperty="Value" Source="Tags.RcrdInterval" />
+        <Item Target="PersistentVariables.Selected_File_Name" TargetProperty="Value" Source="Tags.Selected_FileName" />
+        <Item Target="PersistentVariables.Selected_Tester_Initial" TargetProperty="Value" Source="Tags.Selected_TesterInitial" />
+        <Item Target="PersistentVariables.Screen_Saver" TargetProperty="Value" Source="Tags.ScreenSaver" />
+        <Item Target="PersistentVariables.Screen_Saver_Time_out" TargetProperty="Value" Source="Tags.ScreenSaverTimeout" />
+        <Item Target="PersistentVariables.Backlight_Brightness" TargetProperty="Value" Source="Tags.SystemTagBacklightBrightnessLevel" />
+        <Item Target="PersistentVariables.Date_Format" TargetProperty="Value" Source="Tags.DateFormat" />
+        <Item Target="PersistentVariables.Time_Format" TargetProperty="Value" Source="Tags.TimeFormat" />
+        <Item Target="PersistentVariables.File_Name_List" TargetProperty="Value" Source="Tags.strFileNameList" />
+        <Item Target="PersistentVariables.Tester_Initial_List" TargetProperty="Value" Source="Tags.strTesterInitialList" />
+        <Item Target="PersistentVariables.Cal_Due_Date" TargetProperty="Value" Source="Tags.calDueDatePers" />
+        <Item Target="PersistentVariables.Cal_Due_Date_Show" TargetProperty="Value" Source="Tags.calDueDateShow" />
+        <Item Target="PersistentVariables.Target_Pressure_Tolerance" TargetProperty="Value" Source="Tags.TargetPressTolerance" />
+        <Item Target="PersistentVariables.Target_Press_Hold_Time" TargetProperty="Value" Source="Tags.TargetPressHoldTime" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_Press" TargetProperty="Value" Source="Tags.DiagMaxValueFlow11" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_Temp" TargetProperty="Value" Source="Tags.DiagMaxValueFlow12" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_vol_FR" TargetProperty="Value" Source="Tags.DiagMaxValueFlow13" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_mass_FR" TargetProperty="Value" Source="Tags.DiagMaxValueFlow14" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_Press" TargetProperty="Value" Source="Tags.DiagMaxValueFlow21" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_Temp" TargetProperty="Value" Source="Tags.DiagMaxValueFlow22" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_vol_FR" TargetProperty="Value" Source="Tags.DiagMaxValueFlow23" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_mass_FR" TargetProperty="Value" Source="Tags.DiagMaxValueFlow24" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Inlet_Press" TargetProperty="Value" Source="Tags.DiagMaxValuePress1" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Outlet_Press" TargetProperty="Value" Source="Tags.DiagMaxValuePress2" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_Temp_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow12Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_vol_FR_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow13Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_mass_FR_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow14Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_Press_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow21Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_Temp_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow22Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_vol_FR_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow23Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_MID_mass_FR_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow24Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Inlet_Press_TIME" TargetProperty="Value" Source="Tags.DiagMaxValuePress1Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Outlet_Press_TIME" TargetProperty="Value" Source="Tags.DiagMaxValuePress2Time" />
+        <Item Target="PersistentVariables.Diag_Max_Value_Flow_LOW_Press_TIME" TargetProperty="Value" Source="Tags.DiagMaxValueFlow11Time" />
+        <Item Target="PersistentVariables.Stability_Enable" TargetProperty="Value" Source="Tags.bStabEnable" />
+        <Item Target="PersistentVariables.Standard_Deviation_Tolerance" TargetProperty="Value" Source="Tags.STDTolerence" />
+        <Item Target="PersistentVariables.Solenoid_A_Count" TargetProperty="Value" Source="Tags.SolenoidCountA" />
+        <Item Target="PersistentVariables.Solenoid_B_Count" TargetProperty="Value" Source="Tags.SolenoidCountB" />
+        <Item Target="PersistentVariables.Solenoid_C_Count" TargetProperty="Value" Source="Tags.SolenoidCountC" />
+        <Item Target="PersistentVariables.Persistant_Variable_Load_Status" TargetProperty="Value" Source="Tags.PerVarLoadStatus" />
+        <Item Target="PersistentVariables.BuzzerONOFF" TargetProperty="Value" Source="Tags.BuzzerONOFF" />
+        <Item Target="PersistentVariables.BuzzerFrequence" TargetProperty="Value" Source="Tags.BuzzerFrequence" />
+        <Item Target="PersistentVariables.BuzzerDuration" TargetProperty="Value" Source="Tags.BuzzerDuration" />
+        <Item Target="PersistentVariables.Nozzle_Error_Limit" TargetProperty="Value" Source="Tags.nozzleErrorLimit" />
+        <Item Target="PersistentVariables.Nozzle_REF_LOW_FLOW" TargetProperty="Value" Source="Tags.nozzleReferenceFlowLow" />
+        <Item Target="PersistentVariables.Nozzle_REF_MID_FLOW" TargetProperty="Value" Source="Tags.nozzleReferenceFlowMid" />
+        <Item Target="PersistentVariables.Nozzle_REF_HIGH_FLOW" TargetProperty="Value" Source="Tags.nozzleReferenceFlowHigh" />
+        <Item Target="PersistentVariables.Nozzle_REF_PRESSURE" TargetProperty="Value" Source="Tags.nozzleReferencePressure" />
+        <Item Target="PersistentVariables.Nozzle_ERROR_Type" TargetProperty="Value" Source="Tags.nozzleErrorType" />
+        <Item Target="PersistentVariables.Nozzle_Flow_Unit" TargetProperty="Value" Source="Tags.nozzleFlowUnit" />
+        <Item Target="PersistentVariables.Nozzle_Press_Unit" TargetProperty="Value" Source="Tags.nozzlePressUnit" />
+        <Item Target="PersistentVariables.Cal_due_date_str" TargetProperty="Value" Source="Tags.calDueDate" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

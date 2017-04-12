@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="FilterLow.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterLow.Text6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterLow.Text7" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="FilterLow.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="FilterLow.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="FilterLow.AnalogNumeric1" TargetProperty="Value" Source="Tags.FilterResponseLow" />
+        <Item Target="FilterLow.AnalogNumeric" TargetProperty="Value" Source="Tags.FilterUpperLimitLow" />
+        <Item xsi:type="ActionItem" Target="FilterLow" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="FilterLow.Button" Source="2135213450_Normal.bmp" />
+        <Item Target="FilterLow.Button" Source="2135213450_Pressed.bmp" />
+        <Item Target="FilterLow.Button" Source="2135213450_Disabled.bmp" />
+        <Item Target="FilterLow.Button1" Source="774664809_Normal.bmp" />
+        <Item Target="FilterLow.Button1" Source="774664809_Pressed.bmp" />
+        <Item Target="FilterLow.Button1" Source="774664809_Disabled.bmp" />
+        <Item Target="FilterLow.Button2" Source="2135213450_Normal.bmp" />
+        <Item Target="FilterLow.Button2" Source="2135213450_Pressed.bmp" />
+        <Item Target="FilterLow.Button2" Source="2135213450_Disabled.bmp" />
+        <Item Target="FilterLow.Button3" Source="774664809_Normal.bmp" />
+        <Item Target="FilterLow.Button3" Source="774664809_Pressed.bmp" />
+        <Item Target="FilterLow.Button3" Source="774664809_Disabled.bmp" />
+        <Item Target="FilterLow.Button8" Source="1383350128_Normal.bmp" />
+        <Item Target="FilterLow.Button8" Source="1383350128_Pressed.bmp" />
+        <Item Target="FilterLow.Button8" Source="1383350128_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>FilterLow</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>21</ObjectsCount>
+          <ScreenName>FilterLow</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="FilterLow.Script.cs" Source="Tags.FilterResponseLow" />
+        <Item Target="FilterLow.Script.cs" Source="Tags.FilterUpperLimitLow" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="FilterLow" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="FilterLow.Button" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterLow.Button1" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterLow.Button2" Source="path2985" Width="62" Height="72" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="FilterLow.Button3" Source="path29851" Width="62" Height="72" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

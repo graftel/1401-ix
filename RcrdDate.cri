@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RcrdDate.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdDate.lblFormat" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdDate.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdDate.lblCurrentDate" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdDate.Text20" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdDate.btnSlash" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdDate.btnY" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdDate.btnD" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdDate.btnM" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdDate.btnClear" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdDate.btnBack" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdDate.btnDash" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RcrdDate" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RcrdDate.btnSlash" Source="-897503865_Normal.bmp" />
+        <Item Target="RcrdDate.btnSlash" Source="-897503865_Pressed.bmp" />
+        <Item Target="RcrdDate.btnSlash" Source="-897503865_Disabled.bmp" />
+        <Item Target="RcrdDate.btnY" Source="-897503865_Normal.bmp" />
+        <Item Target="RcrdDate.btnY" Source="-897503865_Pressed.bmp" />
+        <Item Target="RcrdDate.btnY" Source="-897503865_Disabled.bmp" />
+        <Item Target="RcrdDate.btnD" Source="-897503865_Normal.bmp" />
+        <Item Target="RcrdDate.btnD" Source="-897503865_Pressed.bmp" />
+        <Item Target="RcrdDate.btnD" Source="-897503865_Disabled.bmp" />
+        <Item Target="RcrdDate.btnM" Source="-897503865_Normal.bmp" />
+        <Item Target="RcrdDate.btnM" Source="-897503865_Pressed.bmp" />
+        <Item Target="RcrdDate.btnM" Source="-897503865_Disabled.bmp" />
+        <Item Target="RcrdDate.btnClear" Source="-1862057757_Normal.bmp" />
+        <Item Target="RcrdDate.btnClear" Source="-1862057757_Pressed.bmp" />
+        <Item Target="RcrdDate.btnClear" Source="-1862057757_Disabled.bmp" />
+        <Item Target="RcrdDate.btnBack" Source="-1862057757_Normal.bmp" />
+        <Item Target="RcrdDate.btnBack" Source="-1862057757_Pressed.bmp" />
+        <Item Target="RcrdDate.btnBack" Source="-1862057757_Disabled.bmp" />
+        <Item Target="RcrdDate.btnDash" Source="-897503865_Normal.bmp" />
+        <Item Target="RcrdDate.btnDash" Source="-897503865_Pressed.bmp" />
+        <Item Target="RcrdDate.btnDash" Source="-897503865_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RcrdDate</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>24</ObjectsCount>
+          <ScreenName>RcrdDate</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="RcrdDate.Script.cs" Source="Tags.DateFormat" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RcrdDate" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

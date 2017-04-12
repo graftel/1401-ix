@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="CalAdjust.lblReading" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.lblTitle" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.Text" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.lblPara" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.lblValue" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.btnZero" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.btnToggle" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.btnUnit" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.btnUp" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.btnDown" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="CalAdjust.btnGasType" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="CalAdjust.lblValue" TargetProperty="Foreground" Source="Tags.calCalValueColor" />
+        <Item xsi:type="ActionItem" Target="CalAdjust" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="CalAdjust.btnZero" Source="126977739_Normal.bmp" />
+        <Item Target="CalAdjust.btnZero" Source="126977739_Pressed.bmp" />
+        <Item Target="CalAdjust.btnZero" Source="126977739_Disabled.bmp" />
+        <Item Target="CalAdjust.btnToggle" Source="1830186226_Normal.bmp" />
+        <Item Target="CalAdjust.btnToggle" Source="1830186226_Pressed.bmp" />
+        <Item Target="CalAdjust.btnToggle" Source="1830186226_Disabled.bmp" />
+        <Item Target="CalAdjust.btnUnit" Source="370167794_Normal.bmp" />
+        <Item Target="CalAdjust.btnUnit" Source="370167794_Pressed.bmp" />
+        <Item Target="CalAdjust.btnUnit" Source="370167794_Disabled.bmp" />
+        <Item Target="CalAdjust.btnUp" Source="1265017117_Normal.bmp" />
+        <Item Target="CalAdjust.btnUp" Source="1265017117_Pressed.bmp" />
+        <Item Target="CalAdjust.btnUp" Source="1265017117_Disabled.bmp" />
+        <Item Target="CalAdjust.btnDown" Source="-1596572780_Normal.bmp" />
+        <Item Target="CalAdjust.btnDown" Source="-1596572780_Pressed.bmp" />
+        <Item Target="CalAdjust.btnDown" Source="-1596572780_Disabled.bmp" />
+        <Item Target="CalAdjust.btnGasType" Source="1851013862_Normal.bmp" />
+        <Item Target="CalAdjust.btnGasType" Source="1851013862_Pressed.bmp" />
+        <Item Target="CalAdjust.btnGasType" Source="1851013862_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>CalAdjust</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>26</ObjectsCount>
+          <ScreenName>CalAdjust</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="CalAdjust.Script.cs" Source="Tags.calSelMeter" />
+        <Item Target="CalAdjust.Script.cs" Source="Tags.gasType" />
+        <Item Target="CalAdjust.Script.cs" Source="Tags.Status_CalculatorScr" />
+        <Item Target="CalAdjust.Script.cs" Source="Tags.Enter_Value" />
+        <Item Target="CalAdjust.Script.cs" Source="Tags.calCalValueColor" />
+        <Item Target="CalAdjust.Script.cs" Source="Tags.CalculatorTargetScr" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="CalAdjust" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="CalAdjust.Picture" Source="calculator" Width="71" Height="79" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalAdjust.btnUp" Source="path2924" Width="97" Height="83" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="CalAdjust.btnDown" Source="path2923" Width="95" Height="81" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

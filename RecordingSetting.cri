@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="RecordingSetting.RcrdMode" TargetProperty="Value" Source="Tags.popRcrdMode" />
+        <Item Target="RecordingSetting.RcrdLRMID" TargetProperty="Value" Source="Tags.popStrLRMID" />
+        <Item Target="RecordingSetting.RcrdTesterPIN" TargetProperty="Value" Source="Tags.popStrTesterPIN" />
+        <Item Target="RecordingSetting.RcrdJobNum" TargetProperty="Value" Source="Tags.popStrJobNum" />
+        <Item Target="RecordingSetting.RcrdTaskNum" TargetProperty="Value" Source="Tags.popStrTaskNum" />
+        <Item Target="RecordingSetting.RcrdComment" TargetProperty="Value" Source="Tags.popStrComment" />
+        <Item Target="RecordingSetting.RcrdComment1" TargetProperty="Value" Source="Tags.popStrComment1" />
+        <Item Target="RecordingSetting.RcrdComment2" TargetProperty="Value" Source="Tags.popStrComment2" />
+        <Item Target="RecordingSetting.RcrdComment3" TargetProperty="Value" Source="Tags.popStrComment3" />
+        <Item Target="RecordingSetting.RcrdShow" TargetProperty="Value" Source="Tags.popRcrdShow" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

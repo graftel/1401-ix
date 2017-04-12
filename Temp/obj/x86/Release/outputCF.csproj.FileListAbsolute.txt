@@ -1,0 +1,569 @@
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Common.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CommonCF.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Controls.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ControlsCF.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Core.Utilities.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Utilities.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\FlexCelCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Tools.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ToolsCF.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\System.Data.SQLite.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\log4net.config
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CommonIde.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\IntegratorSwapActiveProject.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\IntegratorSwapActiveProjectCF.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\graphicspc.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Ionic.Zip.CF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Ionic.Zip.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Numeric.kbl
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\NumericHex.kbl
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\NumericIP.kbl
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\System Default.kbl
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\US.kbl
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OnScreenKeyboardPC.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SqlCeDatabaseCF.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SQLite.Interop.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SQLiteDatabase.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SQLiteDatabaseCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SQLiteDatabaseCommonCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ToolsIde.DLL
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\graphicsce.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\InProcessCE.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OnScreenKeyboardCE.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OPCDAWrapperCe.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\PdfWrapperCE.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\PropertyBagCE.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SQLite.Interop.099.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\VSC.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SAIA_S-BUS_Serial_Ethernet_Pre2ce6.dll.ce6
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Modules.cfgtool
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ARIAL.TTF
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\PASSWORD.TTF
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\AlarmSettings.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\network.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\RenderableControls.zip
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Symbols.zip
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ComRegistration.config
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ControllerRunTimeSettings.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DecimalSettings.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DefaultSettings.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DEMO.cfg
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Features.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\FilterSettingHigh.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\FilterSettingLow.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\FilterSettingMid.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\InternalSettings.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\PersistentVariables.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Printer1.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\Original.reg
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\RegEditCE.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\SaveReg.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\UltraDim.reg
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ScreenIDs.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Security.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\StabSettingHigh.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\StabSettingLow.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\StabSettingMid.bin
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\PlatformFactory.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\TrendDataConfig.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\App.config
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\hourglass.bmp
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project1401_Mobloc.exe.config
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project1401_Mobloc.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Project1401_Mobloc.pdb
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ApplicationFrameworkCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\AttributesCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CommonDatabaseCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Api.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Component.Api.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Controls.Api.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Engine.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DataSourceInterop.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Extensions.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ExtensionsCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\InterfacesCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\log4net.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\MacroExtensionsCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Microsoft.WindowsCE.Forms.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Configuration.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Drawing.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Windows.Forms.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ResourcesCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SecureMail.Core.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SecureMail.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SecureMailCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SignatureInterfacesCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\StorageCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedList.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ApplicationFramework.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedComboBox.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.XtraEditors.v7.3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.XtraGrid.v7.3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\TeeChart.WPF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.CommonControls.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.Core.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\RebexSecureMailCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Core.Api.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Microsoft.Practices.ServiceLocation.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\FlexCel.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.Utils.v7.3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.WindowsCE.Messaging.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.OutlookControls.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Attributes.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Interfaces.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedList.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Microsoft.Practices.Prism.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\TeeChart.Pocket.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Utilities.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.Controls.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ApplicationFrameworkIde.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\3DTools.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Core.Controls.Api.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.WindowsCE.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.ScrollBar.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\RebexSecureMail.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.SmartGrid.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\AxAcroPDF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.Controls.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.CommonControls.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.XtraLayout.v7.3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Xceed.Zip.v5.1.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedComboBox.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Net.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreIde.Api.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Xceed.FileSystem.v5.1.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.OutlookControls.CF3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\MediaPlayerCF.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Resco.Core.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\LumenWorks.Framework.IO.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\AcroPDFLib.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\AsyncWinLib.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\SignatureInterfaces.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.Data.v7.3.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\MediaPlayerCELib.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\PropertyBagInterop.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Newtonsoft.Json.Compact.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\BeHwApiProvider.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\RemObjects.InternetPack.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Xceed.Compression.v5.1.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\FreeImageNET.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\protobuf-net.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CoreIde.Utilities.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Common.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\CommonCF.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\InterfacesCF.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Controls.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\Tools.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ToolsCF.xml
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CommonDatabaseCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ControlsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CoreCF.Api.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.Utils.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CommonCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ResourcesCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\Resources.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ApplicationFrameworkCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\Controls.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\Tools.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ToolsCF.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.Data.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.Data.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.Data.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.Data.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.Data.v7.3.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\de\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\es\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\fr\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\it\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\ko\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CoreCF.Engine.resources.dll
+D:\dev\1401 Related\Project1401_Mobloc\Temp\obj\x86\Release\ResolveAssemblyReference.cache
+D:\dev\1401 Related\Project1401_Mobloc\Temp\obj\x86\Release\Project1401_Mobloc.exe
+D:\dev\1401 Related\Project1401_Mobloc\Temp\obj\x86\Release\Project1401_Mobloc.pdb
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\log4net.config
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Common.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CommonCF.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CommonIde.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Controls.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ControlsCF.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Core.Utilities.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Utilities.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\IntegratorSwapActiveProject.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\IntegratorSwapActiveProjectCF.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\FlexCelCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\graphicspc.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Ionic.Zip.CF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Ionic.Zip.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Numeric.kbl
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\NumericHex.kbl
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\NumericIP.kbl
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\System Default.kbl
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\US.kbl
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OnScreenKeyboardPC.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SqlCeDatabaseCF.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SQLite.Interop.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SQLiteDatabase.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SQLiteDatabaseCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SQLiteDatabaseCommonCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Tools.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ToolsCF.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ToolsIde.DLL
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\graphicsce.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\InProcessCE.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OnScreenKeyboardCE.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OPCDAWrapperCe.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\PdfWrapperCE.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\PropertyBagCE.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SQLite.Interop.099.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\System.Data.SQLite.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\VSC.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SAIA_S-BUS_Serial_Ethernet_Pre2ce6.dll.ce6
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ARIAL.TTF
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\PASSWORD.TTF
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ControllerRunTimeSettings.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DecimalSettings.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DefaultSettings.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DEMO.cfg
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\FilterSettingHigh.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\FilterSettingLow.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\FilterSettingMid.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\InternalSettings.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\PersistentVariables.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Printer1.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\Original.reg
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\RegEditCE.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\SaveReg.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project Files\UltraDim.reg
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Security.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\StabSettingHigh.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\StabSettingLow.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\StabSettingMid.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\App.config
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\hourglass.bmp
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Modules.cfgtool
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\AlarmSettings.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\network.bin
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\RenderableControls.zip
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Symbols.zip
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ComRegistration.config
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Features.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ScreenIDs.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\PlatformFactory.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\TrendDataConfig.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project1401_Mobloc.exe.config
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project1401_Mobloc.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Project1401_Mobloc.pdb
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ApplicationFrameworkCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\AttributesCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CommonDatabaseCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Api.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Component.Api.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Controls.Api.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreCF.Engine.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DataSourceInterop.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Extensions.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ExtensionsCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\InterfacesCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\log4net.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\MacroExtensionsCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Microsoft.WindowsCE.Forms.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Configuration.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Drawing.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Windows.Forms.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ResourcesCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SecureMail.Core.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SecureMail.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SecureMailCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SignatureInterfacesCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\StorageCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedList.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ApplicationFramework.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedComboBox.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.XtraEditors.v7.3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.XtraGrid.v7.3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\TeeChart.WPF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.CommonControls.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.Core.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\RebexSecureMailCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Core.Api.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Microsoft.Practices.ServiceLocation.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\FlexCel.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.Utils.v7.3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.WindowsCE.Messaging.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.OutlookControls.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Attributes.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Interfaces.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedList.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Microsoft.Practices.Prism.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\TeeChart.Pocket.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Utilities.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.Controls.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ApplicationFrameworkIde.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\3DTools.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Core.Controls.Api.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.WindowsCE.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.ScrollBar.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\RebexSecureMail.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.SmartGrid.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\AxAcroPDF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.Controls.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.CommonControls.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.XtraLayout.v7.3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Xceed.Zip.v5.1.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.AdvancedComboBox.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\OpenNETCF.Net.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.UIElements.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreIde.Api.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Xceed.FileSystem.v5.1.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.OutlookControls.CF3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\MediaPlayerCF.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Resco.Core.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\LumenWorks.Framework.IO.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\AcroPDFLib.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\AsyncWinLib.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\SignatureInterfaces.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\DevExpress.Data.v7.3.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\MediaPlayerCELib.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\PropertyBagInterop.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Newtonsoft.Json.Compact.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\BeHwApiProvider.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\RemObjects.InternetPack.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Xceed.Compression.v5.1.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\FreeImageNET.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\protobuf-net.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CoreIde.Utilities.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Common.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\CommonCF.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\InterfacesCF.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Controls.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\Tools.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ToolsCF.xml
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CommonDatabaseCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.XtraEditors.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.XtraGrid.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ControlsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CoreCF.Api.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.Utils.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CommonCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ResourcesCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\Resources.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ApplicationFrameworkCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.XtraLayout.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\Controls.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\Tools.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\ToolsCF.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\DevExpress.Data.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\DevExpress.Data.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\DevExpress.Data.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\DevExpress.Data.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\DevExpress.Data.v7.3.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\de\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\es\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\fr\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\it\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\ko\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\pt-BR\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hans\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\zh-Hant\CoreCF.Engine.resources.dll
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\obj\x86\Release\ResolveAssemblyReference.cache
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\obj\x86\Release\Project1401_Mobloc.exe
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\obj\x86\Release\Project1401_Mobloc.pdb
+D:\dev\LRM IX\1401 Related\Project1401_Mobloc\Temp\Output\RecordingSetting.bin

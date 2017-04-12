@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="InternalSettings.No_Supply_Condition" TargetProperty="Value" Source="Tags.Min_Supply" />
+        <Item Target="InternalSettings.No_Flow_Condition_Low_Range" TargetProperty="Value" Source="Tags.NoFlowConditionLow" />
+        <Item Target="InternalSettings.No_Flow_Condition_Mid_Range" TargetProperty="Value" Source="Tags.NoFlowConditionMid" />
+        <Item Target="InternalSettings.No_Test_Pressure_Condition" TargetProperty="Value" Source="Tags.NoTestPressCondition" />
+        <Item Target="InternalSettings.Maximum_Count_Solenoid_Cycles" TargetProperty="Value" Source="Tags.MAXSOLENOIDCOUNT" />
+        <Item Target="InternalSettings.Maximum_switch_percentage_limit" TargetProperty="Value" Source="Tags.MAXSWITCHPERLIMIT" />
+        <Item Target="InternalSettings.Switch_Increment" TargetProperty="Value" Source="Tags.SWITCHPERINCREMENT" />
+        <Item Target="InternalSettings.Low_Range_Zero_Band" TargetProperty="Value" Source="Tags.LowRangeZeroBand" />
+        <Item Target="InternalSettings.High_Range_Zero_Band" TargetProperty="Value" Source="Tags.HighRangeZeroBand" />
+        <Item Target="InternalSettings.Test_Press_Zero_Band" TargetProperty="Value" Source="Tags.TestPressZeroBand" />
+        <Item Target="InternalSettings.Inlet_Press_Zero_Band" TargetProperty="Value" Source="Tags.InletPressZeroBand" />
+        <Item Target="InternalSettings.MAX_LOW_SCCM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_LOW_SCCM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_LOW_SCCM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_LOW_SCCM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_LOW_SLPM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_LOW_SLPM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_LOW_SLPM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_LOW_SLPM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_LOW_SCFM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_LOW_SCFM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_LOW_SCFM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_LOW_SCFM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_LOW_SCFH_DECIMAL" TargetProperty="Value" Source="Tags.MAX_LOW_SCFH_DECIMAL" />
+        <Item Target="InternalSettings.MIN_LOW_SCFH_DECIMAL" TargetProperty="Value" Source="Tags.MIN_LOW_SCFH_DECIMAL" />
+        <Item Target="InternalSettings.MAX_HI_SCCM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_HI_SCCM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_HI_SCCM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_HI_SCCM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_HI_SLPM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_HI_SLPM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_HI_SLPM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_HI_SLPM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_HI_SCFM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_HI_SCFM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_HI_SCFM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_HI_SCFM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_HI_SCFH_DECIMAL" TargetProperty="Value" Source="Tags.MAX_HI_SCFH_DECIMAL" />
+        <Item Target="InternalSettings.MIN_HI_SCFH_DECIMAL" TargetProperty="Value" Source="Tags.MIN_HI_SCFH_DECIMAL" />
+        <Item Target="InternalSettings.MAX_PSIG_DECIMAL" TargetProperty="Value" Source="Tags.MAX_PSIG_DECIMAL" />
+        <Item Target="InternalSettings.MIN_PSIG_DECIMAL" TargetProperty="Value" Source="Tags.MIN_PSIG_DECIMAL" />
+        <Item Target="InternalSettings.MAX_BAR_DECIMAL" TargetProperty="Value" Source="Tags.MAX_BAR_DECIMAL" />
+        <Item Target="InternalSettings.MIN_BAR_DECIMAL" TargetProperty="Value" Source="Tags.MIN_BAR_DECIMAL" />
+        <Item Target="InternalSettings.MAX_KSI_DECIMAL" TargetProperty="Value" Source="Tags.MAX_KSI_DECIMAL" />
+        <Item Target="InternalSettings.MIN_KSI_DECIMAL" TargetProperty="Value" Source="Tags.MIN_KSI_DECIMAL" />
+        <Item Target="InternalSettings.MAX_MID_SCCM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_MID_SCCM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_MID_SCCM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_MID_SCCM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_MID_SLMP_DECIMAL" TargetProperty="Value" Source="Tags.MAX_MID_SLPM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_MID_SLMP_DECIMAL" TargetProperty="Value" Source="Tags.MIN_MID_SLPM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_MID_SCFM_DECIMAL" TargetProperty="Value" Source="Tags.MAX_MID_SCFM_DECIMAL" />
+        <Item Target="InternalSettings.MIN_MID_SCFM_DECIMAL" TargetProperty="Value" Source="Tags.MIN_MID_SCFM_DECIMAL" />
+        <Item Target="InternalSettings.MAX_MID_SCFH_DECIMAL" TargetProperty="Value" Source="Tags.MAX_MID_SCFH_DECIMAL" />
+        <Item Target="InternalSettings.MIN_MID_SCFH_DECIMAL" TargetProperty="Value" Source="Tags.MIN_MID_SCFH_DECIMAL" />
+        <Item Target="InternalSettings.No_Flow_Condition_High_Range" TargetProperty="Value" Source="Tags.NoFlowConditionHigh" />
+      </Items>
+    </Category>
+  </Categories>
+</CrossReferences>

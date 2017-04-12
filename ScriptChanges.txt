@@ -1,0 +1,7 @@
+CalAdjust.Script.cs: Neo.ApplicationFramework.Common.MessageLibrary.MessageLibrary => Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary Type moved to new namespace.
+Comm.Script.cs: Neo.ApplicationFramework.Common.MessageLibrary.MessageLibrary => Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary Type moved to new namespace.
+DiagScreen.Script.cs: Neo.ApplicationFramework.Common.MessageLibrary.MessageLibrary => Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary Type moved to new namespace.
+DisplayBacklight.Script.cs: Neo.ApplicationFramework.Common.Service.ServiceContainerCF => Core.Api.Service.ServiceContainerCF Type moved to new namespace.
+DisplayDecimals.Script.cs: Neo.ApplicationFramework.Common.MessageLibrary.MessageLibrary => Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary Type moved to new namespace.
+FlowRateDisplay.Script.cs: Neo.ApplicationFramework.Common.MessageLibrary.MessageLibrary => Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary Type moved to new namespace.
+Recording.Script.cs: Neo.ApplicationFramework.Common.MessageLibrary.MessageLibrary => Neo.ApplicationFramework.Tools.MessageLibrary.MessageLibrary Type moved to new namespace.

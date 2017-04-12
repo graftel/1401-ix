@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="NozzleCheckValue.AnalogNumeric3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.Text5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.Text6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.AnalogNumeric4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.AnalogNumeric6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.Text8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.AnalogNumeric7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.AnalogNumeric8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.btnUnit" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="NozzleCheckValue.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="NozzleCheckValue.AnalogNumeric3" TargetProperty="Value" Source="Tags.nozzleTestPressure" />
+        <Item Target="NozzleCheckValue.Text6" TargetProperty="Value" Source="Tags.SettingSel" />
+        <Item Target="NozzleCheckValue.AnalogNumeric4" TargetProperty="Value" Source="Tags.nozzleMeterFlowRate" />
+        <Item Target="NozzleCheckValue.AnalogNumeric6" TargetProperty="Value" Source="Tags.nozzleExpectFlowRate" />
+        <Item Target="NozzleCheckValue.AnalogNumeric7" TargetProperty="Value" Source="Tags.nozzleFlowError" />
+        <Item Target="NozzleCheckValue.AnalogNumeric7" TargetProperty="Foreground" Source="Tags.nozzleErrorColor" />
+        <Item Target="NozzleCheckValue.AnalogNumeric8" TargetProperty="Value" Source="Tags.nozzleMeterPressure" />
+        <Item xsi:type="ActionItem" Target="NozzleCheckValue" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="NozzleCheckValue.btnUnit" Source="-30010151_Normal.bmp" />
+        <Item Target="NozzleCheckValue.btnUnit" Source="-30010151_Pressed.bmp" />
+        <Item Target="NozzleCheckValue.btnUnit" Source="-30010151_Disabled.bmp" />
+        <Item Target="NozzleCheckValue.Button3" Source="-30010151_Normal.bmp" />
+        <Item Target="NozzleCheckValue.Button3" Source="-30010151_Pressed.bmp" />
+        <Item Target="NozzleCheckValue.Button3" Source="-30010151_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>NozzleCheckValue</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>23</ObjectsCount>
+          <ScreenName>NozzleCheckValue</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.SettingSel" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleMeterFlowRate" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleFlowUnit" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleMeterPressure" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzlePressUnit" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleTestPressure" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleReferencePressure" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleErrorType" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleReferenceFlowLow" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.LowRangeMax" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleFlowError" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleErrorLimit" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleErrorColor" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleExpectFlowRate" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleReferenceFlowMid" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.MidRangeMax" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.nozzleReferenceFlowHigh" />
+        <Item Target="NozzleCheckValue.Script.cs" Source="Tags.HighRangeMax" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="NozzleCheckValue" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items />
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

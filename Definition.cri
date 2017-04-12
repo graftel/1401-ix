@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items />
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="Definition.Script.cs" Source="Tags.IsTouchScreen" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowFlowSpan25" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidFlowSpan25" />
+        <Item Target="Definition.Script.cs" Source="Tags.HighFlowSpan25" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowFlowSpan100" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidFlowSpan100" />
+        <Item Target="Definition.Script.cs" Source="Tags.HighFlowSpan100" />
+        <Item Target="Definition.Script.cs" Source="Tags.CurrentScreen" />
+        <Item Target="Definition.Script.cs" Source="Tags.meter_unit_low" />
+        <Item Target="Definition.Script.cs" Source="Tags.gasType" />
+        <Item Target="Definition.Script.cs" Source="Tags.RawFlowRateLow" />
+        <Item Target="Definition.Script.cs" Source="Tags.CalFlowRateLow" />
+        <Item Target="Definition.Script.cs" Source="Tags.meter_unit_mid" />
+        <Item Target="Definition.Script.cs" Source="Tags.RawFlowRateMid" />
+        <Item Target="Definition.Script.cs" Source="Tags.CalFlowRateMid" />
+        <Item Target="Definition.Script.cs" Source="Tags.meter_unit_high" />
+        <Item Target="Definition.Script.cs" Source="Tags.RawFlowRateHigh" />
+        <Item Target="Definition.Script.cs" Source="Tags.CalFlowRateHigh" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowSolenoidStatus" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidSolenoidStatus" />
+        <Item Target="Definition.Script.cs" Source="Tags.HighSolenoidStatus" />
+        <Item Target="Definition.Script.cs" Source="Tags.SystemBatteryVoltage" />
+        <Item Target="Definition.Script.cs" Source="Tags.globalVoltage" />
+        <Item Target="Definition.Script.cs" Source="Tags.debugstring1" />
+        <Item Target="Definition.Script.cs" Source="Tags.RemoteDesktopIcon" />
+        <Item Target="Definition.Script.cs" Source="Tags.wifiStreaming" />
+        <Item Target="Definition.Script.cs" Source="Tags.selMode" />
+        <Item Target="Definition.Script.cs" Source="Tags.selMeter" />
+        <Item Target="Definition.Script.cs" Source="Tags.flow_unit_low" />
+        <Item Target="Definition.Script.cs" Source="Tags.flow_unit_mid" />
+        <Item Target="Definition.Script.cs" Source="Tags.flow_unit_high" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainFlowRateDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.iLinearMeterColor" />
+        <Item Target="Definition.Script.cs" Source="Tags.PressUnit" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainPressDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainFlowRateDisplay" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainRangeMinDisplay" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainRangeMaxDisplay" />
+        <Item Target="Definition.Script.cs" Source="Tags.RawTestPressure" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainTestPressDisplay" />
+        <Item Target="Definition.Script.cs" Source="Tags.press_meter_unit" />
+        <Item Target="Definition.Script.cs" Source="Tags.RawInletPressure" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainInletPressDisplay" />
+        <Item Target="Definition.Script.cs" Source="Tags.gTimerCount" />
+        <Item Target="Definition.Script.cs" Source="Tags.serial" />
+        <Item Target="Definition.Script.cs" Source="Tags.firmware" />
+        <Item Target="Definition.Script.cs" Source="Tags.calDueDatePers" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowsccmDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowslpmDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowscfmDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowscfhDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidsccmDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidslpmDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidscfmDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidscfhDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.psigDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.ksiDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.barDecimal" />
+        <Item Target="Definition.Script.cs" Source="Tags.FilterResponseLow" />
+        <Item Target="Definition.Script.cs" Source="Tags.FilterUpperLimitLow" />
+        <Item Target="Definition.Script.cs" Source="Tags.FilterResponseMid" />
+        <Item Target="Definition.Script.cs" Source="Tags.FilterUpperLimitMid" />
+        <Item Target="Definition.Script.cs" Source="Tags.FilterResponseHigh" />
+        <Item Target="Definition.Script.cs" Source="Tags.FilterUpperLimitHigh" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_low_green" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_low_orange" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_low_red" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_mid_green" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_mid_orange" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_mid_red" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_high_green" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_high_orange" />
+        <Item Target="Definition.Script.cs" Source="Tags.Stab_high_red" />
+        <Item Target="Definition.Script.cs" Source="Tags.ValveState" />
+        <Item Target="Definition.Script.cs" Source="Tags.tmr485_control" />
+        <Item Target="Definition.Script.cs" Source="Tags.MainDisplayMessage" />
+        <Item Target="Definition.Script.cs" Source="Tags.tmr232_control" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowRangeMin" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidRangeMin" />
+        <Item Target="Definition.Script.cs" Source="Tags.LowRangeMax" />
+        <Item Target="Definition.Script.cs" Source="Tags.MidRangeMax" />
+        <Item Target="Definition.Script.cs" Source="Tags.Inlet_Press_Max" />
+        <Item Target="Definition.Script.cs" Source="Tags.Test_Press_Max" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

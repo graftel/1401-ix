@@ -1,0 +1,1637 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?neo version='2.16.154.0'?>
+<nacs:ScreenWindow Top="0" Left="0" Topmost="False" Title="KeyBoardScreen" ResizeMode="CanResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen" WindowState="Normal" BorderStyle="ThreeDBorder" ScreenSize="480, 272" ScreenPosition="0, 0" PopupScreen="False" StyleName="Default" FontSize="12" FontStyle="Normal" FontWeight="Normal" Width="480" Height="272" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:nacs="clr-namespace:Neo.ApplicationFramework.Controls.Screen;assembly=Controls" xmlns:nai="clr-namespace:Neo.ApplicationFramework.Interfaces;assembly=Interfaces" xmlns:nacxs="clr-namespace:Neo.ApplicationFramework.Common.Xaml.Serializer;assembly=Common" xmlns:nac="clr-namespace:Neo.ApplicationFramework.Controls;assembly=Controls" xmlns:nacd="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=Common" xmlns:nacd1="clr-namespace:Neo.ApplicationFramework.Common.Data;assembly=CommonCF" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:nacb="clr-namespace:Neo.ApplicationFramework.Common.Behaviors;assembly=Common" xmlns:nac1="clr-namespace:Neo.ApplicationFramework.Common;assembly=Common" xmlns:nacc="clr-namespace:Neo.ApplicationFramework.Common.Converters;assembly=Common" xmlns:nacd2="clr-namespace:Neo.ApplicationFramework.Common.Dynamics;assembly=CommonCF" xmlns:nacgl="clr-namespace:Neo.ApplicationFramework.Common.Graphics.Logic;assembly=CommonCF" x:Class="Neo.ApplicationFramework.Generated.KeyBoardScreen">
+  <nai:ScriptProperties.ScriptEvents>
+    <nai:ScriptEventList>
+      <nacxs:EventHandlerInfo EventName="Opened" MethodName="KeyBoard_Opened" />
+    </nai:ScriptEventList>
+  </nai:ScriptProperties.ScriptEvents>
+  <nacs:ElementCanvas Name="m_EditorCanvas" Width="480" Height="272" FocusVisualStyle="{x:Null}" AllowDrop="True" ClipToBounds="True" Focusable="True" TextOptions.TextFormattingMode="Display" TextOptions.TextRenderingMode="ClearType">
+    <nac:Label AutoSize="False" Text="Text" BorderBrush="#FF000000" BorderThickness="2,2,2,2" Background="#FFFFFFFF" Foreground="#FF000000" FontFamily="Tahoma" FontSize="16" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="4,0,4,1" Name="m_lblDisplay" Width="476" Height="31" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="3" Canvas.Left="2" Canvas.Top="3">
+      <nac:Label.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Label.TextDecorations>
+      <nac:Label.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="Text" />
+      </nac:Label.TextIntervalMapper>
+    </nac:Label>
+    <nac:Button Text="f" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnf" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="13" Canvas.Left="319" Canvas.Top="37" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="f">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="f" />
+              <nacd:StringInterval Start="1" End="1" Value="F" />
+              <nacd:StringInterval Start="2" End="2" Value="F" />
+              <nacd:StringInterval Start="3" End="3" Value="6" />
+              <nacd:StringInterval Start="4" End="4" Value="^" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnf_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ImageHorizontalAlignment="Center" ImageMargin="5,5,5,5" Text="" TextMargin="2,2,2,2" SymbolName="path29891" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="9" Name="m_btnBack" Width="106" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="15" Canvas.Left="372" Canvas.Top="37" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="" />
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnBack_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="n" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnn" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="23" Canvas.Left="372" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="n">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="n" />
+              <nacd:StringInterval Start="1" End="1" Value="N" />
+              <nacd:StringInterval Start="2" End="2" Value="N" />
+              <nacd:StringInterval Start="3" End="3" Value="]" />
+              <nacd:StringInterval Start="4" End="4" Value="}" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnn_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="v" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnv" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="32" Canvas.Left="372" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="v">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="v" />
+              <nacd:StringInterval Start="1" End="1" Value="V" />
+              <nacd:StringInterval Start="2" End="2" Value="V" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnv_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button ImageMargin="4,4,4,4" Text="" SymbolName="path2989" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="9" Name="m_btnEnter" Width="53" Height="141" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="33" Canvas.Left="425" Canvas.Top="84" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="" />
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnEnter_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text=";" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnfenhao" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="41" Canvas.Left="372" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue=";">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value=";" />
+              <nacd:StringInterval Start="1" End="1" Value=";" />
+              <nacd:StringInterval Start="2" End="2" Value=":" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnfenhao_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="CAPS" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnCAP" Width="53" Height="46" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="43" Canvas.Left="1" Canvas.Top="225" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="207, 207, 207" EndColor="255, 255, 255" FillDirection="HorizontalWithMiddleStop" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="140, 140, 140" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                    <nacd2:BrushCFInterval Start="2" End="2">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="207, 207, 207" EndColor="255, 255, 255" FillDirection="HorizontalWithMiddleStop" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="207, 207, 207" EndColor="255, 255, 255" FillDirection="HorizontalWithMiddleStop" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+              <LinearGradientBrush.GradientStops>
+                <GradientStopCollection>
+                  <GradientStop Color="#FFCFCFCF" Offset="0" />
+                  <GradientStop Color="#FFCFCFCF" Offset="1" />
+                  <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+                </GradientStopCollection>
+              </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="CAPS" />
+      </nac:Button.TextIntervalMapper>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnCAP_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="Shift" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnShift" Width="53" Height="46" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="44" Canvas.Left="54" Canvas.Top="225" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacd:BrushDynamicsConverter x:Key="BackgroundConverter">
+            <nacd:BrushDynamicsConverter.BrushIntervalMapper>
+              <nacd2:BrushCFIntervalMapper>
+                <nacd2:BrushCFIntervalMapper.Intervals>
+                  <nacd2:BrushCFIntervalList>
+                    <nacd2:BrushCFInterval>
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="227, 227, 227" EndColor="255, 255, 255" FillDirection="HorizontalWithMiddleStop" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                    <nacd2:BrushCFInterval Start="1" End="1">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="227, 227, 227" EndColor="255, 255, 255" FillDirection="HorizontalWithMiddleStop" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                    <nacd2:BrushCFInterval Start="2" End="2">
+                      <nacd2:BrushCFInterval.Value>
+                        <nacgl:BrushCF StartColor="140, 140, 140" EndColor="" FillDirection="None" />
+                      </nacd2:BrushCFInterval.Value>
+                    </nacd2:BrushCFInterval>
+                  </nacd2:BrushCFIntervalList>
+                </nacd2:BrushCFIntervalMapper.Intervals>
+                <nacd2:BrushCFIntervalMapper.DefaultValue>
+                  <nacgl:BrushCF StartColor="227, 227, 227" EndColor="255, 255, 255" FillDirection="HorizontalWithMiddleStop" />
+                </nacd2:BrushCFIntervalMapper.DefaultValue>
+              </nacd2:BrushCFIntervalMapper>
+            </nacd:BrushDynamicsConverter.BrushIntervalMapper>
+          </nacd:BrushDynamicsConverter>
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.Background>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource BackgroundConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+              <LinearGradientBrush.GradientStops>
+                <GradientStopCollection>
+                  <GradientStop Color="#FFE3E3E3" Offset="0" />
+                  <GradientStop Color="#FFE3E3E3" Offset="1" />
+                  <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+                </GradientStopCollection>
+              </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.Background>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="Shift" />
+      </nac:Button.TextIntervalMapper>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnShift_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="9" Name="m_btnSpace" Width="265" Height="46" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="45" Canvas.Left="107" Canvas.Top="225" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="" />
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnSpace_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="123" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btn123" Width="53" Height="46" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="50" Canvas.Left="372" Canvas.Top="225" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="123" />
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btn123_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="Clr" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnClr" Width="53" Height="46" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="51" Canvas.Left="425" Canvas.Top="225" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="Clr" />
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnClr_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="Esc" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnEse" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="52" Canvas.Left="1" Canvas.Top="37" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="Esc" />
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnEse_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="a" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btna" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="53" Canvas.Left="54" Canvas.Top="37" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="a">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="a" />
+              <nacd:StringInterval Start="1" End="1" Value="A" />
+              <nacd:StringInterval Start="2" End="2" Value="A" />
+              <nacd:StringInterval Start="3" End="3" Value="1" />
+              <nacd:StringInterval Start="4" End="4" Value="!" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btna_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="b" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnb" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="54" Canvas.Left="107" Canvas.Top="37" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="b">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="b" />
+              <nacd:StringInterval Start="1" End="1" Value="B" />
+              <nacd:StringInterval Start="2" End="2" Value="B" />
+              <nacd:StringInterval Start="3" End="3" Value="2" />
+              <nacd:StringInterval Start="4" End="4" Value="@" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnb_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="c" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnc" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="55" Canvas.Left="160" Canvas.Top="37" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="c">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="c" />
+              <nacd:StringInterval Start="1" End="1" Value="C" />
+              <nacd:StringInterval Start="2" End="2" Value="C" />
+              <nacd:StringInterval Start="3" End="3" Value="3" />
+              <nacd:StringInterval Start="4" End="4" Value="#" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnc_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="d" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnd" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="56" Canvas.Left="213" Canvas.Top="37" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="d">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="d" />
+              <nacd:StringInterval Start="1" End="1" Value="D" />
+              <nacd:StringInterval Start="2" End="2" Value="D" />
+              <nacd:StringInterval Start="3" End="3" Value="4" />
+              <nacd:StringInterval Start="4" End="4" Value="$" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnd_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="e" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btne" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="57" Canvas.Left="266" Canvas.Top="37" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="e">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="e" />
+              <nacd:StringInterval Start="1" End="1" Value="E" />
+              <nacd:StringInterval Start="2" End="2" Value="E" />
+              <nacd:StringInterval Start="3" End="3" Value="5" />
+              <nacd:StringInterval Start="4" End="4" Value="%" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btne_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="g" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btng" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="58" Canvas.Left="1" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="g">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="g" />
+              <nacd:StringInterval Start="1" End="1" Value="G" />
+              <nacd:StringInterval Start="2" End="2" Value="G" />
+              <nacd:StringInterval Start="3" End="3" Value="7" />
+              <nacd:StringInterval Start="4" End="4" Value="&amp;" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btng_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="h" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnh" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="59" Canvas.Left="54" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="h">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="h" />
+              <nacd:StringInterval Start="1" End="1" Value="H" />
+              <nacd:StringInterval Start="2" End="2" Value="H" />
+              <nacd:StringInterval Start="3" End="3" Value="8" />
+              <nacd:StringInterval Start="4" End="4" Value="*" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnh_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="i" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btni" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="60" Canvas.Left="107" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="i">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="i" />
+              <nacd:StringInterval Start="1" End="1" Value="I" />
+              <nacd:StringInterval Start="2" End="2" Value="I" />
+              <nacd:StringInterval Start="3" End="3" Value="9" />
+              <nacd:StringInterval Start="4" End="4" Value="(" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btni_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="j" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnj" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="61" Canvas.Left="160" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="j">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="j" />
+              <nacd:StringInterval Start="1" End="1" Value="J" />
+              <nacd:StringInterval Start="2" End="2" Value="J" />
+              <nacd:StringInterval Start="3" End="3" Value="0" />
+              <nacd:StringInterval Start="4" End="4" Value=")" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnj_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="k" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnk" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="62" Canvas.Left="213" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="k">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="k" />
+              <nacd:StringInterval Start="1" End="1" Value="K" />
+              <nacd:StringInterval Start="2" End="2" Value="K" />
+              <nacd:StringInterval Start="3" End="3" Value="-" />
+              <nacd:StringInterval Start="4" End="4" Value="_" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnk_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="l" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnl" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="63" Canvas.Left="266" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="l">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="l" />
+              <nacd:StringInterval Start="1" End="1" Value="L" />
+              <nacd:StringInterval Start="2" End="2" Value="L" />
+              <nacd:StringInterval Start="3" End="3" Value="=" />
+              <nacd:StringInterval Start="4" End="4" Value="+" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnl_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="m" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnm" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="64" Canvas.Left="319" Canvas.Top="84" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="m">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="m" />
+              <nacd:StringInterval Start="1" End="1" Value="M" />
+              <nacd:StringInterval Start="2" End="2" Value="M" />
+              <nacd:StringInterval Start="3" End="3" Value="[" />
+              <nacd:StringInterval Start="4" End="4" Value="{" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnm_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="o" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btno" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="65" Canvas.Left="1" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="o">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="o" />
+              <nacd:StringInterval Start="1" End="1" Value="O" />
+              <nacd:StringInterval Start="2" End="2" Value="O" />
+              <nacd:StringInterval Start="3" End="3" Value="`" />
+              <nacd:StringInterval Start="4" End="4" Value="~" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btno_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="p" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnp" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="66" Canvas.Left="54" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="p">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="p" />
+              <nacd:StringInterval Start="1" End="1" Value="P" />
+              <nacd:StringInterval Start="2" End="2" Value="P" />
+              <nacd:StringInterval Start="3" End="3" Value="\" />
+              <nacd:StringInterval Start="4" End="4" Value="|" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnp_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="q" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnq" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="67" Canvas.Left="107" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="q">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="q" />
+              <nacd:StringInterval Start="1" End="1" Value="Q" />
+              <nacd:StringInterval Start="2" End="2" Value="Q" />
+              <nacd:StringInterval Start="3" End="3" Value="'" />
+              <nacd:StringInterval Start="4" End="4" Value="&quot;" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnq_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="r" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnr" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="68" Canvas.Left="160" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="r">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="r" />
+              <nacd:StringInterval Start="1" End="1" Value="R" />
+              <nacd:StringInterval Start="2" End="2" Value="R" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnr_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="s" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btns" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="69" Canvas.Left="213" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="s">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="s" />
+              <nacd:StringInterval Start="1" End="1" Value="S" />
+              <nacd:StringInterval Start="2" End="2" Value="S" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btns_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="t" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnt" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="70" Canvas.Left="266" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="t">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="t" />
+              <nacd:StringInterval Start="1" End="1" Value="T" />
+              <nacd:StringInterval Start="2" End="2" Value="T" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnt_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="u" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnu" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="71" Canvas.Left="319" Canvas.Top="131" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="u">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="u" />
+              <nacd:StringInterval Start="1" End="1" Value="U" />
+              <nacd:StringInterval Start="2" End="2" Value="U" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnu_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="w" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnw" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="72" Canvas.Left="1" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="w">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="w" />
+              <nacd:StringInterval Start="1" End="1" Value="W" />
+              <nacd:StringInterval Start="2" End="2" Value="W" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnw_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="x" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnx" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="73" Canvas.Left="54" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="x">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="x" />
+              <nacd:StringInterval Start="1" End="1" Value="X" />
+              <nacd:StringInterval Start="2" End="2" Value="X" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnx_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="y" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btny" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="74" Canvas.Left="107" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="y">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="y" />
+              <nacd:StringInterval Start="1" End="1" Value="Y" />
+              <nacd:StringInterval Start="2" End="2" Value="Y" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btny_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="z" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnz" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="75" Canvas.Left="160" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="z">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="z" />
+              <nacd:StringInterval Start="1" End="1" Value="Z" />
+              <nacd:StringInterval Start="2" End="2" Value="Z" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnz_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="," SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btncomma" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="76" Canvas.Left="213" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue=",">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="," />
+              <nacd:StringInterval Start="1" End="1" Value="," />
+              <nacd:StringInterval Start="2" End="2" Value="&lt;" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btncomma_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="." SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnperiod" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="77" Canvas.Left="266" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue=".">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="." />
+              <nacd:StringInterval Start="1" End="1" Value="." />
+              <nacd:StringInterval Start="2" End="2" Value="&gt;" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnperiod_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+    <nac:Button Text="/" SymbolTransparent="False" BorderBrush="#FFCFCFCF" FontSize="16" Name="m_btnslash" Width="53" Height="47" HorizontalAlignment="Center" VerticalAlignment="Center" FocusVisualStyle="{x:Null}" RenderTransformOrigin="0.5,0.5" Visibility="Visible" Panel.ZIndex="78" Canvas.Left="319" Canvas.Top="178" nacb:IntervalMapperBindingsBehavior.RebindInRuntime="True" Style="{nac1:StyleMarkupExtension DefaultCF}">
+      <nac:Button.Resources>
+        <ResourceDictionary>
+          <nacc:VariantValueConverter x:Key="TextValueConverter" />
+        </ResourceDictionary>
+      </nac:Button.Resources>
+      <nac:Button.TextValue>
+        <Binding Source="{x:Static nacd1:DataItemProxyFactory.Instance}" Path="[Tags.KeyBoardStatus].Value" Converter="{StaticResource TextValueConverter}" ValidatesOnExceptions="True">
+          <Binding.FallbackValue>
+            <s:Int32>0</s:Int32>
+          </Binding.FallbackValue>
+        </Binding>
+      </nac:Button.TextValue>
+      <nac:Button.TextDecorations>
+        <TextDecorationCollection />
+      </nac:Button.TextDecorations>
+      <nac:Button.TextIntervalMapper>
+        <nacd:StringIntervalMapper DefaultValue="/">
+          <nacd:StringIntervalMapper.Intervals>
+            <nacd:StringIntervalList>
+              <nacd:StringInterval Value="/" />
+              <nacd:StringInterval Start="1" End="1" Value="/" />
+              <nacd:StringInterval Start="2" End="2" Value="?" />
+            </nacd:StringIntervalList>
+          </nacd:StringIntervalMapper.Intervals>
+        </nacd:StringIntervalMapper>
+      </nac:Button.TextIntervalMapper>
+      <nac:Button.Background>
+        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+          <LinearGradientBrush.GradientStops>
+            <GradientStopCollection>
+              <GradientStop Color="#FFCFCFCF" Offset="0" />
+              <GradientStop Color="#FFCFCFCF" Offset="1" />
+              <GradientStop Color="#FFFFFFFF" Offset="0.5" />
+            </GradientStopCollection>
+          </LinearGradientBrush.GradientStops>
+        </LinearGradientBrush>
+      </nac:Button.Background>
+      <nai:ScriptProperties.ScriptEvents>
+        <nai:ScriptEventList>
+          <nacxs:EventHandlerInfo EventName="Click" MethodName="btnslash_Click" />
+        </nai:ScriptEventList>
+      </nai:ScriptProperties.ScriptEvents>
+    </nac:Button>
+  </nacs:ElementCanvas>
+</nacs:ScreenWindow>

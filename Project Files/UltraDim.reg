@@ -1,0 +1,3 @@
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\Backlight]
+"EnableUltraDim"=dword:00000001"

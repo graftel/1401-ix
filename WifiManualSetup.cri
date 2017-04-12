@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.22.184.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="WifiManualSetup.lblTitle" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="WifiManualSetup.lblSP" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbSP" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbIPGateway" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblIPGateway" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblIPAddrMark" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbIPAddr" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbIPAddrMark" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblIPAddr" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.cbEnType" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.cbInMode" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.cbIPMode" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.cbNetType" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbDP" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbPass" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblPass" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblNetType" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblInMode" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblSSID" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblEnType" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbSSID" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblIPMode" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.tbDL" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblDL" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblDP" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.btnPrev" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.btnApply" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.lblPrg" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="WifiManualSetup.prgBar" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items>
+        <Item Target="WifiManualSetup.tbSP" TargetProperty="Value" Source="Tags.wifiSP" />
+        <Item Target="WifiManualSetup.tbIPGateway" TargetProperty="Value" Source="Tags.wifiIPGateway" />
+        <Item Target="WifiManualSetup.tbIPAddr" TargetProperty="Value" Source="Tags.wifiIPAddr" />
+        <Item Target="WifiManualSetup.tbIPAddrMark" TargetProperty="Value" Source="Tags.wifiIPAddrMark" />
+        <Item Target="WifiManualSetup.cbEnType" TargetProperty="Value" Source="Tags.wifiEnType" />
+        <Item Target="WifiManualSetup.cbInMode" TargetProperty="Value" Source="Tags.wifiInMode" />
+        <Item Target="WifiManualSetup.cbIPMode" TargetProperty="Value" Source="Tags.wifiIPAddrMode" />
+        <Item Target="WifiManualSetup.cbNetType" TargetProperty="Value" Source="Tags.wifiNetworkType" />
+        <Item Target="WifiManualSetup.tbDP" TargetProperty="Value" Source="Tags.wifiDP" />
+        <Item Target="WifiManualSetup.tbPass" TargetProperty="Value" Source="Tags.wifiPassword" />
+        <Item Target="WifiManualSetup.tbSSID" TargetProperty="Value" Source="Tags.wifiSSID" />
+        <Item Target="WifiManualSetup.tbDL" TargetProperty="Value" Source="Tags.wifiDLIP" />
+        <Item Target="WifiManualSetup.prgBar" TargetProperty="Value" Source="Tags.wifiConnectAPProgress" />
+        <Item xsi:type="ActionItem" Target="WifiManualSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="WifiManualSetup.cbEnType" Source="WifiManualSetup.m_cbEnType.bmp" />
+        <Item Target="WifiManualSetup.cbInMode" Source="WifiManualSetup.m_cbInMode.bmp" />
+        <Item Target="WifiManualSetup.cbIPMode" Source="WifiManualSetup.m_cbIPMode.bmp" />
+        <Item Target="WifiManualSetup.cbNetType" Source="WifiManualSetup.m_cbNetType.bmp" />
+        <Item Target="WifiManualSetup.btnPrev" Source="38304744_Normal.bmp" />
+        <Item Target="WifiManualSetup.btnPrev" Source="38304744_Pressed.bmp" />
+        <Item Target="WifiManualSetup.btnPrev" Source="38304744_Disabled.bmp" />
+        <Item Target="WifiManualSetup.btnApply" Source="38304744_Normal.bmp" />
+        <Item Target="WifiManualSetup.btnApply" Source="38304744_Pressed.bmp" />
+        <Item Target="WifiManualSetup.btnApply" Source="38304744_Disabled.bmp" />
+        <Item Target="WifiManualSetup.Button1" Source="1579712142_Normal.bmp" />
+        <Item Target="WifiManualSetup.Button1" Source="1579712142_Pressed.bmp" />
+        <Item Target="WifiManualSetup.Button1" Source="1579712142_Disabled.bmp" />
+        <Item Target="WifiManualSetup.Button2" Source="-647751269_Normal.bmp" />
+        <Item Target="WifiManualSetup.Button2" Source="-647751269_Pressed.bmp" />
+        <Item Target="WifiManualSetup.Button2" Source="-647751269_Disabled.bmp" />
+        <Item Target="WifiManualSetup.prgBar" Source="WifiManualSetup.m_prgBar.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiManualSetup.btnPrev" TargetProperty="Actions" Source="WifiAdvanceSetup" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>WifiManualSetup</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>31</ObjectsCount>
+          <ScreenName>WifiManualSetup</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items>
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiConnectAPProgress" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiPassword" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiNetworkType" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiInMode" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiSSID" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiEnType" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiIPAddrMode" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiDLIP" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiDP" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiSP" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiIPAddrMark" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiIPGateway" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.wifiIPAddr" />
+        <Item Target="WifiManualSetup.Script.cs" Source="Tags.GeneralMessage" />
+      </Items>
+    </Category>
+    <Category Name="StructuredTag">
+      <Items>
+        <Item xsi:type="ActionItem" Target="WifiManualSetup" TargetProperty="Actions" Source="Tags.CurrentScreen" Event="Opened" Action="Set Analog" Param="" />
+      </Items>
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="WifiManualSetup.Button1" Source="path29851" Width="52" Height="60" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="WifiManualSetup.Button2" Source="path2985" Width="52" Height="60" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+    <Category Name="IntegratorSwapActiveProjectAction">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>

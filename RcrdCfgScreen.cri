@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<CrossReferences xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.21.28.0">
+  <Categories>
+    <Category Name="AlarmViewer">
+      <Items />
+    </Category>
+    <Category Name="Alias">
+      <Items />
+    </Category>
+    <Category Name="AliasInstanceDataItem">
+      <Items />
+    </Category>
+    <Category Name="DatabaseService">
+      <Items />
+    </Category>
+    <Category Name="DatabaseViewer">
+      <Items />
+    </Category>
+    <Category Name="DataLogger">
+      <Items />
+    </Category>
+    <Category Name="Expression">
+      <Items />
+    </Category>
+    <Category Name="Font">
+      <Items>
+        <Item Target="RcrdCfgScreen.Text" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text2" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text4" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text5" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text6" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text8" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text10" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text11" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text14" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.AnalogNumeric" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text15" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.AnalogNumeric1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text17" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text18" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Button" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button1" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button2" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button3" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button4" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button5" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button6" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button7" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button8" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button9" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button10" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button11" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button12" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button13" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button14" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Button16" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button17" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button21" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Button22" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button23" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button24" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button25" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button15" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Button18" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button20" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button26" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button27" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button28" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button29" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button30" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button31" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button32" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button33" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text19" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text20" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Text21" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Text22" TargetProperty="FontFamily" Source="ARIAL.TTF" />
+        <Item Target="RcrdCfgScreen.Button34" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button35" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button36" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+        <Item Target="RcrdCfgScreen.Button37" TargetProperty="FontFamily" Source="TAHOMA.TTF" />
+      </Items>
+    </Category>
+    <Category Name="GlobalDataItem">
+      <Items />
+    </Category>
+    <Category Name="Object">
+      <Items />
+    </Category>
+    <Category Name="Recipe">
+      <Items />
+    </Category>
+    <Category Name="Renderable">
+      <Items>
+        <Item Target="RcrdCfgScreen.Button" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button1" Source="-313831895_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button1" Source="-313831895_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button1" Source="-313831895_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button2" Source="-200985268_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button2" Source="-200985268_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button2" Source="-200985268_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button3" Source="-200985268_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button3" Source="-200985268_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button3" Source="-200985268_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button4" Source="-200985268_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button4" Source="-200985268_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button4" Source="-200985268_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button5" Source="-200985268_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button5" Source="-200985268_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button5" Source="-200985268_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button6" Source="-200985268_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button6" Source="-200985268_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button6" Source="-200985268_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button7" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button7" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button7" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button8" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button8" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button8" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button9" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button9" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button9" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button10" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button10" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button10" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button11" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button11" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button11" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button12" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button12" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button12" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button13" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button13" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button13" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button14" Source="394197059_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button14" Source="394197059_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button14" Source="394197059_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button16" Source="2088113644_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button16" Source="2088113644_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button16" Source="2088113644_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button17" Source="-1606416997_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button17" Source="-1606416997_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button17" Source="-1606416997_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button21" Source="-1613828464_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button21" Source="-1613828464_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button21" Source="-1613828464_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button22" Source="755252_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button22" Source="755252_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button22" Source="755252_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button23" Source="1289938225_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button23" Source="1289938225_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button23" Source="1289938225_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button24" Source="755252_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button24" Source="755252_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button24" Source="755252_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button25" Source="1289938225_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button25" Source="1289938225_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button25" Source="1289938225_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button15" Source="307769712_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button15" Source="307769712_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button15" Source="307769712_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button18" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button18" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button18" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button19" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button19" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button19" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button20" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button20" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button20" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button26" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button26" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button26" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button27" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button27" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button27" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button28" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button28" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button28" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button29" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button29" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button29" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button30" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button30" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button30" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button31" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button31" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button31" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button32" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button32" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button32" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button33" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button33" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button33" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button34" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button34" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button34" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button35" Source="-1441659478_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button35" Source="-1441659478_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button35" Source="-1441659478_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button36" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button36" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button36" Source="-1238108438_Disabled.bmp" />
+        <Item Target="RcrdCfgScreen.Button37" Source="-1238108438_Normal.bmp" />
+        <Item Target="RcrdCfgScreen.Button37" Source="-1238108438_Pressed.bmp" />
+        <Item Target="RcrdCfgScreen.Button37" Source="-1238108438_Disabled.bmp" />
+      </Items>
+    </Category>
+    <Category Name="Report">
+      <Items />
+    </Category>
+    <Category Name="Screen">
+      <Items>
+        <Item xsi:type="ActionItem" Target="RcrdCfgScreen.Button21" TargetProperty="Actions" Source="SettingScreen" Event="Click" Action="Show Screen" Param="" />
+        <Item xsi:type="ScreenIDItem" ScreenID="">
+          <ScreenName>RcrdCfgScreen</ScreenName>
+        </Item>
+        <Item xsi:type="ScreenObjectsCrossReferenceItem">
+          <ObjectsCount>72</ObjectsCount>
+          <ScreenName>RcrdCfgScreen</ScreenName>
+        </Item>
+      </Items>
+    </Category>
+    <Category Name="Script">
+      <Items />
+    </Category>
+    <Category Name="StructuredTag">
+      <Items />
+    </Category>
+    <Category Name="Symbol">
+      <Items>
+        <Item xsi:type="SymbolItem" Target="RcrdCfgScreen.Button22" Source="path2985" Width="36" Height="41" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RcrdCfgScreen.Button23" Source="path29851" Width="36" Height="41" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RcrdCfgScreen.Button24" Source="path2985" Width="36" Height="41" IsAnimated="false" />
+        <Item xsi:type="SymbolItem" Target="RcrdCfgScreen.Button25" Source="path29851" Width="36" Height="41" IsAnimated="false" />
+      </Items>
+    </Category>
+    <Category Name="TextLibrary">
+      <Items />
+    </Category>
+    <Category Name="TrendViewer">
+      <Items />
+    </Category>
+    <Category Name="Uri">
+      <Items />
+    </Category>
+  </Categories>
+</CrossReferences>
